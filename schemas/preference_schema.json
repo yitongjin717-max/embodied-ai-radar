@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Filters": {
+      "additionalProperties": false,
+      "properties": {
+        "funding_stages": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Funding Stages",
+          "type": "array"
+        },
+        "max_funding_stage": {
+          "anyOf": [
+            {
+              "maxLength": 120,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Funding Stage"
+        },
+        "geography": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Geography",
+          "type": "array"
+        },
+        "required_applications": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Required Applications",
+          "type": "array"
+        },
+        "required_technologies": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 30,
+          "title": "Required Technologies",
+          "type": "array"
+        },
+        "required_investors": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Required Investors",
+          "type": "array"
+        },
+        "require_industrial_investors": {
+          "default": false,
+          "title": "Require Industrial Investors",
+          "type": "boolean"
+        },
+        "sector_match": {
+          "default": "any",
+          "enum": [
+            "any",
+            "all"
+          ],
+          "title": "Sector Match",
+          "type": "string"
+        }
+      },
+      "title": "Filters",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "query": {
+      "title": "Query",
+      "type": "string"
+    },
+    "selected_sectors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Selected Sectors",
+      "type": "array"
+    },
+    "target_sectors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Target Sectors",
+      "type": "array"
+    },
+    "target_applications": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Target Applications",
+      "type": "array"
+    },
+    "target_technologies": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Target Technologies",
+      "type": "array"
+    },
+    "funding_stages": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Funding Stages",
+      "type": "array"
+    },
+    "geography": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Geography",
+      "type": "array"
+    },
+    "preferred_investors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Preferred Investors",
+      "type": "array"
+    },
+    "prefer_industrial_investors": {
+      "default": false,
+      "title": "Prefer Industrial Investors",
+      "type": "boolean"
+    },
+    "prefer_technical_barriers": {
+      "default": false,
+      "title": "Prefer Technical Barriers",
+      "type": "boolean"
+    },
+    "must_have": {
+      "$ref": "#/$defs/Filters"
+    },
+    "nice_to_have": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Nice To Have",
+      "type": "array"
+    },
+    "search_terms": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Search Terms",
+      "type": "array"
+    }
+  },
+  "required": [
+    "query"
+  ],
+  "title": "ParsedPreferences",
+  "type": "object"
+}

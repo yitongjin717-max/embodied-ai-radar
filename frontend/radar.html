@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>具身项目雷达</title>
+  <link rel="stylesheet" href="/demo-assets/radar.css?v=structure">
+  <script type="module" src="/demo-assets/radar.js?v=structure"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap bar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">◎</span><span data-i="brand">具身项目雷达</span></div>
+    <nav class="nav" aria-label="Main">
+      <button type="button" data-view="radar" aria-pressed="true" data-i="radar">项目雷达</button>
+      <button type="button" data-view="news" aria-pressed="false" data-i="news">新闻工作台</button>
+    </nav>
+    <div class="locale" role="group" aria-label="Language / 语言">
+      <button type="button" lang="zh-CN" data-lang="zh" aria-pressed="true">中文</button>
+      <button type="button" lang="en" data-lang="en" aria-pressed="false">English</button>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <section id="view-radar">
+    <header class="hero">
+      <div class="hero-copy"><p class="kicker">01 / PROJECT RADAR</p><h1 data-i="hero">匹配具身智能项目动态</h1>
+      <p data-i="subtitle">从新品发布、原型展示和融资报道中找到与你关注条件相符的事件。</p></div>
+      <p id="radar-freshness" class="freshness" aria-live="polite"></p>
+    </header>
+    <form id="radar-form" class="panel search">
+      <fieldset class="sector-picker">
+        <legend><span data-ref-i="sector">选择赛道</span> <span id="reference-sector-count" class="muted"></span></legend>
+        <div id="reference-sector" class="sector-chips"></div>
+      </fieldset>
+      <label for="radar-query" data-i="prompt">你想找什么项目动态？</label>
+      <input id="radar-query" name="query" maxlength="240" data-placeholder="placeholder" placeholder="例如，今天哪家公司发布了新机器人？">
+      <div class="search-foot">
+        <div class="filters">
+          <label><span data-i="type">事件类型</span><select name="kind">
+            <option value="auto" data-i="auto">自动识别</option>
+            <option value="all" data-i="allKinds">全部类型</option>
+            <option value="launch" data-i="launch">产品发布</option>
+            <option value="prototype" data-i="prototype">原型展示</option>
+            <option value="plan" data-i="plan">发布计划</option>
+            <option value="funding" data-i="funding">融资</option>
+          </select></label>
+          <label><span data-i="timeScope">时间口径</span><select name="scope">
+            <option value="auto" data-i="auto">自动识别</option>
+            <option value="all" data-i="allDates">不限日期</option>
+            <option value="event" data-i="eventDay">按事件日期</option>
+            <option value="reported" data-i="reportDay">按报道日期</option>
+          </select></label>
+          <label><span data-i="date">指定日期</span><input name="day" type="date"></label>
+        </div>
+        <button id="radar-submit" class="primary" type="submit" data-i="find">匹配动态</button>
+      </div>
+      <div class="prompts">
+        <button type="button" class="pill" data-example="today" data-i="todayExample">今天谁发布了新机器人？</button>
+        <button type="button" class="pill" data-example="recent" data-i="recentExample">最近有哪些原型展示？</button>
+        <button type="button" class="pill" data-example="latest" data-i="latestExample">查看最新采集批次</button>
+      </div>
+    </form>
+    <section class="results" aria-labelledby="radar-results-title">
+      <div class="section-head"><h2 id="radar-results-title" data-i="results">匹配结果</h2><p id="radar-result-note" role="status"></p></div>
+      <div id="radar-results"></div>
+      <section id="radar-review" hidden>
+        <h3 data-i="reviewTitle">待复核线索</h3><p class="muted" data-i="reviewNote">事件信息或日期尚不完整，按证据片段核对。</p>
+        <div id="radar-review-cards"></div>
+      </section>
+    </section>
+    <section id="company-reference" class="panel reference" aria-labelledby="reference-title">
+      <div class="section-head">
+        <div>
+          <p class="reference-kicker">COMPANY REFERENCE</p>
+          <h2 id="reference-title" data-ref-i="title">公司参考</h2>
+        </div>
+        <div class="reference-controls">
+          <button class="pill" id="reference-browse" type="button" data-ref-i="browse" hidden>查看完整目录</button>
+        </div>
+      </div>
+      <p class="muted" data-ref-i="separation">资料来自 Excel 快照。关联按公司名或主题匹配，新闻日期筛选只作用于上方事件。</p>
+      <p id="reference-status" role="status"></p>
+      <div id="reference-list" class="reference-grid"></div>
+      <div class="reference-pager" id="reference-pager" hidden>
+        <button id="reference-prev" class="pill" type="button" data-ref-i="previous">上一页</button>
+        <span id="reference-range" class="muted"></span>
+        <button id="reference-next" class="pill" type="button" data-ref-i="next">下一页</button>
+      </div>
+    </section>
+  </section>
+  <section id="view-news" hidden>
+    <header class="hero">
+      <div class="hero-copy"><p class="kicker">02 / NEWS WORKBENCH</p><h1 data-i="news">新闻工作台</h1>
+      <p data-i="newsSub">从 36氪官方文章 RSS 更新新闻，把可追溯的事件整理成表格。</p></div>
+      <p id="news-freshness" class="freshness"></p>
+    </header>
+    <section class="panel news-toolbar" aria-labelledby="news-run-title">
+      <div><h2 id="news-run-title" data-i="collect">采集与提取</h2><p id="news-job" role="status"></p></div>
+      <div class="actions"><a class="button" href="/api/v1/radar/events.csv" data-i="csv">下载事件表 CSV</a>
+        <button id="news-refresh" type="button" class="primary" data-i="refresh">更新 36氪新闻</button></div>
+    </section>
+    <div id="news-metrics" class="metrics" aria-label="Batch metrics"></div>
+    <section class="panel table-panel">
+      <div class="section-head">
+        <h2 data-i="table">结构化记录</h2>
+        <div class="actions">
+          <button type="button" class="pill" data-table="events" aria-pressed="true" data-i="events">事件表</button>
+          <button type="button" class="pill" data-table="articles" aria-pressed="false" data-i="articles">新闻候选</button>
+          <button type="button" class="pill" data-table="structured" aria-pressed="false" data-i="structured">结构化新闻</button>
+        </div>
+      </div>
+      <div class="news-structure-bar">
+        <div class="filters" aria-label="News filters">
+          <label><span data-i="relevance">相关性</span><select id="news-focus">
+            <option value="all" data-i="anyNews">全部候选</option>
+            <option value="primary" data-i="primary">主题初筛</option>
+            <option value="mention" data-i="mention">顺带提及</option>
+          </select></label>
+          <label><span data-i="reportDay">按报道日期</span><input id="news-day" type="date"></label>
+        </div>
+        <div class="actions">
+          <button id="news-structure" class="primary" type="button" data-i="structure">一键结构化</button>
+          <button id="news-structure-export" class="pill" type="button" data-i="structureCsv" hidden>下载结构化新闻 CSV</button>
+        </div>
+      </div>
+      <p id="news-structure-note" class="muted" role="status"></p>
+      <div class="table-wrap"><table><thead id="news-head"></thead><tbody id="news-body"></tbody></table></div>
+      <p class="muted" data-i="timeNote">报道时间与事件时间分别记录。证据保留来源原文。</p>
+    </section>
+  </section>
+</main>
+<dialog id="reference-dialog" aria-labelledby="reference-dialog-title">
+  <div class="section-head reference-dialog-bar">
+    <h2 id="reference-dialog-title" data-ref-i="details">公司资料</h2>
+    <button id="reference-close" type="button" class="pill" data-ref-i="close">关闭</button>
+  </div>
+  <div id="reference-detail" class="reference-detail" aria-live="polite"></div>
+</dialog>
+<footer class="wrap footer"><span data-i="brand">具身项目雷达</span><span data-i="footer">来源可查 · 原文证据 · 北京时间</span></footer>
+</body>
+</html>

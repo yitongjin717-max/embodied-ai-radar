@@ -1,0 +1,659 @@
+[
+  {
+    "id": "a88a02d2-4929-5bde-9448-f489ec08d691",
+    "field": "application_scenarios",
+    "label": "3C电子制造",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "645263b4-0e24-5496-9872-d863b259dce1",
+    "field": "application_scenarios",
+    "label": "养老助残",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "fc695063-09b0-5774-b253-b003fdc6adcd",
+    "field": "application_scenarios",
+    "label": "农业作业",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "5030d3be-c677-5897-bfb6-b444dc6e7027",
+    "field": "application_scenarios",
+    "label": "医疗康复",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "67aa5c98-1ff6-5e69-999d-6c98a21f9af4",
+    "field": "application_scenarios",
+    "label": "半导体工厂",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "5f2e253b-8d9b-5a39-b237-37429fec9c05",
+    "field": "application_scenarios",
+    "label": "商业清洁",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "0a9330db-81d0-5b83-b819-e7c44958afdf",
+    "field": "application_scenarios",
+    "label": "商场导览接待",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "1cbbf8f9-83f7-5d74-a180-156c0005644d",
+    "field": "application_scenarios",
+    "label": "安防巡逻",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "63d54ebf-26e8-5ac9-b300-a7c1862f4878",
+    "field": "application_scenarios",
+    "label": "家庭服务",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "c8018899-730d-5a6f-88fc-a87f298abe51",
+    "field": "application_scenarios",
+    "label": "快递分拣",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "9c13f493-b5e8-546c-a196-101922337f69",
+    "field": "application_scenarios",
+    "label": "文娱表演",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "56432b1a-c82a-5548-940f-bd37d54b1077",
+    "field": "application_scenarios",
+    "label": "水下作业",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "1402daff-de06-5e22-ae96-06fa7e4b981e",
+    "field": "application_scenarios",
+    "label": "汽车工厂",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "b68f4f60-0428-5e4a-9f2b-0b0204785f5a",
+    "field": "application_scenarios",
+    "label": "消防救援",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "0f859c55-8895-5a32-b61e-026b2e03f29f",
+    "field": "application_scenarios",
+    "label": "物流仓储搬运",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "ad95b9bc-9562-5061-83dd-f6521a6383bc",
+    "field": "application_scenarios",
+    "label": "电力巡检",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "7708e78e-df5a-5e2d-b578-d6ef5e2d58cc",
+    "field": "application_scenarios",
+    "label": "矿山、高危作业",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "e860a427-50bb-597a-8b64-eda474fb2cf3",
+    "field": "application_scenarios",
+    "label": "科研实验室平台",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "e0d75900-50bb-5f2d-9943-6d8bc6aef891",
+    "field": "application_scenarios",
+    "label": "酒店、餐饮配送",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "8f18bce8-ebbf-5ae0-b200-336dcbb64581",
+    "field": "application_scenarios",
+    "label": "高校科研教学",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "0342315b-57cc-510c-94b6-04172ebf721b",
+    "field": "business_models",
+    "label": "授权合作",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "ed54a2fb-6ece-5973-8341-462b02546e87",
+    "field": "business_models",
+    "label": "整机租赁（RaaS）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "e86d97d5-aaf2-5d38-9eaa-d014d3a140c6",
+    "field": "business_models",
+    "label": "硬件销售",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "f922a02e-58ba-5fc3-b37e-6c891e5cbb7f",
+    "field": "business_models",
+    "label": "解决方案交付",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "73a4e203-7f49-595d-93fb-3f6fc8867ff1",
+    "field": "business_models",
+    "label": "软件订阅",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "f34e8812-e70a-5245-a475-e6e3539cbb70",
+    "field": "primary_tracks",
+    "label": "具身智能",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "6ca400e4-659a-5bd7-894d-fd537a21addf",
+    "field": "sub_tracks",
+    "label": "丝杠、线性执行器",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "a111fd3c-a4ff-566d-b7d8-1bd7c4ee67c4",
+    "field": "sub_tracks",
+    "label": "人形机器人本体",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "a6a652d0-45c2-533a-bb61-9f5126624e80",
+    "field": "sub_tracks",
+    "label": "仿真与数据合成平台",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "a0909047-505b-5eb7-986a-86a1580f38cf",
+    "field": "sub_tracks",
+    "label": "传感器（力、触觉、视觉、IMU）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "e4507609-9732-5bb1-a1eb-67ccb0284c35",
+    "field": "sub_tracks",
+    "label": "关节模组",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "d1e877cb-03bf-5806-91ff-08a5c39589d7",
+    "field": "sub_tracks",
+    "label": "具身智能中间件、操作系统",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "4439a97a-7e2e-5266-9d56-636e58649708",
+    "field": "sub_tracks",
+    "label": "减速器（谐波、RV、行星）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "1732b685-1706-5c1f-aadc-be6f65dd2e1d",
+    "field": "sub_tracks",
+    "label": "四足机器人",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "8ea284b3-26e0-598e-aead-44f5bd013c74",
+    "field": "sub_tracks",
+    "label": "复合机器人、移动操作机器人",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "66fa52e2-9305-5b53-93e3-98b868d3afff",
+    "field": "sub_tracks",
+    "label": "数据采集（遥操作、动捕）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "fea72a0f-31d3-5a9d-9228-fa33b9caff9a",
+    "field": "sub_tracks",
+    "label": "服务机器人（配送、清洁、导览整机）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "0fa45563-acc5-5380-93f2-ec49d00c52b0",
+    "field": "sub_tracks",
+    "label": "机器人ODM、OEM代工",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "754131bd-d081-5b09-8f9c-eea1e16a800b",
+    "field": "sub_tracks",
+    "label": "机器人大脑（VLA、具身大模型）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "69c1404e-0030-5252-b93b-9864fe76e7b1",
+    "field": "sub_tracks",
+    "label": "机械臂（工业、协作）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "22b9ebe5-2e63-5fbf-a361-dcb8aec3be00",
+    "field": "sub_tracks",
+    "label": "灵巧手",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "99a66679-7fca-5d75-8751-282d273dbfb0",
+    "field": "sub_tracks",
+    "label": "特种机器人（巡检、消防、水下整机）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "c63ec27e-bf22-5594-b266-2965968e3afe",
+    "field": "sub_tracks",
+    "label": "电池与能源系统",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "b232a195-81fd-543d-952f-88fb4a580c05",
+    "field": "sub_tracks",
+    "label": "端侧算力芯片、控制器",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "29b625fc-98d9-5bbc-8771-7b03ccac82ac",
+    "field": "sub_tracks",
+    "label": "结构件、轻量化材料",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "883f32b7-86e8-5bab-863d-37a353e19810",
+    "field": "sub_tracks",
+    "label": "运控算法、运动小脑",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "65a051e3-df20-519b-9cef-d4dbec96026a",
+    "field": "technology_routes",
+    "label": "【其他】云端大脑+边缘执行",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "66e1e5cd-76a4-5fa9-ad94-9d83789dbc87",
+    "field": "technology_routes",
+    "label": "【其他】智驾方案迁移",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "6e0f814a-d3b5-547c-bbd3-d8d1986cef5f",
+    "field": "technology_routes",
+    "label": "【大脑层】Diffusion Policy",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "6fe7aef2-e8c7-5c9a-b030-5b39c1a88927",
+    "field": "technology_routes",
+    "label": "【大脑层】VLA端到端",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "739c4279-23d9-5ff9-96de-6c591da38437",
+    "field": "technology_routes",
+    "label": "【大脑层】世界模型",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "5b90e801-12a4-5bf5-8f65-d7d42c3fb215",
+    "field": "technology_routes",
+    "label": "【大脑层】分层架构（大模型规划+小模型执行）",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "31875928-4e7d-524c-be2c-56744bb0f114",
+    "field": "technology_routes",
+    "label": "【大脑层】多模态大模型",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "7521ea87-6169-52e3-a4e0-6362b4992529",
+    "field": "technology_routes",
+    "label": "【感知层】六维力传感",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "4b3cd0ea-5ecb-50d0-a67b-09d76607b348",
+    "field": "technology_routes",
+    "label": "【感知层】激光雷达+视觉融合",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "eb64c043-4ade-5be3-8c3b-5527cf68bb36",
+    "field": "technology_routes",
+    "label": "【感知层】纯视觉方案",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "01958d1a-3d23-5a4c-9460-97377ddaf9f5",
+    "field": "technology_routes",
+    "label": "【感知层】触觉感知阵列",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "09fbe4b8-abb3-5dec-a1d7-5309714d51f5",
+    "field": "technology_routes",
+    "label": "【数据层】人类动捕数据",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "a6f4c753-cdc2-547a-a0de-dc92978e0b50",
+    "field": "technology_routes",
+    "label": "【数据层】仿真合成数据",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "0b9db60f-3d07-5f4a-9e2b-5caeff24cad4",
+    "field": "technology_routes",
+    "label": "【数据层】视频学习",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "1897c093-22c8-512f-85e0-414fb944a669",
+    "field": "technology_routes",
+    "label": "【数据层】遥操作真机数据",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "fd78d6c4-3923-5f20-8795-e3bb675315bc",
+    "field": "technology_routes",
+    "label": "【硬件层】RV与行星传动",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "b3320bbe-5d2d-5e2d-806c-4e0980dd15d7",
+    "field": "technology_routes",
+    "label": "【硬件层】准直驱",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "a775a520-a9a3-5a8a-b009-4a91a20594f7",
+    "field": "technology_routes",
+    "label": "【硬件层】液压驱动",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "0436e0d1-8797-5517-a708-7ca12403ae72",
+    "field": "technology_routes",
+    "label": "【硬件层】电驱",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "37c1b17c-0177-5d1a-801b-db106e3c8d2e",
+    "field": "technology_routes",
+    "label": "【硬件层】腱绳驱动",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "e15c5016-ccc4-5de3-a661-37a8903e42fb",
+    "field": "technology_routes",
+    "label": "【硬件层】谐波传动",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "25e9e7b6-54f1-5b2a-9077-d2c8a59849eb",
+    "field": "technology_routes",
+    "label": "【硬件层】连杆驱动",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "54b01eb9-433b-5935-a350-0f34473101fc",
+    "field": "technology_routes",
+    "label": "【运控层】MPC模型预测控制",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "3b25d646-4a5e-583a-8230-29e58944048a",
+    "field": "technology_routes",
+    "label": "【运控层】全身控制WBC",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "2d8e3987-3848-51cb-9cf6-eeea2c792adf",
+    "field": "technology_routes",
+    "label": "【运控层】强化学习",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "da8dd3d9-a14f-53a8-b7b7-c41ac9618d48",
+    "field": "technology_routes",
+    "label": "【运控层】柔顺力控",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  },
+  {
+    "id": "d83f1f07-d5f3-513b-8b99-a2051a42a544",
+    "field": "technology_routes",
+    "label": "【运控层】模仿学习",
+    "workbooks": [
+      "mapping_template.xlsx",
+      "mapping_additional.xlsx"
+    ]
+  }
+]

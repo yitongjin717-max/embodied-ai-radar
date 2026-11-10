@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>具身智能公司匹配</title>
+  <link rel="stylesheet" href="/demo-assets/style.css">
+  <script type="module" src="/demo-assets/app.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="shell topbar-inner">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">◎</span><span>具身智能图谱</span></div>
+    <p id="status" class="status" role="status">正在读取本地数据…</p>
+  </div>
+</header>
+<main class="shell">
+  <header class="intro">
+    <p class="eyebrow">公司研究 / EMBODIED AI</p>
+    <h1>具身智能公司匹配</h1>
+    <p class="intro-copy">组合赛道与投资偏好，查看哪些公司符合条件，以及依据来自哪里。</p>
+  </header>
+  <div class="workspace">
+    <aside class="controls" aria-label="搜索设置">
+      <form id="search" class="panel">
+        <div class="section-head">
+          <h2>搜索条件</h2>
+          <button id="reset" type="button" class="text-button">新会话</button>
+        </div>
+        <fieldset>
+          <legend>关注赛道 <span id="selection-count" class="muted">可多选</span></legend>
+          <div id="sectors" class="chips"></div>
+        </fieldset>
+        <label for="query" class="field-label">描述投资偏好</label>
+        <textarea id="query" rows="3" maxlength="1200" placeholder="例如，只看 A 轮及以前的公司，优先考虑有产业资本参与的公司。"></textarea>
+        <div class="form-actions">
+          <button id="submit" type="submit" class="button primary" disabled>开始匹配 <span aria-hidden="true">→</span></button>
+          <button id="example" type="button" class="text-button" disabled>填入示例</button>
+        </div>
+      </form>
+      <details id="conversation" class="panel compact">
+        <summary>对话记录 <span id="turn-count" class="muted"></span></summary>
+        <div id="chat" role="log" aria-label="对话记录"></div>
+      </details>
+      <details class="panel compact">
+        <summary>匹配标准</summary>
+        <div class="method">
+          <p><strong>先筛选。</strong>所选赛道默认命中任一项，明确的融资上限等条件必须满足。</p>
+          <p><strong>再排序。</strong>按本次启用的维度计算得分。默认赛道和融资各 5 分，应用和技术各 3 分，总部、指定投资方、产业方及业务文本各 2 分。</p>
+          <p><strong>查看证据。</strong>每条理由附 Excel 原文和单元格。证据不足时单独标注。</p>
+        </div>
+      </details>
+    </aside>
+    <section class="results" aria-labelledby="results-title" aria-busy="false">
+      <div class="section-head results-head">
+        <div><p class="eyebrow">MATCH RESULTS</p><h2 id="results-title">推荐公司</h2></div>
+        <button id="compare" type="button" class="button secondary" disabled>对比前三家</button>
+      </div>
+      <p id="result-note" class="result-note" aria-live="polite" hidden></p>
+      <div id="cards" class="cards"></div>
+      <div id="empty-results" class="empty panel">
+        <span class="empty-mark" aria-hidden="true">◎</span>
+        <h3>开始一次搜索</h3>
+        <p>选择赛道、输入偏好，或用示例查看匹配明细。</p>
+      </div>
+      <div id="warnings" class="result-foot"></div>
+    </section>
+  </div>
+</main>
+<dialog id="detail" aria-label="公司详情">
+  <div class="dialog-toolbar"><span class="eyebrow">公司档案</span><button id="close-detail" type="button" class="button secondary">关闭</button></div>
+  <div id="detail-body" class="detail-body"></div>
+</dialog>
+</body>
+</html>

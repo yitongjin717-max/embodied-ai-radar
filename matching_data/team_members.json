@@ -1,0 +1,6934 @@
+[
+  {
+    "id": "88aff364-9287-5af7-a58b-5f19d018a074",
+    "company_id": "27bf0038-d3c0-52b2-a177-b33298aa2e02",
+    "name": "彭志辉（稚晖君）",
+    "role": "联合创始人、总裁兼CTO",
+    "education": [
+      "电子科技大学+硕士+生物医学工程",
+      "电子科技大学+本科+通信工程"
+    ],
+    "work_history": [
+      "2023-至今 智元机器人 联合创始人、总裁兼CTO",
+      "2019-2023 华为 计算产品线算法工程师（天才少年计划）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 3,
+      "cells": {
+        "company_name": {
+          "coordinate": "A3",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A3"
+        },
+        "name": {
+          "coordinate": "B3",
+          "header": "姓名",
+          "raw_value": "彭志辉（稚晖君）"
+        },
+        "role": {
+          "coordinate": "C3",
+          "header": "角色",
+          "raw_value": "联合创始人、总裁兼CTO"
+        },
+        "education": {
+          "coordinate": "D3",
+          "header": "教育背景",
+          "raw_value": "电子科技大学+硕士+生物医学工程\n电子科技大学+本科+通信工程"
+        },
+        "work_history": {
+          "coordinate": "E3",
+          "header": "工作背景",
+          "raw_value": "2023-至今 智元机器人 联合创始人、总裁兼CTO\n2019-2023 华为 计算产品线算法工程师（天才少年计划）"
+        }
+      }
+    }
+  },
+  {
+    "id": "8c8ba9f4-55ef-5a8d-a680-1604b306e6ca",
+    "company_id": "eff60d55-5c1a-5c05-8ccc-8b6906ff92a2",
+    "name": "王兴兴",
+    "role": "创始人、CEO",
+    "education": [
+      "上海大学+硕士+机械工程",
+      "浙江理工大学+本科（专业未公开）"
+    ],
+    "work_history": [
+      "2016-至今 宇树科技 创始人、CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 4,
+      "cells": {
+        "company_name": {
+          "coordinate": "A4",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A4"
+        },
+        "name": {
+          "coordinate": "B4",
+          "header": "姓名",
+          "raw_value": "王兴兴"
+        },
+        "role": {
+          "coordinate": "C4",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D4",
+          "header": "教育背景",
+          "raw_value": "上海大学+硕士+机械工程\n浙江理工大学+本科（专业未公开）"
+        },
+        "work_history": {
+          "coordinate": "E4",
+          "header": "工作背景",
+          "raw_value": "2016-至今 宇树科技 创始人、CEO"
+        }
+      }
+    }
+  },
+  {
+    "id": "8c9e7637-3a02-532a-97b0-bcf8bc3ff7bd",
+    "company_id": "c5f03f22-7dd2-5ebd-8816-c38fcbbcc6c9",
+    "name": "王鹤",
+    "role": "创始人、CTO",
+    "education": [
+      "斯坦福大学+博士（三维视觉/计算机方向，师从Leonidas J. Guibas）",
+      "清华大学+本科+电子系"
+    ],
+    "work_history": [
+      "2023-至今 银河通用 创始人、CTO",
+      "2021-至今 北京大学前沿计算研究中心 助理教授、博士生导师"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 5,
+      "cells": {
+        "company_name": {
+          "coordinate": "A5",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A5"
+        },
+        "name": {
+          "coordinate": "B5",
+          "header": "姓名",
+          "raw_value": "王鹤"
+        },
+        "role": {
+          "coordinate": "C5",
+          "header": "角色",
+          "raw_value": "创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D5",
+          "header": "教育背景",
+          "raw_value": "斯坦福大学+博士（三维视觉/计算机方向，师从Leonidas J. Guibas）\n清华大学+本科+电子系"
+        },
+        "work_history": {
+          "coordinate": "E5",
+          "header": "工作背景",
+          "raw_value": "2023-至今 银河通用 创始人、CTO\n2021-至今 北京大学前沿计算研究中心 助理教授、博士生导师"
+        }
+      }
+    }
+  },
+  {
+    "id": "ec1c55a6-88e6-5a0c-ab81-f01aba5b49c8",
+    "company_id": "c5f03f22-7dd2-5ebd-8816-c38fcbbcc6c9",
+    "name": "姚腾洲",
+    "role": "联合创始人",
+    "education": [
+      "北京航空航天大学+硕士+机器人（师从王田苗）"
+    ],
+    "work_history": [
+      "2023-至今 银河通用 联合创始人",
+      "不详-2023 ABB集团上海机器人研发中心 研发工程师"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 6,
+      "cells": {
+        "company_name": {
+          "coordinate": "A6",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A5"
+        },
+        "name": {
+          "coordinate": "B6",
+          "header": "姓名",
+          "raw_value": "姚腾洲"
+        },
+        "role": {
+          "coordinate": "C6",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D6",
+          "header": "教育背景",
+          "raw_value": "北京航空航天大学+硕士+机器人（师从王田苗）"
+        },
+        "work_history": {
+          "coordinate": "E6",
+          "header": "工作背景",
+          "raw_value": "2023-至今 银河通用 联合创始人\n不详-2023 ABB集团上海机器人研发中心 研发工程师"
+        }
+      }
+    }
+  },
+  {
+    "id": "352ba952-5337-5559-9600-f9c73ddede7a",
+    "company_id": "bab3d92f-712a-5f09-9979-2306e0c77aaf",
+    "name": "张巍",
+    "role": "创始人、CEO",
+    "education": [
+      "加州大学伯克利分校+博士后（专业未公开）",
+      "普渡大学+博士（专业未公开）",
+      "中国科学技术大学+本科（专业未公开）"
+    ],
+    "work_history": [
+      "2022-至今 逐际动力 创始人、CEO",
+      "2019-至今 南方科技大学 教授",
+      "2017-2019 俄亥俄州立大学 任教"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 7,
+      "cells": {
+        "company_name": {
+          "coordinate": "A7",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A6"
+        },
+        "name": {
+          "coordinate": "B7",
+          "header": "姓名",
+          "raw_value": "张巍"
+        },
+        "role": {
+          "coordinate": "C7",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D7",
+          "header": "教育背景",
+          "raw_value": "加州大学伯克利分校+博士后（专业未公开）\n普渡大学+博士（专业未公开）\n中国科学技术大学+本科（专业未公开）"
+        },
+        "work_history": {
+          "coordinate": "E7",
+          "header": "工作背景",
+          "raw_value": "2022-至今 逐际动力 创始人、CEO\n2019-至今 南方科技大学 教授\n2017-2019 俄亥俄州立大学 任教"
+        }
+      }
+    }
+  },
+  {
+    "id": "d4e863cc-19ee-515a-b642-27ad6fc00096",
+    "company_id": "278848bb-3912-5bb4-84fa-04fc98f98e76",
+    "name": "陈建宇",
+    "role": "创始人、CEO",
+    "education": [
+      "加州大学伯克利分校+博士（机械工程，师从Masayoshi Tomizuka）",
+      "本科院校未公开"
+    ],
+    "work_history": [
+      "2023-至今 星动纪元 创始人、CEO",
+      "不详-至今 清华大学交叉信息研究院 助理教授、博士生导师"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 8,
+      "cells": {
+        "company_name": {
+          "coordinate": "A8",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A7"
+        },
+        "name": {
+          "coordinate": "B8",
+          "header": "姓名",
+          "raw_value": "陈建宇"
+        },
+        "role": {
+          "coordinate": "C8",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D8",
+          "header": "教育背景",
+          "raw_value": "加州大学伯克利分校+博士（机械工程，师从Masayoshi Tomizuka）\n本科院校未公开"
+        },
+        "work_history": {
+          "coordinate": "E8",
+          "header": "工作背景",
+          "raw_value": "2023-至今 星动纪元 创始人、CEO\n不详-至今 清华大学交叉信息研究院 助理教授、博士生导师"
+        }
+      }
+    }
+  },
+  {
+    "id": "aa7f4e34-466e-53a7-ab9f-8eaafa6c2d48",
+    "company_id": "c4c9ed63-0d53-5006-a477-4439770958e7",
+    "name": "赵同阳",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "株洲师范学院+大专+自动化"
+    ],
+    "work_history": [
+      "2023-至今 众擎机器人 创始人、董事长兼CEO",
+      "2020-2023 小鹏鹏行智能 创始人、总经理",
+      "2016-2020 多够机器人Dogotix 创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 9,
+      "cells": {
+        "company_name": {
+          "coordinate": "A9",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A8"
+        },
+        "name": {
+          "coordinate": "B9",
+          "header": "姓名",
+          "raw_value": "赵同阳"
+        },
+        "role": {
+          "coordinate": "C9",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D9",
+          "header": "教育背景",
+          "raw_value": "株洲师范学院+大专+自动化"
+        },
+        "work_history": {
+          "coordinate": "E9",
+          "header": "工作背景",
+          "raw_value": "2023-至今 众擎机器人 创始人、董事长兼CEO\n2020-2023 小鹏鹏行智能 创始人、总经理\n2016-2020 多够机器人Dogotix 创始人"
+        }
+      }
+    }
+  },
+  {
+    "id": "4d825489-9bc3-58c2-a3f4-02afb877d663",
+    "company_id": "c4c9ed63-0d53-5006-a477-4439770958e7",
+    "name": "李力耘",
+    "role": "首席技术官",
+    "education": [
+      "纽约大学+博士+计算机系",
+      "清华大学+本科+电子工程系"
+    ],
+    "work_history": [
+      "2026-至今 众擎机器人 CTO",
+      "不详-2026 小鹏汽车 智能驾驶负责人",
+      "不详 京东JDX智慧物流实验室 技术架构师",
+      "不详 百度美国Apollo团队"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 10,
+      "cells": {
+        "company_name": {
+          "coordinate": "A10",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A8"
+        },
+        "name": {
+          "coordinate": "B10",
+          "header": "姓名",
+          "raw_value": "李力耘"
+        },
+        "role": {
+          "coordinate": "C10",
+          "header": "角色",
+          "raw_value": "首席技术官"
+        },
+        "education": {
+          "coordinate": "D10",
+          "header": "教育背景",
+          "raw_value": "纽约大学+博士+计算机系\n清华大学+本科+电子工程系"
+        },
+        "work_history": {
+          "coordinate": "E10",
+          "header": "工作背景",
+          "raw_value": "2026-至今 众擎机器人 CTO\n不详-2026 小鹏汽车 智能驾驶负责人\n不详 京东JDX智慧物流实验室 技术架构师\n不详 百度美国Apollo团队"
+        }
+      }
+    }
+  },
+  {
+    "id": "3942f268-aac0-543c-836b-819424057bc2",
+    "company_id": "57d5cb63-10b0-5b1b-bcb5-6757a72cfda1",
+    "name": "冷晓琨",
+    "role": "创始人、董事长兼CTO",
+    "education": [
+      "哈尔滨工业大学+博士+计算机应用技术（保送本硕博）"
+    ],
+    "work_history": [
+      "2016-至今 乐聚机器人 创始人、董事长兼CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 11,
+      "cells": {
+        "company_name": {
+          "coordinate": "A11",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A9"
+        },
+        "name": {
+          "coordinate": "B11",
+          "header": "姓名",
+          "raw_value": "冷晓琨"
+        },
+        "role": {
+          "coordinate": "C11",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CTO"
+        },
+        "education": {
+          "coordinate": "D11",
+          "header": "教育背景",
+          "raw_value": "哈尔滨工业大学+博士+计算机应用技术（保送本硕博）"
+        },
+        "work_history": {
+          "coordinate": "E11",
+          "header": "工作背景",
+          "raw_value": "2016-至今 乐聚机器人 创始人、董事长兼CTO"
+        }
+      }
+    }
+  },
+  {
+    "id": "874a918d-eae5-5625-8aa1-c761d32e71a2",
+    "company_id": "57d5cb63-10b0-5b1b-bcb5-6757a72cfda1",
+    "name": "常琳",
+    "role": "联合创始人、总裁",
+    "education": [
+      "哈尔滨工业大学+博士（专业未公开）"
+    ],
+    "work_history": [
+      "2016-至今 乐聚机器人 联合创始人、总裁"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 12,
+      "cells": {
+        "company_name": {
+          "coordinate": "A12",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A9"
+        },
+        "name": {
+          "coordinate": "B12",
+          "header": "姓名",
+          "raw_value": "常琳"
+        },
+        "role": {
+          "coordinate": "C12",
+          "header": "角色",
+          "raw_value": "联合创始人、总裁"
+        },
+        "education": {
+          "coordinate": "D12",
+          "header": "教育背景",
+          "raw_value": "哈尔滨工业大学+博士（专业未公开）"
+        },
+        "work_history": {
+          "coordinate": "E12",
+          "header": "工作背景",
+          "raw_value": "2016-至今 乐聚机器人 联合创始人、总裁"
+        }
+      }
+    }
+  },
+  {
+    "id": "96933594-2add-5d54-8bef-55c3e4585737",
+    "company_id": "57d5cb63-10b0-5b1b-bcb5-6757a72cfda1",
+    "name": "安子威",
+    "role": "联合创始人、COO",
+    "education": [
+      "哈尔滨工业大学+本科+管理（专业未公开）"
+    ],
+    "work_history": [
+      "2016-至今 乐聚机器人 联合创始人、首席运营官"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 13,
+      "cells": {
+        "company_name": {
+          "coordinate": "A13",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A9"
+        },
+        "name": {
+          "coordinate": "B13",
+          "header": "姓名",
+          "raw_value": "安子威"
+        },
+        "role": {
+          "coordinate": "C13",
+          "header": "角色",
+          "raw_value": "联合创始人、COO"
+        },
+        "education": {
+          "coordinate": "D13",
+          "header": "教育背景",
+          "raw_value": "哈尔滨工业大学+本科+管理（专业未公开）"
+        },
+        "work_history": {
+          "coordinate": "E13",
+          "header": "工作背景",
+          "raw_value": "2016-至今 乐聚机器人 联合创始人、首席运营官"
+        }
+      }
+    }
+  },
+  {
+    "id": "03d88583-d37f-5be7-814c-e3fb6c985ffd",
+    "company_id": "42e0177b-6e51-5e4f-a9c5-f733e6bcd947",
+    "name": "顾捷",
+    "role": "创始人、CEO",
+    "education": [
+      "上海交通大学+本科+机械系"
+    ],
+    "work_history": [
+      "2015-至今 傅利叶智能 创始人、CEO",
+      "2012-2015 璟和机器人 创始人",
+      "不详-2012 美国国家仪器 工程师"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 14,
+      "cells": {
+        "company_name": {
+          "coordinate": "A14",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A10"
+        },
+        "name": {
+          "coordinate": "B14",
+          "header": "姓名",
+          "raw_value": "顾捷"
+        },
+        "role": {
+          "coordinate": "C14",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D14",
+          "header": "教育背景",
+          "raw_value": "上海交通大学+本科+机械系"
+        },
+        "work_history": {
+          "coordinate": "E14",
+          "header": "工作背景",
+          "raw_value": "2015-至今 傅利叶智能 创始人、CEO\n2012-2015 璟和机器人 创始人\n不详-2012 美国国家仪器 工程师"
+        }
+      }
+    }
+  },
+  {
+    "id": "77e50ac6-b0f1-5c21-9759-8cf84e8211d7",
+    "company_id": "c043a563-6ec7-5445-abaa-743863903dea",
+    "name": "周剑",
+    "role": "创始人、董事长兼CEO",
+    "education": [],
+    "work_history": [
+      "2012-至今 优必选 创始人、董事长兼CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 15,
+      "cells": {
+        "company_name": {
+          "coordinate": "A15",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A11"
+        },
+        "name": {
+          "coordinate": "B15",
+          "header": "姓名",
+          "raw_value": "周剑"
+        },
+        "role": {
+          "coordinate": "C15",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D15",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E15",
+          "header": "工作背景",
+          "raw_value": "2012-至今 优必选 创始人、董事长兼CEO"
+        }
+      }
+    }
+  },
+  {
+    "id": "c7a1cc17-4c14-5f56-a664-ca9939fdf4fe",
+    "company_id": "dbeb4dd2-f747-5b01-bbe0-f31a4928f6a7",
+    "name": "来杰",
+    "role": "创始人、CEO",
+    "education": [
+      "五邑大学+硕士+智能系统",
+      "西安电子科技大学+本科（专业未公开）"
+    ],
+    "work_history": [
+      "2022-至今 星尘智能 创始人、CEO",
+      "不详-2022 腾讯Robotics X实验室 1号员工、核心架构师",
+      "不详 百度 小度机器人团队负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 16,
+      "cells": {
+        "company_name": {
+          "coordinate": "A16",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A12"
+        },
+        "name": {
+          "coordinate": "B16",
+          "header": "姓名",
+          "raw_value": "来杰"
+        },
+        "role": {
+          "coordinate": "C16",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D16",
+          "header": "教育背景",
+          "raw_value": "五邑大学+硕士+智能系统\n西安电子科技大学+本科（专业未公开）"
+        },
+        "work_history": {
+          "coordinate": "E16",
+          "header": "工作背景",
+          "raw_value": "2022-至今 星尘智能 创始人、CEO\n不详-2022 腾讯Robotics X实验室 1号员工、核心架构师\n不详 百度 小度机器人团队负责人"
+        }
+      }
+    }
+  },
+  {
+    "id": "ab656068-f548-57f6-ac4b-86ff1f27f254",
+    "company_id": "47539931-fba1-5d74-848f-e7691e6ec5aa",
+    "name": "熊明磊",
+    "role": "创始人、CEO",
+    "education": [
+      "北京大学+博士+一般力学与力学基础（硕博连读）"
+    ],
+    "work_history": [
+      "2015-至今 博雅工道 创始人、CEO",
+      "2012-2015 北京大学 水下机器人方向研究、校机器人协会会长"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 17,
+      "cells": {
+        "company_name": {
+          "coordinate": "A17",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A13"
+        },
+        "name": {
+          "coordinate": "B17",
+          "header": "姓名",
+          "raw_value": "熊明磊"
+        },
+        "role": {
+          "coordinate": "C17",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D17",
+          "header": "教育背景",
+          "raw_value": "北京大学+博士+一般力学与力学基础（硕博连读）"
+        },
+        "work_history": {
+          "coordinate": "E17",
+          "header": "工作背景",
+          "raw_value": "2015-至今 博雅工道 创始人、CEO\n2012-2015 北京大学 水下机器人方向研究、校机器人协会会长"
+        }
+      }
+    }
+  },
+  {
+    "id": "67754886-680e-5a0c-a4be-2ba2609be547",
+    "company_id": "7267f35d-fd64-5cda-b57f-c97463bd4ed1",
+    "name": "朱秋国",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "浙江大学 博士 控制科学与工程",
+      "浙江大学 本科（不详）"
+    ],
+    "work_history": [
+      "至今 云深处科技 创始人/CEO",
+      "至今 浙江大学 副教授、博士生导师"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 18,
+      "cells": {
+        "company_name": {
+          "coordinate": "A18",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A14"
+        },
+        "name": {
+          "coordinate": "B18",
+          "header": "姓名",
+          "raw_value": "朱秋国"
+        },
+        "role": {
+          "coordinate": "C18",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D18",
+          "header": "教育背景",
+          "raw_value": "浙江大学 博士 控制科学与工程\n浙江大学 本科（不详）"
+        },
+        "work_history": {
+          "coordinate": "E18",
+          "header": "工作背景",
+          "raw_value": "至今 云深处科技 创始人/CEO\n至今 浙江大学 副教授、博士生导师"
+        }
+      }
+    }
+  },
+  {
+    "id": "c42a005d-1fb6-5aa6-9264-bcd2d56e122f",
+    "company_id": "7267f35d-fd64-5cda-b57f-c97463bd4ed1",
+    "name": "李超",
+    "role": "联合创始人、CTO",
+    "education": [
+      "浙江大学 博士",
+      "天津工业大学 本科（不详）"
+    ],
+    "work_history": [
+      "至今 云深处科技 CTO（15年以上机器人技术与产品研发经验）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 19,
+      "cells": {
+        "company_name": {
+          "coordinate": "A19",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A14"
+        },
+        "name": {
+          "coordinate": "B19",
+          "header": "姓名",
+          "raw_value": "李超"
+        },
+        "role": {
+          "coordinate": "C19",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D19",
+          "header": "教育背景",
+          "raw_value": "浙江大学 博士\n天津工业大学 本科（不详）"
+        },
+        "work_history": {
+          "coordinate": "E19",
+          "header": "工作背景",
+          "raw_value": "至今 云深处科技 CTO（15年以上机器人技术与产品研发经验）"
+        }
+      }
+    }
+  },
+  {
+    "id": "4e37fc93-a07c-50d1-bdcb-b14736832a53",
+    "company_id": "8dd7b7c0-5420-5388-98ca-c389d465e051",
+    "name": "王世全",
+    "role": "联合创始人、董事长兼CEO",
+    "education": [
+      "斯坦福大学 博士 机械工程（仿生与灵巧操作实验室）",
+      "浙江大学 本科 机械工程"
+    ],
+    "work_history": [
+      "至今 非夕科技 创始人/CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 20,
+      "cells": {
+        "company_name": {
+          "coordinate": "A20",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A15"
+        },
+        "name": {
+          "coordinate": "B20",
+          "header": "姓名",
+          "raw_value": "王世全"
+        },
+        "role": {
+          "coordinate": "C20",
+          "header": "角色",
+          "raw_value": "联合创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D20",
+          "header": "教育背景",
+          "raw_value": "斯坦福大学 博士 机械工程（仿生与灵巧操作实验室）\n浙江大学 本科 机械工程"
+        },
+        "work_history": {
+          "coordinate": "E20",
+          "header": "工作背景",
+          "raw_value": "至今 非夕科技 创始人/CEO"
+        }
+      }
+    }
+  },
+  {
+    "id": "33ee31ac-e786-56b8-9c20-2969b910258d",
+    "company_id": "8dd7b7c0-5420-5388-98ca-c389d465e051",
+    "name": "卢策吾",
+    "role": "联合创始人、首席AI科学家",
+    "education": [
+      "斯坦福大学 博士后 人工智能实验室",
+      "（博士阶段不详）"
+    ],
+    "work_history": [
+      "至今 非夕科技 首席AI科学家",
+      "至今 上海交通大学 教授（长江学者）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 21,
+      "cells": {
+        "company_name": {
+          "coordinate": "A21",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A15"
+        },
+        "name": {
+          "coordinate": "B21",
+          "header": "姓名",
+          "raw_value": "卢策吾"
+        },
+        "role": {
+          "coordinate": "C21",
+          "header": "角色",
+          "raw_value": "联合创始人、首席AI科学家"
+        },
+        "education": {
+          "coordinate": "D21",
+          "header": "教育背景",
+          "raw_value": "斯坦福大学 博士后 人工智能实验室\n（博士阶段不详）"
+        },
+        "work_history": {
+          "coordinate": "E21",
+          "header": "工作背景",
+          "raw_value": "至今 非夕科技 首席AI科学家\n至今 上海交通大学 教授（长江学者）"
+        }
+      }
+    }
+  },
+  {
+    "id": "dc332acb-6840-518a-9692-28a28a246b19",
+    "company_id": "8dd7b7c0-5420-5388-98ca-c389d465e051",
+    "name": "叶熙阳",
+    "role": "联合创始人",
+    "education": [
+      "斯坦福大学 博士后 机器人实验室",
+      "（博士阶段不详）"
+    ],
+    "work_history": [
+      "至今 非夕科技 联合创始人（15年以上机器人软硬件研发经验）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 22,
+      "cells": {
+        "company_name": {
+          "coordinate": "A22",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A15"
+        },
+        "name": {
+          "coordinate": "B22",
+          "header": "姓名",
+          "raw_value": "叶熙阳"
+        },
+        "role": {
+          "coordinate": "C22",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D22",
+          "header": "教育背景",
+          "raw_value": "斯坦福大学 博士后 机器人实验室\n（博士阶段不详）"
+        },
+        "work_history": {
+          "coordinate": "E22",
+          "header": "工作背景",
+          "raw_value": "至今 非夕科技 联合创始人（15年以上机器人软硬件研发经验）"
+        }
+      }
+    }
+  },
+  {
+    "id": "36825525-5076-5c06-9476-d2b401184c28",
+    "company_id": "8dd7b7c0-5420-5388-98ca-c389d465e051",
+    "name": "钟书耘",
+    "role": "联合创始人",
+    "education": [
+      "斯坦福大学 博士 机器人实验室",
+      "（本科不详）"
+    ],
+    "work_history": [
+      "至今 非夕科技 联合创始人（15年以上机器人软硬件研发经验）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 23,
+      "cells": {
+        "company_name": {
+          "coordinate": "A23",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A15"
+        },
+        "name": {
+          "coordinate": "B23",
+          "header": "姓名",
+          "raw_value": "钟书耘"
+        },
+        "role": {
+          "coordinate": "C23",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D23",
+          "header": "教育背景",
+          "raw_value": "斯坦福大学 博士 机器人实验室\n（本科不详）"
+        },
+        "work_history": {
+          "coordinate": "E23",
+          "header": "工作背景",
+          "raw_value": "至今 非夕科技 联合创始人（15年以上机器人软硬件研发经验）"
+        }
+      }
+    }
+  },
+  {
+    "id": "7167b32d-826c-58a1-ae3e-c74330a10d36",
+    "company_id": "46330951-02df-5f33-b551-1630672ae4f2",
+    "name": "姚庭",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "瑞士联邦理工大学 硕士",
+      "哈尔滨工业大学 本科（不详）"
+    ],
+    "work_history": [
+      "至今 法奥机器人 创始人/董事长",
+      "2013年前 威海正棋机电 联合创始人（曾供职于ABB）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 24,
+      "cells": {
+        "company_name": {
+          "coordinate": "A24",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A16"
+        },
+        "name": {
+          "coordinate": "B24",
+          "header": "姓名",
+          "raw_value": "姚庭"
+        },
+        "role": {
+          "coordinate": "C24",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D24",
+          "header": "教育背景",
+          "raw_value": "瑞士联邦理工大学 硕士\n哈尔滨工业大学 本科（不详）"
+        },
+        "work_history": {
+          "coordinate": "E24",
+          "header": "工作背景",
+          "raw_value": "至今 法奥机器人 创始人/董事长\n2013年前 威海正棋机电 联合创始人（曾供职于ABB）"
+        }
+      }
+    }
+  },
+  {
+    "id": "a8b1f76d-721d-598a-afb6-9bd28bd2c2ba",
+    "company_id": "46330951-02df-5f33-b551-1630672ae4f2",
+    "name": "巩相峰",
+    "role": "联合创始人、总经理",
+    "education": [
+      "哈尔滨工业大学（学历层次不详）"
+    ],
+    "work_history": [
+      "至今 法奥机器人 总经理（曾联合创立正棋机电、纽氏达特）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 25,
+      "cells": {
+        "company_name": {
+          "coordinate": "A25",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A16"
+        },
+        "name": {
+          "coordinate": "B25",
+          "header": "姓名",
+          "raw_value": "巩相峰"
+        },
+        "role": {
+          "coordinate": "C25",
+          "header": "角色",
+          "raw_value": "联合创始人、总经理"
+        },
+        "education": {
+          "coordinate": "D25",
+          "header": "教育背景",
+          "raw_value": "哈尔滨工业大学（学历层次不详）"
+        },
+        "work_history": {
+          "coordinate": "E25",
+          "header": "工作背景",
+          "raw_value": "至今 法奥机器人 总经理（曾联合创立正棋机电、纽氏达特）"
+        }
+      }
+    }
+  },
+  {
+    "id": "b45b5ec8-4a9c-54cb-a3f1-63ba9568dd7a",
+    "company_id": "a31d62c2-57c8-5308-b8ba-8fca344fb735",
+    "name": "郑勇",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "清华大学 硕士 工业工程",
+      "清华大学 本科 工业工程（首届）"
+    ],
+    "work_history": [
+      "至今 极智嘉 创始人/CEO",
+      "此前 新天域资本 高级经理",
+      "此前 圣戈班 工厂经理",
+      "此前 ABB 运营经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 26,
+      "cells": {
+        "company_name": {
+          "coordinate": "A26",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A17"
+        },
+        "name": {
+          "coordinate": "B26",
+          "header": "姓名",
+          "raw_value": "郑勇"
+        },
+        "role": {
+          "coordinate": "C26",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D26",
+          "header": "教育背景",
+          "raw_value": "清华大学 硕士 工业工程\n清华大学 本科 工业工程（首届）"
+        },
+        "work_history": {
+          "coordinate": "E26",
+          "header": "工作背景",
+          "raw_value": "至今 极智嘉 创始人/CEO\n此前 新天域资本 高级经理\n此前 圣戈班 工厂经理\n此前 ABB 运营经理"
+        }
+      }
+    }
+  },
+  {
+    "id": "20961b8d-7633-5ebd-abe6-892bdee32196",
+    "company_id": "a31d62c2-57c8-5308-b8ba-8fca344fb735",
+    "name": "李洪波",
+    "role": "联合创始人、首席技术官",
+    "education": [
+      "清华大学 博士 计算机系",
+      "（本科不详）"
+    ],
+    "work_history": [
+      "至今 极智嘉 联合创始人/CTO",
+      "此前 清华大学 计算机系教师"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 27,
+      "cells": {
+        "company_name": {
+          "coordinate": "A27",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A17"
+        },
+        "name": {
+          "coordinate": "B27",
+          "header": "姓名",
+          "raw_value": "李洪波"
+        },
+        "role": {
+          "coordinate": "C27",
+          "header": "角色",
+          "raw_value": "联合创始人、首席技术官"
+        },
+        "education": {
+          "coordinate": "D27",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士 计算机系\n（本科不详）"
+        },
+        "work_history": {
+          "coordinate": "E27",
+          "header": "工作背景",
+          "raw_value": "至今 极智嘉 联合创始人/CTO\n此前 清华大学 计算机系教师"
+        }
+      }
+    }
+  },
+  {
+    "id": "d788d20d-26c2-5f08-9747-f13351bf0c4a",
+    "company_id": "a31d62c2-57c8-5308-b8ba-8fca344fb735",
+    "name": "刘凯",
+    "role": "联合创始人、副总裁",
+    "education": [
+      "清华大学（学历层次不详）"
+    ],
+    "work_history": [
+      "至今 极智嘉 副总裁"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 28,
+      "cells": {
+        "company_name": {
+          "coordinate": "A28",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A17"
+        },
+        "name": {
+          "coordinate": "B28",
+          "header": "姓名",
+          "raw_value": "刘凯"
+        },
+        "role": {
+          "coordinate": "C28",
+          "header": "角色",
+          "raw_value": "联合创始人、副总裁"
+        },
+        "education": {
+          "coordinate": "D28",
+          "header": "教育背景",
+          "raw_value": "清华大学（学历层次不详）"
+        },
+        "work_history": {
+          "coordinate": "E28",
+          "header": "工作背景",
+          "raw_value": "至今 极智嘉 副总裁"
+        }
+      }
+    }
+  },
+  {
+    "id": "267a5157-2e7e-5598-818b-e7e414ea5808",
+    "company_id": "a31d62c2-57c8-5308-b8ba-8fca344fb735",
+    "name": "陈曦",
+    "role": "联合创始人、副总裁",
+    "education": [
+      "北京科技大学（学历层次不详）"
+    ],
+    "work_history": [
+      "至今 极智嘉 副总裁"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 29,
+      "cells": {
+        "company_name": {
+          "coordinate": "A29",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A17"
+        },
+        "name": {
+          "coordinate": "B29",
+          "header": "姓名",
+          "raw_value": "陈曦"
+        },
+        "role": {
+          "coordinate": "C29",
+          "header": "角色",
+          "raw_value": "联合创始人、副总裁"
+        },
+        "education": {
+          "coordinate": "D29",
+          "header": "教育背景",
+          "raw_value": "北京科技大学（学历层次不详）"
+        },
+        "work_history": {
+          "coordinate": "E29",
+          "header": "工作背景",
+          "raw_value": "至今 极智嘉 副总裁"
+        }
+      }
+    }
+  },
+  {
+    "id": "1231cae1-db52-5bd3-bca4-aad0c6de9146",
+    "company_id": "730292f0-4248-563e-ab05-bc506d09e40b",
+    "name": "张朝辉",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "西安交通大学 博士在读 机械工程（机器人方向）",
+      "西安交通大学 本科 机械工程及自动化（2014）"
+    ],
+    "work_history": [
+      "至今 优艾智合 创始人/CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 30,
+      "cells": {
+        "company_name": {
+          "coordinate": "A30",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A18"
+        },
+        "name": {
+          "coordinate": "B30",
+          "header": "姓名",
+          "raw_value": "张朝辉"
+        },
+        "role": {
+          "coordinate": "C30",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D30",
+          "header": "教育背景",
+          "raw_value": "西安交通大学 博士在读 机械工程（机器人方向）\n西安交通大学 本科 机械工程及自动化（2014）"
+        },
+        "work_history": {
+          "coordinate": "E30",
+          "header": "工作背景",
+          "raw_value": "至今 优艾智合 创始人/CEO"
+        }
+      }
+    }
+  },
+  {
+    "id": "0d3d0b36-0914-548e-9f21-a7cd8bb0b1e8",
+    "company_id": "730292f0-4248-563e-ab05-bc506d09e40b",
+    "name": "边旭",
+    "role": "联合创始人、CTO",
+    "education": [
+      "西安交通大学 博士 机械工程（2025-09）",
+      "西安交通大学 本科 机械工程（2015）"
+    ],
+    "work_history": [
+      "至今 优艾智合 联合创始人/CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 31,
+      "cells": {
+        "company_name": {
+          "coordinate": "A31",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A18"
+        },
+        "name": {
+          "coordinate": "B31",
+          "header": "姓名",
+          "raw_value": "边旭"
+        },
+        "role": {
+          "coordinate": "C31",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D31",
+          "header": "教育背景",
+          "raw_value": "西安交通大学 博士 机械工程（2025-09）\n西安交通大学 本科 机械工程（2015）"
+        },
+        "work_history": {
+          "coordinate": "E31",
+          "header": "工作背景",
+          "raw_value": "至今 优艾智合 联合创始人/CTO"
+        }
+      }
+    }
+  },
+  {
+    "id": "a3e50ca4-7a63-59cf-833d-982495462df1",
+    "company_id": "730292f0-4248-563e-ab05-bc506d09e40b",
+    "name": "梅雪松",
+    "role": "首席科学家",
+    "education": [
+      "（西安交通大学教授，学历不详）"
+    ],
+    "work_history": [
+      "至今 优艾智合 首席科学家",
+      "至今 陕西省智能机器人重点实验室 主任（长江学者特聘教授）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 32,
+      "cells": {
+        "company_name": {
+          "coordinate": "A32",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A18"
+        },
+        "name": {
+          "coordinate": "B32",
+          "header": "姓名",
+          "raw_value": "梅雪松"
+        },
+        "role": {
+          "coordinate": "C32",
+          "header": "角色",
+          "raw_value": "首席科学家"
+        },
+        "education": {
+          "coordinate": "D32",
+          "header": "教育背景",
+          "raw_value": "（西安交通大学教授，学历不详）"
+        },
+        "work_history": {
+          "coordinate": "E32",
+          "header": "工作背景",
+          "raw_value": "至今 优艾智合 首席科学家\n至今 陕西省智能机器人重点实验室 主任（长江学者特聘教授）"
+        }
+      }
+    }
+  },
+  {
+    "id": "6b594aa0-3472-5e08-9b96-909d7e9f9d99",
+    "company_id": "1e8f5a5b-b0e8-50bf-b67d-1be3663e5c73",
+    "name": "郭彦东",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "美国普渡大学 博士 电子与计算机工程",
+      "（本科不详）"
+    ],
+    "work_history": [
+      "至今 智平方 创始人/CEO",
+      "此前 OPPO 首席科学家与研发高管",
+      "此前 小鹏汽车 首席科学家",
+      "此前 微软美国总部 核心AI团队研究员"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 33,
+      "cells": {
+        "company_name": {
+          "coordinate": "A33",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A19"
+        },
+        "name": {
+          "coordinate": "B33",
+          "header": "姓名",
+          "raw_value": "郭彦东"
+        },
+        "role": {
+          "coordinate": "C33",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D33",
+          "header": "教育背景",
+          "raw_value": "美国普渡大学 博士 电子与计算机工程\n（本科不详）"
+        },
+        "work_history": {
+          "coordinate": "E33",
+          "header": "工作背景",
+          "raw_value": "至今 智平方 创始人/CEO\n此前 OPPO 首席科学家与研发高管\n此前 小鹏汽车 首席科学家\n此前 微软美国总部 核心AI团队研究员"
+        }
+      }
+    }
+  },
+  {
+    "id": "0e2ff32d-d098-5bde-b24d-14b7e72c10b5",
+    "company_id": "1e8f5a5b-b0e8-50bf-b67d-1be3663e5c73",
+    "name": "张鹏",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "至今 智平方 联合创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 34,
+      "cells": {
+        "company_name": {
+          "coordinate": "A34",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A19"
+        },
+        "name": {
+          "coordinate": "B34",
+          "header": "姓名",
+          "raw_value": "张鹏"
+        },
+        "role": {
+          "coordinate": "C34",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D34",
+          "header": "教育背景",
+          "raw_value": "不详"
+        },
+        "work_history": {
+          "coordinate": "E34",
+          "header": "工作背景",
+          "raw_value": "至今 智平方 联合创始人"
+        }
+      }
+    }
+  },
+  {
+    "id": "c96e3686-3c11-5f8a-9197-e27462ec91a5",
+    "company_id": "7224386a-1617-581d-9091-a3d32c36990c",
+    "name": "陈亦伦",
+    "role": "创始人、CEO",
+    "education": [
+      "博士（院校不详）"
+    ],
+    "work_history": [
+      "至今 它石智航 创始人/CEO",
+      "此前 清华大学智能产业研究院 智能机器人方向首席科学家",
+      "此前 华为 自动驾驶CTO",
+      "此前 大疆 机器视觉总工程师"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 35,
+      "cells": {
+        "company_name": {
+          "coordinate": "A35",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A20"
+        },
+        "name": {
+          "coordinate": "B35",
+          "header": "姓名",
+          "raw_value": "陈亦伦"
+        },
+        "role": {
+          "coordinate": "C35",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D35",
+          "header": "教育背景",
+          "raw_value": "博士（院校不详）"
+        },
+        "work_history": {
+          "coordinate": "E35",
+          "header": "工作背景",
+          "raw_value": "至今 它石智航 创始人/CEO\n此前 清华大学智能产业研究院 智能机器人方向首席科学家\n此前 华为 自动驾驶CTO\n此前 大疆 机器视觉总工程师"
+        }
+      }
+    }
+  },
+  {
+    "id": "e9801f98-841d-5ef4-9ff1-da45f155d327",
+    "company_id": "7224386a-1617-581d-9091-a3d32c36990c",
+    "name": "李震宇",
+    "role": "创始人、董事长",
+    "education": [],
+    "work_history": [
+      "至今 它石智航 董事长",
+      "此前 百度 智能驾驶事业群总裁（阿波罗与萝卜快跑缔造者）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 36,
+      "cells": {
+        "company_name": {
+          "coordinate": "A36",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A20"
+        },
+        "name": {
+          "coordinate": "B36",
+          "header": "姓名",
+          "raw_value": "李震宇"
+        },
+        "role": {
+          "coordinate": "C36",
+          "header": "角色",
+          "raw_value": "创始人、董事长"
+        },
+        "education": {
+          "coordinate": "D36",
+          "header": "教育背景",
+          "raw_value": "不详"
+        },
+        "work_history": {
+          "coordinate": "E36",
+          "header": "工作背景",
+          "raw_value": "至今 它石智航 董事长\n此前 百度 智能驾驶事业群总裁（阿波罗与萝卜快跑缔造者）"
+        }
+      }
+    }
+  },
+  {
+    "id": "aec24c46-1c6b-5f0b-b8c8-42eb96dff4bb",
+    "company_id": "7224386a-1617-581d-9091-a3d32c36990c",
+    "name": "丁文超",
+    "role": "联合创始人、首席科学家",
+    "education": [
+      "博士（院校不详）"
+    ],
+    "work_history": [
+      "至今 它石智航 首席科学家",
+      "此前 复旦大学机器人研究院 研究员（华为\"天才少年\"）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 37,
+      "cells": {
+        "company_name": {
+          "coordinate": "A37",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A20"
+        },
+        "name": {
+          "coordinate": "B37",
+          "header": "姓名",
+          "raw_value": "丁文超"
+        },
+        "role": {
+          "coordinate": "C37",
+          "header": "角色",
+          "raw_value": "联合创始人、首席科学家"
+        },
+        "education": {
+          "coordinate": "D37",
+          "header": "教育背景",
+          "raw_value": "博士（院校不详）"
+        },
+        "work_history": {
+          "coordinate": "E37",
+          "header": "工作背景",
+          "raw_value": "至今 它石智航 首席科学家\n此前 复旦大学机器人研究院 研究员（华为\"天才少年\"）"
+        }
+      }
+    }
+  },
+  {
+    "id": "ac099fb9-f553-58c7-a75d-320694dd51d9",
+    "company_id": "fa36a48d-cf15-57fe-81cc-4a68c5059e20",
+    "name": "王潜",
+    "role": "创始人、CEO",
+    "education": [
+      "美国南加州大学 博士（机器人学习方向）",
+      "清华大学 硕士 生物医学工程",
+      "清华大学 本科 电子工程系"
+    ],
+    "work_history": [
+      "至今 自变量机器人 创始人/CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 38,
+      "cells": {
+        "company_name": {
+          "coordinate": "A38",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A21"
+        },
+        "name": {
+          "coordinate": "B38",
+          "header": "姓名",
+          "raw_value": "王潜"
+        },
+        "role": {
+          "coordinate": "C38",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D38",
+          "header": "教育背景",
+          "raw_value": "美国南加州大学 博士（机器人学习方向）\n清华大学 硕士 生物医学工程\n清华大学 本科 电子工程系"
+        },
+        "work_history": {
+          "coordinate": "E38",
+          "header": "工作背景",
+          "raw_value": "至今 自变量机器人 创始人/CEO"
+        }
+      }
+    }
+  },
+  {
+    "id": "cfa8dbe8-8ebf-5c52-afb8-7e3adf7ee124",
+    "company_id": "fa36a48d-cf15-57fe-81cc-4a68c5059e20",
+    "name": "王昊",
+    "role": "联合创始人、CTO",
+    "education": [
+      "北京大学 博士 计算物理",
+      "（本科不详）"
+    ],
+    "work_history": [
+      "至今 自变量机器人 联合创始人/CTO",
+      "此前 IDEA研究院 封神榜大模型团队算法负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 39,
+      "cells": {
+        "company_name": {
+          "coordinate": "A39",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A21"
+        },
+        "name": {
+          "coordinate": "B39",
+          "header": "姓名",
+          "raw_value": "王昊"
+        },
+        "role": {
+          "coordinate": "C39",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D39",
+          "header": "教育背景",
+          "raw_value": "北京大学 博士 计算物理\n（本科不详）"
+        },
+        "work_history": {
+          "coordinate": "E39",
+          "header": "工作背景",
+          "raw_value": "至今 自变量机器人 联合创始人/CTO\n此前 IDEA研究院 封神榜大模型团队算法负责人"
+        }
+      }
+    }
+  },
+  {
+    "id": "136b3cd8-322a-5974-a968-702d08de1a86",
+    "company_id": "c01a1fb6-7e8f-5f61-9768-0ca06ec88697",
+    "name": "卢策吾",
+    "role": "联合创始人",
+    "education": [
+      "斯坦福大学 博士后 人工智能实验室",
+      "香港中文大学 博士 计算机",
+      "中国科学院大学 硕士",
+      "重庆邮电大学 本科"
+    ],
+    "work_history": [
+      "至今 穹彻智能 联合创始人",
+      "至今 上海交通大学人工智能学院 副院长、教授（长江学者、科学探索奖获得者）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 40,
+      "cells": {
+        "company_name": {
+          "coordinate": "A40",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A22"
+        },
+        "name": {
+          "coordinate": "B40",
+          "header": "姓名",
+          "raw_value": "卢策吾"
+        },
+        "role": {
+          "coordinate": "C40",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D40",
+          "header": "教育背景",
+          "raw_value": "斯坦福大学 博士后 人工智能实验室\n香港中文大学 博士 计算机\n中国科学院大学 硕士\n重庆邮电大学 本科"
+        },
+        "work_history": {
+          "coordinate": "E40",
+          "header": "工作背景",
+          "raw_value": "至今 穹彻智能 联合创始人\n至今 上海交通大学人工智能学院 副院长、教授（长江学者、科学探索奖获得者）"
+        }
+      }
+    }
+  },
+  {
+    "id": "ea351812-bcca-5da2-8b3f-29d3f137ef68",
+    "company_id": "c01a1fb6-7e8f-5f61-9768-0ca06ec88697",
+    "name": "王世全",
+    "role": "联合创始人",
+    "education": [
+      "斯坦福大学 博士 机械工程（仿生与灵巧操作）",
+      "浙江大学 本科（竺可桢学院）"
+    ],
+    "work_history": [
+      "至今 穹彻智能 联合创始人",
+      "至今 非夕科技 创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 41,
+      "cells": {
+        "company_name": {
+          "coordinate": "A41",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A22"
+        },
+        "name": {
+          "coordinate": "B41",
+          "header": "姓名",
+          "raw_value": "王世全"
+        },
+        "role": {
+          "coordinate": "C41",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D41",
+          "header": "教育背景",
+          "raw_value": "斯坦福大学 博士 机械工程（仿生与灵巧操作）\n浙江大学 本科（竺可桢学院）"
+        },
+        "work_history": {
+          "coordinate": "E41",
+          "header": "工作背景",
+          "raw_value": "至今 穹彻智能 联合创始人\n至今 非夕科技 创始人"
+        }
+      }
+    }
+  },
+  {
+    "id": "4570646f-d1f2-5bfa-8b6c-5bae570c38cf",
+    "company_id": "3927b8ba-e082-5a5d-9580-47bb7cbe45fa",
+    "name": "高继扬",
+    "role": "创始人、CEO",
+    "education": [
+      "南加州大学 博士 计算机视觉",
+      "清华大学 本科 电子工程系"
+    ],
+    "work_history": [
+      "至今 星海图 创始人/CEO",
+      "此前 Momenta 执行总监",
+      "此前 Waymo 感知研发"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 42,
+      "cells": {
+        "company_name": {
+          "coordinate": "A42",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A23"
+        },
+        "name": {
+          "coordinate": "B42",
+          "header": "姓名",
+          "raw_value": "高继扬"
+        },
+        "role": {
+          "coordinate": "C42",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D42",
+          "header": "教育背景",
+          "raw_value": "南加州大学 博士 计算机视觉\n清华大学 本科 电子工程系"
+        },
+        "work_history": {
+          "coordinate": "E42",
+          "header": "工作背景",
+          "raw_value": "至今 星海图 创始人/CEO\n此前 Momenta 执行总监\n此前 Waymo 感知研发"
+        }
+      }
+    }
+  },
+  {
+    "id": "fb98e9e5-05bc-5c27-b0ba-ed5dfa8e8082",
+    "company_id": "3927b8ba-e082-5a5d-9580-47bb7cbe45fa",
+    "name": "赵行",
+    "role": "联合创始人、首席科学家",
+    "education": [
+      "麻省理工学院 博士（多模态学习与机器人方向）",
+      "（本科不详）"
+    ],
+    "work_history": [
+      "至今 星海图 联合创始人/首席科学家",
+      "至今 清华大学交叉信息研究院 助理教授"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 43,
+      "cells": {
+        "company_name": {
+          "coordinate": "A43",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A23"
+        },
+        "name": {
+          "coordinate": "B43",
+          "header": "姓名",
+          "raw_value": "赵行"
+        },
+        "role": {
+          "coordinate": "C43",
+          "header": "角色",
+          "raw_value": "联合创始人、首席科学家"
+        },
+        "education": {
+          "coordinate": "D43",
+          "header": "教育背景",
+          "raw_value": "麻省理工学院 博士（多模态学习与机器人方向）\n（本科不详）"
+        },
+        "work_history": {
+          "coordinate": "E43",
+          "header": "工作背景",
+          "raw_value": "至今 星海图 联合创始人/首席科学家\n至今 清华大学交叉信息研究院 助理教授"
+        }
+      }
+    }
+  },
+  {
+    "id": "4e827470-b52f-5cb7-89ea-8baab415489f",
+    "company_id": "3927b8ba-e082-5a5d-9580-47bb7cbe45fa",
+    "name": "李天威",
+    "role": "联合创始人",
+    "education": [
+      "伦敦大学学院 硕士",
+      "（本科不详）"
+    ],
+    "work_history": [
+      "至今 星海图 联合创始人",
+      "此前 Momenta"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 44,
+      "cells": {
+        "company_name": {
+          "coordinate": "A44",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A23"
+        },
+        "name": {
+          "coordinate": "B44",
+          "header": "姓名",
+          "raw_value": "李天威"
+        },
+        "role": {
+          "coordinate": "C44",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D44",
+          "header": "教育背景",
+          "raw_value": "伦敦大学学院 硕士\n（本科不详）"
+        },
+        "work_history": {
+          "coordinate": "E44",
+          "header": "工作背景",
+          "raw_value": "至今 星海图 联合创始人\n此前 Momenta"
+        }
+      }
+    }
+  },
+  {
+    "id": "bf425259-acb7-5a07-ac41-28543b1fb76b",
+    "company_id": "39cdab7f-0054-561f-a37e-35d108c13c66",
+    "name": "周永",
+    "role": "创始人/CEO/CTO",
+    "education": [
+      "华中科技大学 本科（少年班）"
+    ],
+    "work_history": [
+      "2019-至今 灵心巧手 创始人/CEO/CTO（此前逾十年C端互联网产品及机器人复合背景，具体任职未披露）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 45,
+      "cells": {
+        "company_name": {
+          "coordinate": "A45",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A24"
+        },
+        "name": {
+          "coordinate": "B45",
+          "header": "姓名",
+          "raw_value": "周永"
+        },
+        "role": {
+          "coordinate": "C45",
+          "header": "角色",
+          "raw_value": "创始人/CEO/CTO"
+        },
+        "education": {
+          "coordinate": "D45",
+          "header": "教育背景",
+          "raw_value": "华中科技大学 本科（少年班）"
+        },
+        "work_history": {
+          "coordinate": "E45",
+          "header": "工作背景",
+          "raw_value": "2019-至今 灵心巧手 创始人/CEO/CTO（此前逾十年C端互联网产品及机器人复合背景，具体任职未披露）"
+        }
+      }
+    }
+  },
+  {
+    "id": "32cb74c7-c7d3-5a3f-9b38-c1bb010b99d0",
+    "company_id": "8ea6ff10-cf65-589f-b5a6-dbe115c2d4d6",
+    "name": "蔡颖鹏",
+    "role": "创始人/CEO",
+    "education": [
+      "北京航空航天大学 硕士 机械工程",
+      "北京科技大学 本科 电子信息工程"
+    ],
+    "work_history": [
+      "2016-至今 因时机器人 创始人/CEO",
+      "2012-2016 机器人ODM公司 创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 46,
+      "cells": {
+        "company_name": {
+          "coordinate": "A46",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A25"
+        },
+        "name": {
+          "coordinate": "B46",
+          "header": "姓名",
+          "raw_value": "蔡颖鹏"
+        },
+        "role": {
+          "coordinate": "C46",
+          "header": "角色",
+          "raw_value": "创始人/CEO"
+        },
+        "education": {
+          "coordinate": "D46",
+          "header": "教育背景",
+          "raw_value": "北京航空航天大学 硕士 机械工程\n北京科技大学 本科 电子信息工程"
+        },
+        "work_history": {
+          "coordinate": "E46",
+          "header": "工作背景",
+          "raw_value": "2016-至今 因时机器人 创始人/CEO\n2012-2016 机器人ODM公司 创始人"
+        }
+      }
+    }
+  },
+  {
+    "id": "d9741b69-1edb-5ad7-a289-9164ddba4d46",
+    "company_id": "8ea6ff10-cf65-589f-b5a6-dbe115c2d4d6",
+    "name": "房海南",
+    "role": "核心成员（商业化负责人）",
+    "education": [],
+    "work_history": [],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 47,
+      "cells": {
+        "company_name": {
+          "coordinate": "A47",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A25"
+        },
+        "name": {
+          "coordinate": "B47",
+          "header": "姓名",
+          "raw_value": "房海南"
+        },
+        "role": {
+          "coordinate": "C47",
+          "header": "角色",
+          "raw_value": "核心成员（商业化负责人）"
+        },
+        "education": {
+          "coordinate": "D47",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E47",
+          "header": "工作背景",
+          "raw_value": "未公开"
+        }
+      }
+    }
+  },
+  {
+    "id": "cdcd5b22-51c4-5d83-ab15-6ece1d594064",
+    "company_id": "11487843-b35f-546b-8e9b-e08aede2e8be",
+    "name": "许晋诚",
+    "role": "创始人/CEO",
+    "education": [
+      "早稻田大学（日本，学位及专业未公开）"
+    ],
+    "work_history": [
+      "2021-至今 帕西尼感知 创始人/CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 48,
+      "cells": {
+        "company_name": {
+          "coordinate": "A48",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A26"
+        },
+        "name": {
+          "coordinate": "B48",
+          "header": "姓名",
+          "raw_value": "许晋诚"
+        },
+        "role": {
+          "coordinate": "C48",
+          "header": "角色",
+          "raw_value": "创始人/CEO"
+        },
+        "education": {
+          "coordinate": "D48",
+          "header": "教育背景",
+          "raw_value": "早稻田大学（日本，学位及专业未公开）"
+        },
+        "work_history": {
+          "coordinate": "E48",
+          "header": "工作背景",
+          "raw_value": "2021-至今 帕西尼感知 创始人/CEO"
+        }
+      }
+    }
+  },
+  {
+    "id": "52de5d46-d79f-5ae9-83f9-2faa0b632de8",
+    "company_id": "11487843-b35f-546b-8e9b-e08aede2e8be",
+    "name": "聂相如",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 49,
+      "cells": {
+        "company_name": {
+          "coordinate": "A49",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A26"
+        },
+        "name": {
+          "coordinate": "B49",
+          "header": "姓名",
+          "raw_value": "聂相如"
+        },
+        "role": {
+          "coordinate": "C49",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D49",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E49",
+          "header": "工作背景",
+          "raw_value": "未公开"
+        }
+      }
+    }
+  },
+  {
+    "id": "f139669f-25bf-5792-b446-eae5c332ac5e",
+    "company_id": "11487843-b35f-546b-8e9b-e08aede2e8be",
+    "name": "张恒第",
+    "role": "CTO",
+    "education": [],
+    "work_history": [
+      "法国国家科学研究中心（CNRS） 研究员（曾任）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 50,
+      "cells": {
+        "company_name": {
+          "coordinate": "A50",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A26"
+        },
+        "name": {
+          "coordinate": "B50",
+          "header": "姓名",
+          "raw_value": "张恒第"
+        },
+        "role": {
+          "coordinate": "C50",
+          "header": "角色",
+          "raw_value": "CTO"
+        },
+        "education": {
+          "coordinate": "D50",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E50",
+          "header": "工作背景",
+          "raw_value": "法国国家科学研究中心（CNRS） 研究员（曾任）"
+        }
+      }
+    }
+  },
+  {
+    "id": "4dccd1d1-7ac8-5cec-a0ba-3afe6a89ba83",
+    "company_id": "908a33f3-32aa-5e99-9702-2cb6a110a8f3",
+    "name": "王勃",
+    "role": "创始人/CEO",
+    "education": [
+      "哈尔滨工业大学 本科 自动化"
+    ],
+    "work_history": [
+      "2023-至今 灵足时代 创始人/CEO",
+      "曾任小米机器人关节团队总负责人、总架构师（CyberGear总设计师）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 51,
+      "cells": {
+        "company_name": {
+          "coordinate": "A51",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A27"
+        },
+        "name": {
+          "coordinate": "B51",
+          "header": "姓名",
+          "raw_value": "王勃"
+        },
+        "role": {
+          "coordinate": "C51",
+          "header": "角色",
+          "raw_value": "创始人/CEO"
+        },
+        "education": {
+          "coordinate": "D51",
+          "header": "教育背景",
+          "raw_value": "哈尔滨工业大学 本科 自动化"
+        },
+        "work_history": {
+          "coordinate": "E51",
+          "header": "工作背景",
+          "raw_value": "2023-至今 灵足时代 创始人/CEO\n曾任小米机器人关节团队总负责人、总架构师（CyberGear总设计师）"
+        }
+      }
+    }
+  },
+  {
+    "id": "0e9f8008-0f8c-5a06-aa2b-bc9b467c78b0",
+    "company_id": "908a33f3-32aa-5e99-9702-2cb6a110a8f3",
+    "name": "邵元欣",
+    "role": "创始人/COO",
+    "education": [
+      "伦敦国王学院 硕士 电子工程与管理"
+    ],
+    "work_history": [
+      "2023-至今 灵足时代 创始人/COO",
+      "曾任小米CyberDog、CyberGear项目负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 52,
+      "cells": {
+        "company_name": {
+          "coordinate": "A52",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A27"
+        },
+        "name": {
+          "coordinate": "B52",
+          "header": "姓名",
+          "raw_value": "邵元欣"
+        },
+        "role": {
+          "coordinate": "C52",
+          "header": "角色",
+          "raw_value": "创始人/COO"
+        },
+        "education": {
+          "coordinate": "D52",
+          "header": "教育背景",
+          "raw_value": "伦敦国王学院 硕士 电子工程与管理"
+        },
+        "work_history": {
+          "coordinate": "E52",
+          "header": "工作背景",
+          "raw_value": "2023-至今 灵足时代 创始人/COO\n曾任小米CyberDog、CyberGear项目负责人"
+        }
+      }
+    }
+  },
+  {
+    "id": "44aeab91-5f17-5f18-9994-ee7f72743a00",
+    "company_id": "ec881418-6ae8-5aa5-b73d-9369e0801dfb",
+    "name": "熊琳",
+    "role": "创始人",
+    "education": [],
+    "work_history": [
+      "2018-至今 坤维科技 创始人",
+      "曾任中国航天科技集团第十一研究院 六维力传感器研发负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 53,
+      "cells": {
+        "company_name": {
+          "coordinate": "A53",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A28"
+        },
+        "name": {
+          "coordinate": "B53",
+          "header": "姓名",
+          "raw_value": "熊琳"
+        },
+        "role": {
+          "coordinate": "C53",
+          "header": "角色",
+          "raw_value": "创始人"
+        },
+        "education": {
+          "coordinate": "D53",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E53",
+          "header": "工作背景",
+          "raw_value": "2018-至今 坤维科技 创始人\n曾任中国航天科技集团第十一研究院 六维力传感器研发负责人"
+        }
+      }
+    }
+  },
+  {
+    "id": "ef00696b-f3bd-56f7-aa11-e4038953d2d2",
+    "company_id": "ec881418-6ae8-5aa5-b73d-9369e0801dfb",
+    "name": "孙竣利",
+    "role": "联合创始人/副总经理",
+    "education": [],
+    "work_history": [
+      "2018-至今 坤维科技（常州） 联合创始人/副总经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 54,
+      "cells": {
+        "company_name": {
+          "coordinate": "A54",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A28"
+        },
+        "name": {
+          "coordinate": "B54",
+          "header": "姓名",
+          "raw_value": "孙竣利"
+        },
+        "role": {
+          "coordinate": "C54",
+          "header": "角色",
+          "raw_value": "联合创始人/副总经理"
+        },
+        "education": {
+          "coordinate": "D54",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E54",
+          "header": "工作背景",
+          "raw_value": "2018-至今 坤维科技（常州） 联合创始人/副总经理"
+        }
+      }
+    }
+  },
+  {
+    "id": "d0356023-a1f6-5585-8fb6-6d2b546f5e7a",
+    "company_id": "f694504a-f0f5-554b-9f8f-6d5e87753e99",
+    "name": "沈晓龙",
+    "role": "创始人/CEO",
+    "education": [],
+    "work_history": [],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 55,
+      "cells": {
+        "company_name": {
+          "coordinate": "A55",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A29"
+        },
+        "name": {
+          "coordinate": "B55",
+          "header": "姓名",
+          "raw_value": "沈晓龙"
+        },
+        "role": {
+          "coordinate": "C55",
+          "header": "角色",
+          "raw_value": "创始人/CEO"
+        },
+        "education": {
+          "coordinate": "D55",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E55",
+          "header": "工作背景",
+          "raw_value": "未公开"
+        }
+      }
+    }
+  },
+  {
+    "id": "f0478c3c-3eb2-5d5b-8b1c-e5e6e32875a8",
+    "company_id": "d1c4237b-97ec-59d2-b56e-18a7ba7c10ac",
+    "name": "王丛",
+    "role": "CEO",
+    "education": [
+      "美国莱特州立大学 博士",
+      "北京工业大学 本科 计算机"
+    ],
+    "work_history": [
+      "2024-至今 地瓜机器人 CEO",
+      "2018-2024 地平线 AIoT及机器人事业部负责人",
+      "曾任阿里巴巴、文因互联联合创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 56,
+      "cells": {
+        "company_name": {
+          "coordinate": "A56",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A30"
+        },
+        "name": {
+          "coordinate": "B56",
+          "header": "姓名",
+          "raw_value": "王丛"
+        },
+        "role": {
+          "coordinate": "C56",
+          "header": "角色",
+          "raw_value": "CEO"
+        },
+        "education": {
+          "coordinate": "D56",
+          "header": "教育背景",
+          "raw_value": "美国莱特州立大学 博士\n北京工业大学 本科 计算机"
+        },
+        "work_history": {
+          "coordinate": "E56",
+          "header": "工作背景",
+          "raw_value": "2024-至今 地瓜机器人 CEO\n2018-2024 地平线 AIoT及机器人事业部负责人\n曾任阿里巴巴、文因互联联合创始人"
+        }
+      }
+    }
+  },
+  {
+    "id": "61389e4a-6541-5164-87b0-cc7c3865f858",
+    "company_id": "d1c4237b-97ec-59d2-b56e-18a7ba7c10ac",
+    "name": "隋伟",
+    "role": "算法副总裁",
+    "education": [],
+    "work_history": [
+      "未公开（2024年前后加入，曾自述从0搭建算法团队）"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 57,
+      "cells": {
+        "company_name": {
+          "coordinate": "A57",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A30"
+        },
+        "name": {
+          "coordinate": "B57",
+          "header": "姓名",
+          "raw_value": "隋伟"
+        },
+        "role": {
+          "coordinate": "C57",
+          "header": "角色",
+          "raw_value": "算法副总裁"
+        },
+        "education": {
+          "coordinate": "D57",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E57",
+          "header": "工作背景",
+          "raw_value": "未公开（2024年前后加入，曾自述从0搭建算法团队）"
+        }
+      }
+    }
+  },
+  {
+    "id": "0c1b0c21-87c0-5b67-af17-a37ecf7e719f",
+    "company_id": "25154450-90a7-5ab6-9c43-f7ca945496de",
+    "name": "贾奎",
+    "role": "创始人/CEO",
+    "education": [
+      "未公开（香港中文大学（深圳）数据科学学院终身教授）"
+    ],
+    "work_history": [
+      "2016 组建几何感知与智能实验室（港中文深圳）",
+      "2021-至今 跨维智能 创始人/CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 58,
+      "cells": {
+        "company_name": {
+          "coordinate": "A58",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A31"
+        },
+        "name": {
+          "coordinate": "B58",
+          "header": "姓名",
+          "raw_value": "贾奎"
+        },
+        "role": {
+          "coordinate": "C58",
+          "header": "角色",
+          "raw_value": "创始人/CEO"
+        },
+        "education": {
+          "coordinate": "D58",
+          "header": "教育背景",
+          "raw_value": "未公开（香港中文大学（深圳）数据科学学院终身教授）"
+        },
+        "work_history": {
+          "coordinate": "E58",
+          "header": "工作背景",
+          "raw_value": "2016 组建几何感知与智能实验室（港中文深圳）\n2021-至今 跨维智能 创始人/CEO"
+        }
+      }
+    }
+  },
+  {
+    "id": "20afd67a-f8cf-5365-9e7b-c5cb50a9b438",
+    "company_id": "25154450-90a7-5ab6-9c43-f7ca945496de",
+    "name": "马尧",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 59,
+      "cells": {
+        "company_name": {
+          "coordinate": "A59",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A31"
+        },
+        "name": {
+          "coordinate": "B59",
+          "header": "姓名",
+          "raw_value": "马尧"
+        },
+        "role": {
+          "coordinate": "C59",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D59",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E59",
+          "header": "工作背景",
+          "raw_value": "未公开"
+        }
+      }
+    }
+  },
+  {
+    "id": "fad6bf8a-7688-5c54-99b4-99da337247e1",
+    "company_id": "25154450-90a7-5ab6-9c43-f7ca945496de",
+    "name": "李平",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 60,
+      "cells": {
+        "company_name": {
+          "coordinate": "A60",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A31"
+        },
+        "name": {
+          "coordinate": "B60",
+          "header": "姓名",
+          "raw_value": "李平"
+        },
+        "role": {
+          "coordinate": "C60",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D60",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E60",
+          "header": "工作背景",
+          "raw_value": "未公开"
+        }
+      }
+    }
+  },
+  {
+    "id": "9303208e-8570-5b82-807b-26a49b0bfecc",
+    "company_id": "7f63ce49-622a-5979-9281-887cf696039a",
+    "name": "谢晨",
+    "role": "创始人/CEO",
+    "education": [
+      "哥伦比亚大学 博士 数量金融",
+      "北京大学 本科 物理学"
+    ],
+    "work_history": [
+      "2023-至今 光轮智能 创始人/CEO",
+      "曾任Cruise、英伟达自动驾驶仿真负责人、蔚来仿真负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 61,
+      "cells": {
+        "company_name": {
+          "coordinate": "A61",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A32"
+        },
+        "name": {
+          "coordinate": "B61",
+          "header": "姓名",
+          "raw_value": "谢晨"
+        },
+        "role": {
+          "coordinate": "C61",
+          "header": "角色",
+          "raw_value": "创始人/CEO"
+        },
+        "education": {
+          "coordinate": "D61",
+          "header": "教育背景",
+          "raw_value": "哥伦比亚大学 博士 数量金融\n北京大学 本科 物理学"
+        },
+        "work_history": {
+          "coordinate": "E61",
+          "header": "工作背景",
+          "raw_value": "2023-至今 光轮智能 创始人/CEO\n曾任Cruise、英伟达自动驾驶仿真负责人、蔚来仿真负责人"
+        }
+      }
+    }
+  },
+  {
+    "id": "6a7be9dd-f9f0-5ab3-bccb-ec83e6e8ddcd",
+    "company_id": "7f63ce49-622a-5979-9281-887cf696039a",
+    "name": "杨海波",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [],
+    "provenance": {
+      "workbook": "mapping_template.xlsx",
+      "sheet": "团队表",
+      "row": 62,
+      "cells": {
+        "company_name": {
+          "coordinate": "A62",
+          "header": "公司名称",
+          "raw_value": "=公司主表!A32"
+        },
+        "name": {
+          "coordinate": "B62",
+          "header": "姓名",
+          "raw_value": "杨海波"
+        },
+        "role": {
+          "coordinate": "C62",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D62",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E62",
+          "header": "工作背景",
+          "raw_value": "未公开"
+        }
+      }
+    }
+  },
+  {
+    "id": "61536e1e-5a4b-5965-a6e3-c227cc714d44",
+    "company_id": "de3ad5d3-d5f6-5032-83fe-ab371644b461",
+    "name": "姜哲源",
+    "role": "创始人、董事长兼CTO（另有2026年报道称CEO）",
+    "education": [
+      "清华大学 博士肄业 交叉信息研究相关方向",
+      "清华大学 本科 电子工程"
+    ],
+    "work_history": [
+      "2023年至今 松延动力 创始人、董事长兼CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 3,
+      "cells": {
+        "company_name": {
+          "coordinate": "A3",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-001\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B3",
+          "header": "姓名",
+          "raw_value": "姜哲源"
+        },
+        "role": {
+          "coordinate": "C3",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CTO（另有2026年报道称CEO）"
+        },
+        "education": {
+          "coordinate": "D3",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士肄业 交叉信息研究相关方向\n清华大学 本科 电子工程"
+        },
+        "work_history": {
+          "coordinate": "E3",
+          "header": "工作背景",
+          "raw_value": "2023年至今 松延动力 创始人、董事长兼CTO"
+        },
+        "source_company_id": {
+          "coordinate": "F3",
+          "header": "公司ID",
+          "raw_value": "EI-001"
+        }
+      }
+    }
+  },
+  {
+    "id": "a90df31c-c715-5023-99de-62023a71347b",
+    "company_id": "de3ad5d3-d5f6-5032-83fe-ab371644b461",
+    "name": "张世璞",
+    "role": "联合创始人、CEO（2025年公开职务）",
+    "education": [
+      "伦敦大学学院 硕士 计算机"
+    ],
+    "work_history": [
+      "2023年至今 松延动力 联合创始人、CEO",
+      "时间段未公开 元璟资本 高级投资副总裁"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 4,
+      "cells": {
+        "company_name": {
+          "coordinate": "A4",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-001\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B4",
+          "header": "姓名",
+          "raw_value": "张世璞"
+        },
+        "role": {
+          "coordinate": "C4",
+          "header": "角色",
+          "raw_value": "联合创始人、CEO（2025年公开职务）"
+        },
+        "education": {
+          "coordinate": "D4",
+          "header": "教育背景",
+          "raw_value": "伦敦大学学院 硕士 计算机"
+        },
+        "work_history": {
+          "coordinate": "E4",
+          "header": "工作背景",
+          "raw_value": "2023年至今 松延动力 联合创始人、CEO\n时间段未公开 元璟资本 高级投资副总裁"
+        },
+        "source_company_id": {
+          "coordinate": "F4",
+          "header": "公司ID",
+          "raw_value": "EI-001"
+        }
+      }
+    }
+  },
+  {
+    "id": "67d0be31-3e46-5d76-b5e8-fd0deaff3f05",
+    "company_id": "de3ad5d3-d5f6-5032-83fe-ab371644b461",
+    "name": "胡晨旭",
+    "role": "联合创始人、首席科学家",
+    "education": [
+      "清华大学 博士在读 交叉信息研究相关方向",
+      "浙江大学 本科 求是数学班"
+    ],
+    "work_history": [
+      "2023年至今 松延动力 联合创始人、首席科学家",
+      "时间段未公开 清华大学MARS Lab 多模态研究"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 5,
+      "cells": {
+        "company_name": {
+          "coordinate": "A5",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-001\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B5",
+          "header": "姓名",
+          "raw_value": "胡晨旭"
+        },
+        "role": {
+          "coordinate": "C5",
+          "header": "角色",
+          "raw_value": "联合创始人、首席科学家"
+        },
+        "education": {
+          "coordinate": "D5",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士在读 交叉信息研究相关方向\n浙江大学 本科 求是数学班"
+        },
+        "work_history": {
+          "coordinate": "E5",
+          "header": "工作背景",
+          "raw_value": "2023年至今 松延动力 联合创始人、首席科学家\n时间段未公开 清华大学MARS Lab 多模态研究"
+        },
+        "source_company_id": {
+          "coordinate": "F5",
+          "header": "公司ID",
+          "raw_value": "EI-001"
+        }
+      }
+    }
+  },
+  {
+    "id": "1a721965-a330-5e2a-be66-f4d72294c6d1",
+    "company_id": "de3ad5d3-d5f6-5032-83fe-ab371644b461",
+    "name": "张淼",
+    "role": "联合创始人、首席市场官",
+    "education": [],
+    "work_history": [
+      "2026年公开职务 松延动力 联合创始人、首席市场官"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 6,
+      "cells": {
+        "company_name": {
+          "coordinate": "A6",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-001\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B6",
+          "header": "姓名",
+          "raw_value": "张淼"
+        },
+        "role": {
+          "coordinate": "C6",
+          "header": "角色",
+          "raw_value": "联合创始人、首席市场官"
+        },
+        "education": {
+          "coordinate": "D6",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E6",
+          "header": "工作背景",
+          "raw_value": "2026年公开职务 松延动力 联合创始人、首席市场官"
+        },
+        "source_company_id": {
+          "coordinate": "F6",
+          "header": "公司ID",
+          "raw_value": "EI-001"
+        }
+      }
+    }
+  },
+  {
+    "id": "0a1e24a2-ba85-5671-b9c4-2602614efdce",
+    "company_id": "de3ad5d3-d5f6-5032-83fe-ab371644b461",
+    "name": "崔文昊",
+    "role": "算法副总裁",
+    "education": [
+      "南加州大学 硕士 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 松延动力 算法副总裁",
+      "时间段未公开 达闼科技 强化学习算法团队成员"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 7,
+      "cells": {
+        "company_name": {
+          "coordinate": "A7",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-001\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B7",
+          "header": "姓名",
+          "raw_value": "崔文昊"
+        },
+        "role": {
+          "coordinate": "C7",
+          "header": "角色",
+          "raw_value": "算法副总裁"
+        },
+        "education": {
+          "coordinate": "D7",
+          "header": "教育背景",
+          "raw_value": "南加州大学 硕士 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E7",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 松延动力 算法副总裁\n时间段未公开 达闼科技 强化学习算法团队成员"
+        },
+        "source_company_id": {
+          "coordinate": "F7",
+          "header": "公司ID",
+          "raw_value": "EI-001"
+        }
+      }
+    }
+  },
+  {
+    "id": "8ee7d139-14de-54a6-a523-47477a4366d1",
+    "company_id": "c2c84312-fb5d-50c1-9361-4ad0b7c1dba5",
+    "name": "程昊",
+    "role": "创始人、CEO",
+    "education": [
+      "清华大学 硕士 自动化",
+      "清华大学 本科 自动化"
+    ],
+    "work_history": [
+      "2023年至今 加速进化 创始人、CEO",
+      "时间段未公开 字节跳动 飞书产品副总裁、朝夕光年负责人",
+      "时间段未公开 亚马逊 研发（具体职位未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 8,
+      "cells": {
+        "company_name": {
+          "coordinate": "A8",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-002\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B8",
+          "header": "姓名",
+          "raw_value": "程昊"
+        },
+        "role": {
+          "coordinate": "C8",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D8",
+          "header": "教育背景",
+          "raw_value": "清华大学 硕士 自动化\n清华大学 本科 自动化"
+        },
+        "work_history": {
+          "coordinate": "E8",
+          "header": "工作背景",
+          "raw_value": "2023年至今 加速进化 创始人、CEO\n时间段未公开 字节跳动 飞书产品副总裁、朝夕光年负责人\n时间段未公开 亚马逊 研发（具体职位未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F8",
+          "header": "公司ID",
+          "raw_value": "EI-002"
+        }
+      }
+    }
+  },
+  {
+    "id": "93885a7d-d1fc-548b-ad57-daa085cefa49",
+    "company_id": "c2c84312-fb5d-50c1-9361-4ad0b7c1dba5",
+    "name": "赵明国",
+    "role": "联合创始人、首席科学家",
+    "education": [
+      "清华大学 博士后 精密仪器与机械相关方向",
+      "哈尔滨工业大学 博士 机械电子工程",
+      "哈尔滨工业大学 硕士 空间飞行器设计",
+      "哈尔滨工业大学 本科 机械电子工程"
+    ],
+    "work_history": [
+      "2023年至今 加速进化 联合创始人、首席科学家",
+      "2019年至今 清华大学自动化系 研究员",
+      "2004-12—2019年 清华大学自动化系 副研究员",
+      "2003-04—2004-12 清华大学自动化系 助研",
+      "2001-05—2003-04 清华大学精密仪器与机械学系 博士后"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 9,
+      "cells": {
+        "company_name": {
+          "coordinate": "A9",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-002\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B9",
+          "header": "姓名",
+          "raw_value": "赵明国"
+        },
+        "role": {
+          "coordinate": "C9",
+          "header": "角色",
+          "raw_value": "联合创始人、首席科学家"
+        },
+        "education": {
+          "coordinate": "D9",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士后 精密仪器与机械相关方向\n哈尔滨工业大学 博士 机械电子工程\n哈尔滨工业大学 硕士 空间飞行器设计\n哈尔滨工业大学 本科 机械电子工程"
+        },
+        "work_history": {
+          "coordinate": "E9",
+          "header": "工作背景",
+          "raw_value": "2023年至今 加速进化 联合创始人、首席科学家\n2019年至今 清华大学自动化系 研究员\n2004-12—2019年 清华大学自动化系 副研究员\n2003-04—2004-12 清华大学自动化系 助研\n2001-05—2003-04 清华大学精密仪器与机械学系 博士后"
+        },
+        "source_company_id": {
+          "coordinate": "F9",
+          "header": "公司ID",
+          "raw_value": "EI-002"
+        }
+      }
+    }
+  },
+  {
+    "id": "2e1806d9-501d-5929-8992-12bd3d629ee9",
+    "company_id": "c2c84312-fb5d-50c1-9361-4ad0b7c1dba5",
+    "name": "李超逸",
+    "role": "全球化负责人",
+    "education": [],
+    "work_history": [
+      "2025年公开职务 加速进化 全球化负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 10,
+      "cells": {
+        "company_name": {
+          "coordinate": "A10",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-002\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B10",
+          "header": "姓名",
+          "raw_value": "李超逸"
+        },
+        "role": {
+          "coordinate": "C10",
+          "header": "角色",
+          "raw_value": "全球化负责人"
+        },
+        "education": {
+          "coordinate": "D10",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E10",
+          "header": "工作背景",
+          "raw_value": "2025年公开职务 加速进化 全球化负责人"
+        },
+        "source_company_id": {
+          "coordinate": "F10",
+          "header": "公司ID",
+          "raw_value": "EI-002"
+        }
+      }
+    }
+  },
+  {
+    "id": "c165bede-96e2-5c3a-a097-a67f2f590b6d",
+    "company_id": "124522e3-54fe-5d2e-a5ff-d4a7161652e5",
+    "name": "张正涛",
+    "role": "创始人",
+    "education": [
+      "中国科学院自动化研究所 博士 控制理论与控制工程",
+      "北京理工大学 硕士 检测技术与自动化装置",
+      "中国石油大学（华东） 本科 自动化"
+    ],
+    "work_history": [
+      "2023年至今 中科慧灵 创始人",
+      "时间段未公开 中国科学院自动化研究所 研究员、博士生导师"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 11,
+      "cells": {
+        "company_name": {
+          "coordinate": "A11",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-003\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B11",
+          "header": "姓名",
+          "raw_value": "张正涛"
+        },
+        "role": {
+          "coordinate": "C11",
+          "header": "角色",
+          "raw_value": "创始人"
+        },
+        "education": {
+          "coordinate": "D11",
+          "header": "教育背景",
+          "raw_value": "中国科学院自动化研究所 博士 控制理论与控制工程\n北京理工大学 硕士 检测技术与自动化装置\n中国石油大学（华东） 本科 自动化"
+        },
+        "work_history": {
+          "coordinate": "E11",
+          "header": "工作背景",
+          "raw_value": "2023年至今 中科慧灵 创始人\n时间段未公开 中国科学院自动化研究所 研究员、博士生导师"
+        },
+        "source_company_id": {
+          "coordinate": "F11",
+          "header": "公司ID",
+          "raw_value": "EI-003"
+        }
+      }
+    }
+  },
+  {
+    "id": "5c6db41b-b2c9-5cce-8bed-ba628b2df2a0",
+    "company_id": "124522e3-54fe-5d2e-a5ff-d4a7161652e5",
+    "name": "张淼",
+    "role": "联合创始人、COO（2025年披露）",
+    "education": [
+      "清华大学（与麻省理工联合培养） 硕士 工商管理MBA"
+    ],
+    "work_history": [
+      "2025年公开职务 灵宝CASBOT 联合创始人、COO",
+      "时间段未公开 腾讯 AI智能平台高级产品经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 12,
+      "cells": {
+        "company_name": {
+          "coordinate": "A12",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-003\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B12",
+          "header": "姓名",
+          "raw_value": "张淼"
+        },
+        "role": {
+          "coordinate": "C12",
+          "header": "角色",
+          "raw_value": "联合创始人、COO（2025年披露）"
+        },
+        "education": {
+          "coordinate": "D12",
+          "header": "教育背景",
+          "raw_value": "清华大学（与麻省理工联合培养） 硕士 工商管理MBA"
+        },
+        "work_history": {
+          "coordinate": "E12",
+          "header": "工作背景",
+          "raw_value": "2025年公开职务 灵宝CASBOT 联合创始人、COO\n时间段未公开 腾讯 AI智能平台高级产品经理"
+        },
+        "source_company_id": {
+          "coordinate": "F12",
+          "header": "公司ID",
+          "raw_value": "EI-003"
+        }
+      }
+    }
+  },
+  {
+    "id": "9ccec029-9c9a-568b-871e-cd2b87e83955",
+    "company_id": "9942eae9-f193-5f0b-bea4-9094e369e987",
+    "name": "喻超",
+    "role": "创始人、CEO",
+    "education": [
+      "清华大学 硕士 动力机械与控制相关方向",
+      "清华大学 本科 热能工程、数学"
+    ],
+    "work_history": [
+      "2024年至今 鹿明机器人 创始人、CEO",
+      "2020年至创业前 追觅科技 机器人业务负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 13,
+      "cells": {
+        "company_name": {
+          "coordinate": "A13",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-004\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B13",
+          "header": "姓名",
+          "raw_value": "喻超"
+        },
+        "role": {
+          "coordinate": "C13",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D13",
+          "header": "教育背景",
+          "raw_value": "清华大学 硕士 动力机械与控制相关方向\n清华大学 本科 热能工程、数学"
+        },
+        "work_history": {
+          "coordinate": "E13",
+          "header": "工作背景",
+          "raw_value": "2024年至今 鹿明机器人 创始人、CEO\n2020年至创业前 追觅科技 机器人业务负责人"
+        },
+        "source_company_id": {
+          "coordinate": "F13",
+          "header": "公司ID",
+          "raw_value": "EI-004"
+        }
+      }
+    }
+  },
+  {
+    "id": "f5eecef2-6c8e-5dbe-b12a-18826093cd0e",
+    "company_id": "9942eae9-f193-5f0b-bea4-9094e369e987",
+    "name": "曹俊亮",
+    "role": "联合创始人、CTO",
+    "education": [
+      "上海交通大学 博士 机械工程"
+    ],
+    "work_history": [
+      "2024年至今 鹿明机器人 联合创始人、CTO",
+      "时间段未公开 追觅科技 机器人研发（职位未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 14,
+      "cells": {
+        "company_name": {
+          "coordinate": "A14",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-004\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B14",
+          "header": "姓名",
+          "raw_value": "曹俊亮"
+        },
+        "role": {
+          "coordinate": "C14",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D14",
+          "header": "教育背景",
+          "raw_value": "上海交通大学 博士 机械工程"
+        },
+        "work_history": {
+          "coordinate": "E14",
+          "header": "工作背景",
+          "raw_value": "2024年至今 鹿明机器人 联合创始人、CTO\n时间段未公开 追觅科技 机器人研发（职位未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F14",
+          "header": "公司ID",
+          "raw_value": "EI-004"
+        }
+      }
+    }
+  },
+  {
+    "id": "e2ace918-0fa2-5ea6-b56b-c33e49b4c82e",
+    "company_id": "9942eae9-f193-5f0b-bea4-9094e369e987",
+    "name": "赵广智",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "2024年至今 鹿明机器人 联合创始人",
+      "时间段未公开 复星集团、京东、百度 人工智能投资与战略规划（各段时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 15,
+      "cells": {
+        "company_name": {
+          "coordinate": "A15",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-004\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B15",
+          "header": "姓名",
+          "raw_value": "赵广智"
+        },
+        "role": {
+          "coordinate": "C15",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D15",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E15",
+          "header": "工作背景",
+          "raw_value": "2024年至今 鹿明机器人 联合创始人\n时间段未公开 复星集团、京东、百度 人工智能投资与战略规划（各段时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F15",
+          "header": "公司ID",
+          "raw_value": "EI-004"
+        }
+      }
+    }
+  },
+  {
+    "id": "284d2c6c-7544-5970-b7f7-bb2f6e86daa1",
+    "company_id": "b510ee84-afe4-5116-a4ca-369d3bd4f1b5",
+    "name": "韩峰涛",
+    "role": "创始人、CEO",
+    "education": [
+      "华中科技大学 博士阶段（是否取得学位未公开） 机械工程相关方向",
+      "华中科技大学 本科 自动化"
+    ],
+    "work_history": [
+      "2024年至今 千寻智能 创始人、CEO",
+      "2015年至创业前 珞石机器人 联合创始人、CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 16,
+      "cells": {
+        "company_name": {
+          "coordinate": "A16",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-005\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B16",
+          "header": "姓名",
+          "raw_value": "韩峰涛"
+        },
+        "role": {
+          "coordinate": "C16",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D16",
+          "header": "教育背景",
+          "raw_value": "华中科技大学 博士阶段（是否取得学位未公开） 机械工程相关方向\n华中科技大学 本科 自动化"
+        },
+        "work_history": {
+          "coordinate": "E16",
+          "header": "工作背景",
+          "raw_value": "2024年至今 千寻智能 创始人、CEO\n2015年至创业前 珞石机器人 联合创始人、CTO"
+        },
+        "source_company_id": {
+          "coordinate": "F16",
+          "header": "公司ID",
+          "raw_value": "EI-005"
+        }
+      }
+    }
+  },
+  {
+    "id": "699de686-c880-5405-a832-bc96a0172d06",
+    "company_id": "b510ee84-afe4-5116-a4ca-369d3bd4f1b5",
+    "name": "高阳",
+    "role": "联合创始人、CTO",
+    "education": [
+      "加州大学伯克利分校 博士后 机器人学习研究",
+      "加州大学伯克利分校 博士 计算机相关方向",
+      "清华大学 本科 计算机科学与技术"
+    ],
+    "work_history": [
+      "2024年至今 千寻智能 联合创始人、CTO",
+      "时间段未公开 清华大学交叉信息研究院 助理教授",
+      "时间段未公开 上海期智研究院 PI"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 17,
+      "cells": {
+        "company_name": {
+          "coordinate": "A17",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-005\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B17",
+          "header": "姓名",
+          "raw_value": "高阳"
+        },
+        "role": {
+          "coordinate": "C17",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D17",
+          "header": "教育背景",
+          "raw_value": "加州大学伯克利分校 博士后 机器人学习研究\n加州大学伯克利分校 博士 计算机相关方向\n清华大学 本科 计算机科学与技术"
+        },
+        "work_history": {
+          "coordinate": "E17",
+          "header": "工作背景",
+          "raw_value": "2024年至今 千寻智能 联合创始人、CTO\n时间段未公开 清华大学交叉信息研究院 助理教授\n时间段未公开 上海期智研究院 PI"
+        },
+        "source_company_id": {
+          "coordinate": "F17",
+          "header": "公司ID",
+          "raw_value": "EI-005"
+        }
+      }
+    }
+  },
+  {
+    "id": "5412e396-cdc3-5e84-a12e-572c2483072d",
+    "company_id": "b510ee84-afe4-5116-a4ca-369d3bd4f1b5",
+    "name": "郑灵茵",
+    "role": "联合创始人、COO",
+    "education": [
+      "北京大学 硕士 工商管理",
+      "四川大学 本科 商务英语"
+    ],
+    "work_history": [
+      "2024年至今 千寻智能 联合创始人、COO",
+      "创业前 珞石机器人 市场与海外业务负责人（时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 18,
+      "cells": {
+        "company_name": {
+          "coordinate": "A18",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-005\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B18",
+          "header": "姓名",
+          "raw_value": "郑灵茵"
+        },
+        "role": {
+          "coordinate": "C18",
+          "header": "角色",
+          "raw_value": "联合创始人、COO"
+        },
+        "education": {
+          "coordinate": "D18",
+          "header": "教育背景",
+          "raw_value": "北京大学 硕士 工商管理\n四川大学 本科 商务英语"
+        },
+        "work_history": {
+          "coordinate": "E18",
+          "header": "工作背景",
+          "raw_value": "2024年至今 千寻智能 联合创始人、COO\n创业前 珞石机器人 市场与海外业务负责人（时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F18",
+          "header": "公司ID",
+          "raw_value": "EI-005"
+        }
+      }
+    }
+  },
+  {
+    "id": "f9ace62c-518c-574c-b678-82cc248e984c",
+    "company_id": "432408f9-dd3a-5f10-b247-ed7e6671e6bb",
+    "name": "唐文斌",
+    "role": "创始人、CEO",
+    "education": [
+      "清华大学 本科 计算机（姚班）"
+    ],
+    "work_history": [
+      "2025年至今 原力灵机 创始人、CEO",
+      "2011年至创业前 旷视科技 联合创始人、CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 19,
+      "cells": {
+        "company_name": {
+          "coordinate": "A19",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-006\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B19",
+          "header": "姓名",
+          "raw_value": "唐文斌"
+        },
+        "role": {
+          "coordinate": "C19",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D19",
+          "header": "教育背景",
+          "raw_value": "清华大学 本科 计算机（姚班）"
+        },
+        "work_history": {
+          "coordinate": "E19",
+          "header": "工作背景",
+          "raw_value": "2025年至今 原力灵机 创始人、CEO\n2011年至创业前 旷视科技 联合创始人、CTO"
+        },
+        "source_company_id": {
+          "coordinate": "F19",
+          "header": "公司ID",
+          "raw_value": "EI-006"
+        }
+      }
+    }
+  },
+  {
+    "id": "b4105d46-116b-5517-86b4-45931efac716",
+    "company_id": "432408f9-dd3a-5f10-b247-ed7e6671e6bb",
+    "name": "范浩强",
+    "role": "联合创始人",
+    "education": [
+      "清华大学 本科 计算机（交叉信息学院）"
+    ],
+    "work_history": [
+      "2025年至今 原力灵机 联合创始人",
+      "2011年至创业前 旷视科技 算法研究员、算法总监"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 20,
+      "cells": {
+        "company_name": {
+          "coordinate": "A20",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-006\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B20",
+          "header": "姓名",
+          "raw_value": "范浩强"
+        },
+        "role": {
+          "coordinate": "C20",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D20",
+          "header": "教育背景",
+          "raw_value": "清华大学 本科 计算机（交叉信息学院）"
+        },
+        "work_history": {
+          "coordinate": "E20",
+          "header": "工作背景",
+          "raw_value": "2025年至今 原力灵机 联合创始人\n2011年至创业前 旷视科技 算法研究员、算法总监"
+        },
+        "source_company_id": {
+          "coordinate": "F20",
+          "header": "公司ID",
+          "raw_value": "EI-006"
+        }
+      }
+    }
+  },
+  {
+    "id": "21c0db70-e2f4-5e11-a406-7d98cfdbc679",
+    "company_id": "432408f9-dd3a-5f10-b247-ed7e6671e6bb",
+    "name": "周而进",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "2025年至今 原力灵机 联合创始人",
+      "创业前 旷视科技 算法研究（时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 21,
+      "cells": {
+        "company_name": {
+          "coordinate": "A21",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-006\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B21",
+          "header": "姓名",
+          "raw_value": "周而进"
+        },
+        "role": {
+          "coordinate": "C21",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D21",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E21",
+          "header": "工作背景",
+          "raw_value": "2025年至今 原力灵机 联合创始人\n创业前 旷视科技 算法研究（时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F21",
+          "header": "公司ID",
+          "raw_value": "EI-006"
+        }
+      }
+    }
+  },
+  {
+    "id": "9ce1fc9d-f306-5aaf-8c08-f42b469a2558",
+    "company_id": "432408f9-dd3a-5f10-b247-ed7e6671e6bb",
+    "name": "汪天才",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "2025年至今 原力灵机 联合创始人",
+      "创业前 旷视科技 算法研究（时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 22,
+      "cells": {
+        "company_name": {
+          "coordinate": "A22",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-006\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B22",
+          "header": "姓名",
+          "raw_value": "汪天才"
+        },
+        "role": {
+          "coordinate": "C22",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D22",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E22",
+          "header": "工作背景",
+          "raw_value": "2025年至今 原力灵机 联合创始人\n创业前 旷视科技 算法研究（时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F22",
+          "header": "公司ID",
+          "raw_value": "EI-006"
+        }
+      }
+    }
+  },
+  {
+    "id": "7c6c71a1-4533-5d65-8573-9ff99dc1dc87",
+    "company_id": "c4eb6a0c-779a-5d33-99a3-06e848192061",
+    "name": "张玉峰",
+    "role": "创始人、CEO",
+    "education": [],
+    "work_history": [
+      "2025年至今 无界动力 创始人、CEO",
+      "2017年至创业前 地平线 副总裁、智能汽车事业部总裁",
+      "此前 索尼、ARM 任职（具体时间和职位未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 23,
+      "cells": {
+        "company_name": {
+          "coordinate": "A23",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-007\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B23",
+          "header": "姓名",
+          "raw_value": "张玉峰"
+        },
+        "role": {
+          "coordinate": "C23",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D23",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E23",
+          "header": "工作背景",
+          "raw_value": "2025年至今 无界动力 创始人、CEO\n2017年至创业前 地平线 副总裁、智能汽车事业部总裁\n此前 索尼、ARM 任职（具体时间和职位未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F23",
+          "header": "公司ID",
+          "raw_value": "EI-007"
+        }
+      }
+    }
+  },
+  {
+    "id": "8e2227d6-c9a9-5942-9eac-da6053cb0a3e",
+    "company_id": "c4eb6a0c-779a-5d33-99a3-06e848192061",
+    "name": "夏中谱",
+    "role": "联合创始人、联席CTO",
+    "education": [],
+    "work_history": [
+      "时间段未公开 无界动力 联合创始人、联席CTO",
+      "创业前 理想汽车 算法技术负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 24,
+      "cells": {
+        "company_name": {
+          "coordinate": "A24",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-007\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B24",
+          "header": "姓名",
+          "raw_value": "夏中谱"
+        },
+        "role": {
+          "coordinate": "C24",
+          "header": "角色",
+          "raw_value": "联合创始人、联席CTO"
+        },
+        "education": {
+          "coordinate": "D24",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E24",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 无界动力 联合创始人、联席CTO\n创业前 理想汽车 算法技术负责人"
+        },
+        "source_company_id": {
+          "coordinate": "F24",
+          "header": "公司ID",
+          "raw_value": "EI-007"
+        }
+      }
+    }
+  },
+  {
+    "id": "184a0a1f-8021-551a-bb44-865f93bf35f4",
+    "company_id": "c4eb6a0c-779a-5d33-99a3-06e848192061",
+    "name": "王瑛韫",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "时间段未公开 无界动力 联合创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 25,
+      "cells": {
+        "company_name": {
+          "coordinate": "A25",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-007\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B25",
+          "header": "姓名",
+          "raw_value": "王瑛韫"
+        },
+        "role": {
+          "coordinate": "C25",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D25",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E25",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 无界动力 联合创始人"
+        },
+        "source_company_id": {
+          "coordinate": "F25",
+          "header": "公司ID",
+          "raw_value": "EI-007"
+        }
+      }
+    }
+  },
+  {
+    "id": "a0759809-3ff5-5707-9d2b-cfd1523fac77",
+    "company_id": "c4eb6a0c-779a-5d33-99a3-06e848192061",
+    "name": "许闻达",
+    "role": "CTO",
+    "education": [],
+    "work_history": [
+      "2025年至今 无界动力 核心技术高管、CTO",
+      "此前 滴滴自动驾驶 技术高管（具体时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 26,
+      "cells": {
+        "company_name": {
+          "coordinate": "A26",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-007\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B26",
+          "header": "姓名",
+          "raw_value": "许闻达"
+        },
+        "role": {
+          "coordinate": "C26",
+          "header": "角色",
+          "raw_value": "CTO"
+        },
+        "education": {
+          "coordinate": "D26",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E26",
+          "header": "工作背景",
+          "raw_value": "2025年至今 无界动力 核心技术高管、CTO\n此前 滴滴自动驾驶 技术高管（具体时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F26",
+          "header": "公司ID",
+          "raw_value": "EI-007"
+        }
+      }
+    }
+  },
+  {
+    "id": "351ed5aa-9a42-5b2c-97ae-e7b34d1f351d",
+    "company_id": "2c6a9233-8c72-56a1-8440-e4d9fd4016f7",
+    "name": "黄冠",
+    "role": "创始人、CEO",
+    "education": [
+      "清华大学 博士 自动化（创新领军工程博士）",
+      "中国科学院自动化研究所 硕士 专业未公开"
+    ],
+    "work_history": [
+      "2023年至今 极佳视界 创始人、CEO",
+      "创业前 鉴智机器人 合伙人",
+      "此前 地平线 视觉感知技术负责人",
+      "此前 微软亚洲研究院、三星中国研究院 任职（具体时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 27,
+      "cells": {
+        "company_name": {
+          "coordinate": "A27",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-008\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B27",
+          "header": "姓名",
+          "raw_value": "黄冠"
+        },
+        "role": {
+          "coordinate": "C27",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D27",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士 自动化（创新领军工程博士）\n中国科学院自动化研究所 硕士 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E27",
+          "header": "工作背景",
+          "raw_value": "2023年至今 极佳视界 创始人、CEO\n创业前 鉴智机器人 合伙人\n此前 地平线 视觉感知技术负责人\n此前 微软亚洲研究院、三星中国研究院 任职（具体时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F27",
+          "header": "公司ID",
+          "raw_value": "EI-008"
+        }
+      }
+    }
+  },
+  {
+    "id": "a3706568-a3a6-5274-a1d2-d389c2b5d7a9",
+    "company_id": "2c6a9233-8c72-56a1-8440-e4d9fd4016f7",
+    "name": "朱政",
+    "role": "联合创始人、首席科学家",
+    "education": [
+      "清华大学 博士后 自动化研究",
+      "中国科学院自动化研究所 博士 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 极佳视界 联合创始人、首席科学家",
+      "2019—2021年 清华大学自动化系 博士后"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 28,
+      "cells": {
+        "company_name": {
+          "coordinate": "A28",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-008\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B28",
+          "header": "姓名",
+          "raw_value": "朱政"
+        },
+        "role": {
+          "coordinate": "C28",
+          "header": "角色",
+          "raw_value": "联合创始人、首席科学家"
+        },
+        "education": {
+          "coordinate": "D28",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士后 自动化研究\n中国科学院自动化研究所 博士 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E28",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 极佳视界 联合创始人、首席科学家\n2019—2021年 清华大学自动化系 博士后"
+        },
+        "source_company_id": {
+          "coordinate": "F28",
+          "header": "公司ID",
+          "raw_value": "EI-008"
+        }
+      }
+    }
+  },
+  {
+    "id": "f12bfa10-3f7a-5b51-9bff-76308999376e",
+    "company_id": "05b22d57-1176-5bb2-ad5f-7b5af09739e5",
+    "name": "段江哗",
+    "role": "创始人、CEO",
+    "education": [
+      "香港科技大学 博士后 研究方向未公开",
+      "中国科学院 博士 专业未公开"
+    ],
+    "work_history": [
+      "2023年至今 戴盟机器人 创始人、CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 29,
+      "cells": {
+        "company_name": {
+          "coordinate": "A29",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-009\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B29",
+          "header": "姓名",
+          "raw_value": "段江哗"
+        },
+        "role": {
+          "coordinate": "C29",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D29",
+          "header": "教育背景",
+          "raw_value": "香港科技大学 博士后 研究方向未公开\n中国科学院 博士 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E29",
+          "header": "工作背景",
+          "raw_value": "2023年至今 戴盟机器人 创始人、CEO"
+        },
+        "source_company_id": {
+          "coordinate": "F29",
+          "header": "公司ID",
+          "raw_value": "EI-009"
+        }
+      }
+    }
+  },
+  {
+    "id": "b7b8e4d5-602c-52cd-aea0-be6fdd254a5c",
+    "company_id": "05b22d57-1176-5bb2-ad5f-7b5af09739e5",
+    "name": "王煜",
+    "role": "联合创始人、首席科学家",
+    "education": [
+      "卡内基梅隆大学 博士 机器人学",
+      "西安交通大学 本科 机械制造"
+    ],
+    "work_history": [
+      "2023年至今 戴盟机器人 联合创始人、首席科学家",
+      "2015年起 香港科技大学机器人研究院 创始院长",
+      "此前 新加坡国立大学、香港中文大学、美国马里兰大学 教职（任职时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 30,
+      "cells": {
+        "company_name": {
+          "coordinate": "A30",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-009\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B30",
+          "header": "姓名",
+          "raw_value": "王煜"
+        },
+        "role": {
+          "coordinate": "C30",
+          "header": "角色",
+          "raw_value": "联合创始人、首席科学家"
+        },
+        "education": {
+          "coordinate": "D30",
+          "header": "教育背景",
+          "raw_value": "卡内基梅隆大学 博士 机器人学\n西安交通大学 本科 机械制造"
+        },
+        "work_history": {
+          "coordinate": "E30",
+          "header": "工作背景",
+          "raw_value": "2023年至今 戴盟机器人 联合创始人、首席科学家\n2015年起 香港科技大学机器人研究院 创始院长\n此前 新加坡国立大学、香港中文大学、美国马里兰大学 教职（任职时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F30",
+          "header": "公司ID",
+          "raw_value": "EI-009"
+        }
+      }
+    }
+  },
+  {
+    "id": "038ef107-283c-5977-b905-1cc0a9632f8a",
+    "company_id": "05b22d57-1176-5bb2-ad5f-7b5af09739e5",
+    "name": "原玮浩",
+    "role": "首席AI科学家",
+    "education": [],
+    "work_history": [
+      "时间段未公开 戴盟机器人 首席AI科学家",
+      "此前 阿里通义实验室 多模态研究专家"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 31,
+      "cells": {
+        "company_name": {
+          "coordinate": "A31",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-009\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B31",
+          "header": "姓名",
+          "raw_value": "原玮浩"
+        },
+        "role": {
+          "coordinate": "C31",
+          "header": "角色",
+          "raw_value": "首席AI科学家"
+        },
+        "education": {
+          "coordinate": "D31",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E31",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 戴盟机器人 首席AI科学家\n此前 阿里通义实验室 多模态研究专家"
+        },
+        "source_company_id": {
+          "coordinate": "F31",
+          "header": "公司ID",
+          "raw_value": "EI-009"
+        }
+      }
+    }
+  },
+  {
+    "id": "3a662a46-ce3d-5700-a62c-fe8eb7c31fc6",
+    "company_id": "05b22d57-1176-5bb2-ad5f-7b5af09739e5",
+    "name": "杜仪湃",
+    "role": "研发兼触觉负责人",
+    "education": [
+      "学校未公开 博士 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 戴盟机器人 研发兼触觉负责人、单色光视触觉传感器架构总设计师"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 32,
+      "cells": {
+        "company_name": {
+          "coordinate": "A32",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-009\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B32",
+          "header": "姓名",
+          "raw_value": "杜仪湃"
+        },
+        "role": {
+          "coordinate": "C32",
+          "header": "角色",
+          "raw_value": "研发兼触觉负责人"
+        },
+        "education": {
+          "coordinate": "D32",
+          "header": "教育背景",
+          "raw_value": "学校未公开 博士 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E32",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 戴盟机器人 研发兼触觉负责人、单色光视触觉传感器架构总设计师"
+        },
+        "source_company_id": {
+          "coordinate": "F32",
+          "header": "公司ID",
+          "raw_value": "EI-009"
+        }
+      }
+    }
+  },
+  {
+    "id": "d1dcb23e-60d1-5ffa-8873-737320158bac",
+    "company_id": "f04ef29f-7eb2-52ef-9862-56e00c03f375",
+    "name": "刘吴月",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "西北工业大学 硕士 流体机械及工程",
+      "西北工业大学 本科 飞行器动力工程"
+    ],
+    "work_history": [
+      "2019年至今 蓝点触控 创始人、董事长兼CEO",
+      "2013年至创业前 中国航天空气动力技术研究院 技术研发"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 33,
+      "cells": {
+        "company_name": {
+          "coordinate": "A33",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-010\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B33",
+          "header": "姓名",
+          "raw_value": "刘吴月"
+        },
+        "role": {
+          "coordinate": "C33",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D33",
+          "header": "教育背景",
+          "raw_value": "西北工业大学 硕士 流体机械及工程\n西北工业大学 本科 飞行器动力工程"
+        },
+        "work_history": {
+          "coordinate": "E33",
+          "header": "工作背景",
+          "raw_value": "2019年至今 蓝点触控 创始人、董事长兼CEO\n2013年至创业前 中国航天空气动力技术研究院 技术研发"
+        },
+        "source_company_id": {
+          "coordinate": "F33",
+          "header": "公司ID",
+          "raw_value": "EI-010"
+        }
+      }
+    }
+  },
+  {
+    "id": "737fa845-e2fb-5817-b79a-a6b2276a8cab",
+    "company_id": "9b42f8a5-a616-5993-92e0-a297ea55cfe2",
+    "name": "樊钰",
+    "role": "创始人、CEO",
+    "education": [
+      "北京跟踪与通信技术研究所 硕士 专业未公开",
+      "浙江大学 本科 电子信息技术及仪器"
+    ],
+    "work_history": [
+      "2017年末至今 迁移科技 创始人、CEO",
+      "2014年起 回车科技 创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 34,
+      "cells": {
+        "company_name": {
+          "coordinate": "A34",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-011\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B34",
+          "header": "姓名",
+          "raw_value": "樊钰"
+        },
+        "role": {
+          "coordinate": "C34",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D34",
+          "header": "教育背景",
+          "raw_value": "北京跟踪与通信技术研究所 硕士 专业未公开\n浙江大学 本科 电子信息技术及仪器"
+        },
+        "work_history": {
+          "coordinate": "E34",
+          "header": "工作背景",
+          "raw_value": "2017年末至今 迁移科技 创始人、CEO\n2014年起 回车科技 创始人"
+        },
+        "source_company_id": {
+          "coordinate": "F34",
+          "header": "公司ID",
+          "raw_value": "EI-011"
+        }
+      }
+    }
+  },
+  {
+    "id": "6c9f3ad1-db60-5b2d-ab1c-db61c93a313f",
+    "company_id": "9b42f8a5-a616-5993-92e0-a297ea55cfe2",
+    "name": "李宏坤",
+    "role": "联合创始人、CTO",
+    "education": [
+      "学校未公开（航天研究所） 硕士 专业未公开",
+      "清华大学 本科 自动化"
+    ],
+    "work_history": [
+      "2017年至今 迁移科技 联合创始人、CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 35,
+      "cells": {
+        "company_name": {
+          "coordinate": "A35",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-011\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B35",
+          "header": "姓名",
+          "raw_value": "李宏坤"
+        },
+        "role": {
+          "coordinate": "C35",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D35",
+          "header": "教育背景",
+          "raw_value": "学校未公开（航天研究所） 硕士 专业未公开\n清华大学 本科 自动化"
+        },
+        "work_history": {
+          "coordinate": "E35",
+          "header": "工作背景",
+          "raw_value": "2017年至今 迁移科技 联合创始人、CTO"
+        },
+        "source_company_id": {
+          "coordinate": "F35",
+          "header": "公司ID",
+          "raw_value": "EI-011"
+        }
+      }
+    }
+  },
+  {
+    "id": "e91d249f-2fda-5b8c-9875-d5a985f160d8",
+    "company_id": "64957b45-8c07-5bd9-b403-07433e5799ee",
+    "name": "马道林",
+    "role": "创始人、CEO",
+    "education": [
+      "麻省理工学院 博士后 机器人操作与触觉研究",
+      "北京大学 博士 理论与应用力学",
+      "北京大学 本科 理论与应用力学"
+    ],
+    "work_history": [
+      "2024年至今 千觉机器人 创始人、CEO",
+      "2021年至今 上海交通大学 长聘教轨副教授",
+      "2016年起 麻省理工学院Mcube实验室 博士后"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 36,
+      "cells": {
+        "company_name": {
+          "coordinate": "A36",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-012\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B36",
+          "header": "姓名",
+          "raw_value": "马道林"
+        },
+        "role": {
+          "coordinate": "C36",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D36",
+          "header": "教育背景",
+          "raw_value": "麻省理工学院 博士后 机器人操作与触觉研究\n北京大学 博士 理论与应用力学\n北京大学 本科 理论与应用力学"
+        },
+        "work_history": {
+          "coordinate": "E36",
+          "header": "工作背景",
+          "raw_value": "2024年至今 千觉机器人 创始人、CEO\n2021年至今 上海交通大学 长聘教轨副教授\n2016年起 麻省理工学院Mcube实验室 博士后"
+        },
+        "source_company_id": {
+          "coordinate": "F36",
+          "header": "公司ID",
+          "raw_value": "EI-012"
+        }
+      }
+    }
+  },
+  {
+    "id": "aaf0581f-c2ab-55b2-97eb-d7b04eff0cf3",
+    "company_id": "64957b45-8c07-5bd9-b403-07433e5799ee",
+    "name": "刘琎",
+    "role": "联合创始人、运营负责人",
+    "education": [
+      "上海交通大学 博士阶段 机械工程（学位是否取得未公开）"
+    ],
+    "work_history": [
+      "时间段未公开 千觉机器人 联合创始人、运营负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 37,
+      "cells": {
+        "company_name": {
+          "coordinate": "A37",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-012\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B37",
+          "header": "姓名",
+          "raw_value": "刘琎"
+        },
+        "role": {
+          "coordinate": "C37",
+          "header": "角色",
+          "raw_value": "联合创始人、运营负责人"
+        },
+        "education": {
+          "coordinate": "D37",
+          "header": "教育背景",
+          "raw_value": "上海交通大学 博士阶段 机械工程（学位是否取得未公开）"
+        },
+        "work_history": {
+          "coordinate": "E37",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 千觉机器人 联合创始人、运营负责人"
+        },
+        "source_company_id": {
+          "coordinate": "F37",
+          "header": "公司ID",
+          "raw_value": "EI-012"
+        }
+      }
+    }
+  },
+  {
+    "id": "ca462ce5-09c2-59cc-9bfd-5a76cb4ebaf4",
+    "company_id": "64957b45-8c07-5bd9-b403-07433e5799ee",
+    "name": "赵浩南",
+    "role": "联合创始人、CTO",
+    "education": [],
+    "work_history": [
+      "时间段未公开 千觉机器人 联合创始人、CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 38,
+      "cells": {
+        "company_name": {
+          "coordinate": "A38",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-012\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B38",
+          "header": "姓名",
+          "raw_value": "赵浩南"
+        },
+        "role": {
+          "coordinate": "C38",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D38",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E38",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 千觉机器人 联合创始人、CTO"
+        },
+        "source_company_id": {
+          "coordinate": "F38",
+          "header": "公司ID",
+          "raw_value": "EI-012"
+        }
+      }
+    }
+  },
+  {
+    "id": "a537ffb9-3569-52a6-afa1-283f03d86e29",
+    "company_id": "95ec78de-e482-5caa-bb09-6f853eb89e12",
+    "name": "许春山",
+    "role": "创始人、董事长",
+    "education": [
+      "上海交通大学 博士 控制理论与控制工程"
+    ],
+    "work_history": [
+      "2024年至今 灵巧智能 创始人、董事长",
+      "时间段未公开 上海人工智能研究院 副院长",
+      "此前 亿嘉和 创始合伙人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 39,
+      "cells": {
+        "company_name": {
+          "coordinate": "A39",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-013\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B39",
+          "header": "姓名",
+          "raw_value": "许春山"
+        },
+        "role": {
+          "coordinate": "C39",
+          "header": "角色",
+          "raw_value": "创始人、董事长"
+        },
+        "education": {
+          "coordinate": "D39",
+          "header": "教育背景",
+          "raw_value": "上海交通大学 博士 控制理论与控制工程"
+        },
+        "work_history": {
+          "coordinate": "E39",
+          "header": "工作背景",
+          "raw_value": "2024年至今 灵巧智能 创始人、董事长\n时间段未公开 上海人工智能研究院 副院长\n此前 亿嘉和 创始合伙人"
+        },
+        "source_company_id": {
+          "coordinate": "F39",
+          "header": "公司ID",
+          "raw_value": "EI-013"
+        }
+      }
+    }
+  },
+  {
+    "id": "0553c7a6-e2c8-5e5b-becd-3f29d622b8c5",
+    "company_id": "95ec78de-e482-5caa-bb09-6f853eb89e12",
+    "name": "周晨",
+    "role": "联合创始人、CEO",
+    "education": [
+      "上海交通大学 博士 机械电子工程（机器人方向）",
+      "上海交通大学 硕士 机器人相关方向",
+      "上海交通大学 本科 机器人相关方向"
+    ],
+    "work_history": [
+      "2024年至今 灵巧智能 联合创始人、CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 40,
+      "cells": {
+        "company_name": {
+          "coordinate": "A40",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-013\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B40",
+          "header": "姓名",
+          "raw_value": "周晨"
+        },
+        "role": {
+          "coordinate": "C40",
+          "header": "角色",
+          "raw_value": "联合创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D40",
+          "header": "教育背景",
+          "raw_value": "上海交通大学 博士 机械电子工程（机器人方向）\n上海交通大学 硕士 机器人相关方向\n上海交通大学 本科 机器人相关方向"
+        },
+        "work_history": {
+          "coordinate": "E40",
+          "header": "工作背景",
+          "raw_value": "2024年至今 灵巧智能 联合创始人、CEO"
+        },
+        "source_company_id": {
+          "coordinate": "F40",
+          "header": "公司ID",
+          "raw_value": "EI-013"
+        }
+      }
+    }
+  },
+  {
+    "id": "2eb9af3d-52b9-51b6-997f-6fefb67473cc",
+    "company_id": "95ec78de-e482-5caa-bb09-6f853eb89e12",
+    "name": "朱豪华",
+    "role": "联合创始人、CTO",
+    "education": [
+      "上海交通大学 博士 机器人相关方向",
+      "上海交通大学 硕士 机器人相关方向",
+      "上海交通大学 本科 机器人相关方向"
+    ],
+    "work_history": [
+      "2024年至今 灵巧智能 联合创始人、CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 41,
+      "cells": {
+        "company_name": {
+          "coordinate": "A41",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-013\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B41",
+          "header": "姓名",
+          "raw_value": "朱豪华"
+        },
+        "role": {
+          "coordinate": "C41",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D41",
+          "header": "教育背景",
+          "raw_value": "上海交通大学 博士 机器人相关方向\n上海交通大学 硕士 机器人相关方向\n上海交通大学 本科 机器人相关方向"
+        },
+        "work_history": {
+          "coordinate": "E41",
+          "header": "工作背景",
+          "raw_value": "2024年至今 灵巧智能 联合创始人、CTO"
+        },
+        "source_company_id": {
+          "coordinate": "F41",
+          "header": "公司ID",
+          "raw_value": "EI-013"
+        }
+      }
+    }
+  },
+  {
+    "id": "90326bda-09a7-59c2-acbc-45acb31a7101",
+    "company_id": "7ea87342-942b-5a4b-94f8-70536aa9f778",
+    "name": "倪华良",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "复旦大学 本科 电子工程"
+    ],
+    "work_history": [
+      "2015年至今 傲意科技 创始人、董事长兼CEO",
+      "创业前 高通加拿大分公司 主任工程师"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 42,
+      "cells": {
+        "company_name": {
+          "coordinate": "A42",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-014\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B42",
+          "header": "姓名",
+          "raw_value": "倪华良"
+        },
+        "role": {
+          "coordinate": "C42",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D42",
+          "header": "教育背景",
+          "raw_value": "复旦大学 本科 电子工程"
+        },
+        "work_history": {
+          "coordinate": "E42",
+          "header": "工作背景",
+          "raw_value": "2015年至今 傲意科技 创始人、董事长兼CEO\n创业前 高通加拿大分公司 主任工程师"
+        },
+        "source_company_id": {
+          "coordinate": "F42",
+          "header": "公司ID",
+          "raw_value": "EI-014"
+        }
+      }
+    }
+  },
+  {
+    "id": "8a41ad8f-f936-5f01-89aa-30080a14c1d5",
+    "company_id": "7ea87342-942b-5a4b-94f8-70536aa9f778",
+    "name": "盛均",
+    "role": "联合创始人",
+    "education": [
+      "悉尼科技大学 硕士 金融学",
+      "悉尼大学 本科 商业"
+    ],
+    "work_history": [
+      "时间段未公开 傲意科技 联合创始人",
+      "此前 深圳欧智通 副总经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 43,
+      "cells": {
+        "company_name": {
+          "coordinate": "A43",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-014\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B43",
+          "header": "姓名",
+          "raw_value": "盛均"
+        },
+        "role": {
+          "coordinate": "C43",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D43",
+          "header": "教育背景",
+          "raw_value": "悉尼科技大学 硕士 金融学\n悉尼大学 本科 商业"
+        },
+        "work_history": {
+          "coordinate": "E43",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 傲意科技 联合创始人\n此前 深圳欧智通 副总经理"
+        },
+        "source_company_id": {
+          "coordinate": "F43",
+          "header": "公司ID",
+          "raw_value": "EI-014"
+        }
+      }
+    }
+  },
+  {
+    "id": "00e4ac8d-9e46-5504-8f5e-96c429ae33da",
+    "company_id": "7ea87342-942b-5a4b-94f8-70536aa9f778",
+    "name": "何斌",
+    "role": "CTO",
+    "education": [
+      "上海交通大学 学位未公开 计算机科学与工程、软件学院相关学习背景"
+    ],
+    "work_history": [
+      "时间段未公开 傲意科技 CTO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 44,
+      "cells": {
+        "company_name": {
+          "coordinate": "A44",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-014\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B44",
+          "header": "姓名",
+          "raw_value": "何斌"
+        },
+        "role": {
+          "coordinate": "C44",
+          "header": "角色",
+          "raw_value": "CTO"
+        },
+        "education": {
+          "coordinate": "D44",
+          "header": "教育背景",
+          "raw_value": "上海交通大学 学位未公开 计算机科学与工程、软件学院相关学习背景"
+        },
+        "work_history": {
+          "coordinate": "E44",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 傲意科技 CTO"
+        },
+        "source_company_id": {
+          "coordinate": "F44",
+          "header": "公司ID",
+          "raw_value": "EI-014"
+        }
+      }
+    }
+  },
+  {
+    "id": "f588bd3c-ac59-560d-87c8-3ee0d40ea7b7",
+    "company_id": "f37b4fd2-7252-55a1-b336-9ac881fea9db",
+    "name": "陈万楷",
+    "role": "创始人、CEO",
+    "education": [
+      "吉林大学 博士 专业未公开",
+      "墨尔本大学 硕士 专业未公开",
+      "华中科技大学 本科 专业未公开"
+    ],
+    "work_history": [
+      "2023年至今 泉智博 创始人、CEO",
+      "创业前 浙江省北大信息技术高等研究院 机器人研发",
+      "此前 中国电子科技集团海洋信息技术研究院 机器人研发（任职时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 45,
+      "cells": {
+        "company_name": {
+          "coordinate": "A45",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-015\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B45",
+          "header": "姓名",
+          "raw_value": "陈万楷"
+        },
+        "role": {
+          "coordinate": "C45",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D45",
+          "header": "教育背景",
+          "raw_value": "吉林大学 博士 专业未公开\n墨尔本大学 硕士 专业未公开\n华中科技大学 本科 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E45",
+          "header": "工作背景",
+          "raw_value": "2023年至今 泉智博 创始人、CEO\n创业前 浙江省北大信息技术高等研究院 机器人研发\n此前 中国电子科技集团海洋信息技术研究院 机器人研发（任职时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F45",
+          "header": "公司ID",
+          "raw_value": "EI-015"
+        }
+      }
+    }
+  },
+  {
+    "id": "dc990dac-2553-52bd-81da-d17c19a98282",
+    "company_id": "f37b4fd2-7252-55a1-b336-9ac881fea9db",
+    "name": "刘春宝",
+    "role": "首席科学家",
+    "education": [
+      "吉林大学 博士后 工程仿生研究",
+      "吉林大学 博士 专业未公开",
+      "吉林大学 硕士 专业未公开",
+      "吉林大学 本科 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 泉智博 首席科学家",
+      "时间段未公开 吉林大学 教授、博士生导师",
+      "2014年起 吉林大学工程仿生教育部重点实验室 博士后研究"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 46,
+      "cells": {
+        "company_name": {
+          "coordinate": "A46",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-015\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B46",
+          "header": "姓名",
+          "raw_value": "刘春宝"
+        },
+        "role": {
+          "coordinate": "C46",
+          "header": "角色",
+          "raw_value": "首席科学家"
+        },
+        "education": {
+          "coordinate": "D46",
+          "header": "教育背景",
+          "raw_value": "吉林大学 博士后 工程仿生研究\n吉林大学 博士 专业未公开\n吉林大学 硕士 专业未公开\n吉林大学 本科 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E46",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 泉智博 首席科学家\n时间段未公开 吉林大学 教授、博士生导师\n2014年起 吉林大学工程仿生教育部重点实验室 博士后研究"
+        },
+        "source_company_id": {
+          "coordinate": "F46",
+          "header": "公司ID",
+          "raw_value": "EI-015"
+        }
+      }
+    }
+  },
+  {
+    "id": "d53230fe-abc7-5150-8328-eaa3fc0bf359",
+    "company_id": "83aba20c-7cc4-5685-869a-8cada3ffb37f",
+    "name": "易港",
+    "role": "创始人、董事长",
+    "education": [
+      "中国矿业大学（北京） 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "2020年至今 钛虎机器人 创始人、董事长"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 47,
+      "cells": {
+        "company_name": {
+          "coordinate": "A47",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-016\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B47",
+          "header": "姓名",
+          "raw_value": "易港"
+        },
+        "role": {
+          "coordinate": "C47",
+          "header": "角色",
+          "raw_value": "创始人、董事长"
+        },
+        "education": {
+          "coordinate": "D47",
+          "header": "教育背景",
+          "raw_value": "中国矿业大学（北京） 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E47",
+          "header": "工作背景",
+          "raw_value": "2020年至今 钛虎机器人 创始人、董事长"
+        },
+        "source_company_id": {
+          "coordinate": "F47",
+          "header": "公司ID",
+          "raw_value": "EI-016"
+        }
+      }
+    }
+  },
+  {
+    "id": "252817ec-64ad-5661-ac47-cffcc242ab32",
+    "company_id": "83aba20c-7cc4-5685-869a-8cada3ffb37f",
+    "name": "李永超",
+    "role": "联合创始人、CEO",
+    "education": [
+      "上海师范大学天华学院 本科 机械相关专业"
+    ],
+    "work_history": [
+      "时间段未公开 钛虎机器人 联合创始人、CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 48,
+      "cells": {
+        "company_name": {
+          "coordinate": "A48",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-016\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B48",
+          "header": "姓名",
+          "raw_value": "李永超"
+        },
+        "role": {
+          "coordinate": "C48",
+          "header": "角色",
+          "raw_value": "联合创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D48",
+          "header": "教育背景",
+          "raw_value": "上海师范大学天华学院 本科 机械相关专业"
+        },
+        "work_history": {
+          "coordinate": "E48",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 钛虎机器人 联合创始人、CEO"
+        },
+        "source_company_id": {
+          "coordinate": "F48",
+          "header": "公司ID",
+          "raw_value": "EI-016"
+        }
+      }
+    }
+  },
+  {
+    "id": "cf0f3fdc-fe0b-58f9-8927-5d537aeacc56",
+    "company_id": "a89335d2-cc2c-5c6b-8b77-e710c6e0e5e2",
+    "name": "刘盛翔",
+    "role": "创始人、CEO",
+    "education": [],
+    "work_history": [
+      "2022年至今 无问智科 创始人、CEO",
+      "创业前 百度Apollo 自动驾驶测试负责人、智能汽车测试负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 49,
+      "cells": {
+        "company_name": {
+          "coordinate": "A49",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-017\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B49",
+          "header": "姓名",
+          "raw_value": "刘盛翔"
+        },
+        "role": {
+          "coordinate": "C49",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D49",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E49",
+          "header": "工作背景",
+          "raw_value": "2022年至今 无问智科 创始人、CEO\n创业前 百度Apollo 自动驾驶测试负责人、智能汽车测试负责人"
+        },
+        "source_company_id": {
+          "coordinate": "F49",
+          "header": "公司ID",
+          "raw_value": "EI-017"
+        }
+      }
+    }
+  },
+  {
+    "id": "285898f0-9a6a-5ec7-8860-7389aa570d09",
+    "company_id": "a89335d2-cc2c-5c6b-8b77-e710c6e0e5e2",
+    "name": "于春磊",
+    "role": "联合创始人、CTO",
+    "education": [
+      "清华大学 博士后 车辆与运载相关研究",
+      "法国CNRS下属Heudiasyc实验室 博士 无人系统相关方向"
+    ],
+    "work_history": [
+      "2022年至今 无问智科 联合创始人、CTO",
+      "此前 百度 自动驾驶感知技术专家",
+      "此前 超星未来 联合创始人（各段时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 50,
+      "cells": {
+        "company_name": {
+          "coordinate": "A50",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-017\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B50",
+          "header": "姓名",
+          "raw_value": "于春磊"
+        },
+        "role": {
+          "coordinate": "C50",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO"
+        },
+        "education": {
+          "coordinate": "D50",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士后 车辆与运载相关研究\n法国CNRS下属Heudiasyc实验室 博士 无人系统相关方向"
+        },
+        "work_history": {
+          "coordinate": "E50",
+          "header": "工作背景",
+          "raw_value": "2022年至今 无问智科 联合创始人、CTO\n此前 百度 自动驾驶感知技术专家\n此前 超星未来 联合创始人（各段时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F50",
+          "header": "公司ID",
+          "raw_value": "EI-017"
+        }
+      }
+    }
+  },
+  {
+    "id": "a895e8a3-8665-5bd1-a8d9-1a4b612f50eb",
+    "company_id": "3be01c7c-5e24-5636-a148-de1320be29f8",
+    "name": "陈建兴",
+    "role": "创始人、CEO",
+    "education": [
+      "中国矿业大学 研究生（学位未公开） 专业未公开"
+    ],
+    "work_history": [
+      "2025年至今 简智机器人 创始人、CEO",
+      "创业前 Momenta 算法高级总监",
+      "此前 小鹏汽车 任职（具体职位及时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 51,
+      "cells": {
+        "company_name": {
+          "coordinate": "A51",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-018\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B51",
+          "header": "姓名",
+          "raw_value": "陈建兴"
+        },
+        "role": {
+          "coordinate": "C51",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D51",
+          "header": "教育背景",
+          "raw_value": "中国矿业大学 研究生（学位未公开） 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E51",
+          "header": "工作背景",
+          "raw_value": "2025年至今 简智机器人 创始人、CEO\n创业前 Momenta 算法高级总监\n此前 小鹏汽车 任职（具体职位及时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F51",
+          "header": "公司ID",
+          "raw_value": "EI-018"
+        }
+      }
+    }
+  },
+  {
+    "id": "e3d2867e-5c0d-53e4-a2c6-2589cf0e4511",
+    "company_id": "3be01c7c-5e24-5636-a148-de1320be29f8",
+    "name": "朱雁鸣",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "2025年至今 简智机器人 联合创始人",
+      "创业前 智能驾驶行业 量产产品研发（企业、具体职务及时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 52,
+      "cells": {
+        "company_name": {
+          "coordinate": "A52",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-018\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B52",
+          "header": "姓名",
+          "raw_value": "朱雁鸣"
+        },
+        "role": {
+          "coordinate": "C52",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D52",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E52",
+          "header": "工作背景",
+          "raw_value": "2025年至今 简智机器人 联合创始人\n创业前 智能驾驶行业 量产产品研发（企业、具体职务及时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F52",
+          "header": "公司ID",
+          "raw_value": "EI-018"
+        }
+      }
+    }
+  },
+  {
+    "id": "0c581026-9ef6-56d0-a5c4-3192b93002e6",
+    "company_id": "3be01c7c-5e24-5636-a148-de1320be29f8",
+    "name": "李兴龙",
+    "role": "联合创始人、商业化负责人",
+    "education": [
+      "香港中文大学 本科 计算机"
+    ],
+    "work_history": [
+      "2025年至今 简智机器人 联合创始人、商业化负责人",
+      "此前 真机智能 联合创始人、CMO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 53,
+      "cells": {
+        "company_name": {
+          "coordinate": "A53",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-018\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B53",
+          "header": "姓名",
+          "raw_value": "李兴龙"
+        },
+        "role": {
+          "coordinate": "C53",
+          "header": "角色",
+          "raw_value": "联合创始人、商业化负责人"
+        },
+        "education": {
+          "coordinate": "D53",
+          "header": "教育背景",
+          "raw_value": "香港中文大学 本科 计算机"
+        },
+        "work_history": {
+          "coordinate": "E53",
+          "header": "工作背景",
+          "raw_value": "2025年至今 简智机器人 联合创始人、商业化负责人\n此前 真机智能 联合创始人、CMO"
+        },
+        "source_company_id": {
+          "coordinate": "F53",
+          "header": "公司ID",
+          "raw_value": "EI-018"
+        }
+      }
+    }
+  },
+  {
+    "id": "af43ede4-9055-5144-aa9f-daee08ffc64a",
+    "company_id": "e4dbaf83-f936-5647-9955-5b9a16138888",
+    "name": "符国和",
+    "role": "创始人、CEO",
+    "education": [
+      "华东师范大学 硕士 软件工程学院（具体专业未公开）"
+    ],
+    "work_history": [
+      "2023年至今 悟时创新 创始人、CEO",
+      "2016—2023年 前次机器人创业公司 CTO（企业名称未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 54,
+      "cells": {
+        "company_name": {
+          "coordinate": "A54",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-019\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B54",
+          "header": "姓名",
+          "raw_value": "符国和"
+        },
+        "role": {
+          "coordinate": "C54",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D54",
+          "header": "教育背景",
+          "raw_value": "华东师范大学 硕士 软件工程学院（具体专业未公开）"
+        },
+        "work_history": {
+          "coordinate": "E54",
+          "header": "工作背景",
+          "raw_value": "2023年至今 悟时创新 创始人、CEO\n2016—2023年 前次机器人创业公司 CTO（企业名称未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F54",
+          "header": "公司ID",
+          "raw_value": "EI-019"
+        }
+      }
+    }
+  },
+  {
+    "id": "32f22e07-6886-5cd4-ac4b-8a8e509101a9",
+    "company_id": "e4dbaf83-f936-5647-9955-5b9a16138888",
+    "name": "张新宇",
+    "role": "首席科学家",
+    "education": [
+      "韩国梨花女子大学 博士后 研究方向未公开",
+      "浙江大学 博士 专业未公开",
+      "浙江大学 硕士 专业未公开",
+      "浙江大学 本科 专业未公开"
+    ],
+    "work_history": [
+      "2023年至今 悟时创新 首席科学家",
+      "2022年至今 华东师范大学 嵌入式软件与智能系统系主任",
+      "2021年至今 华为 顾问科学家",
+      "2014年至今 华东师范大学 智能机器人运动与视觉实验室负责人",
+      "2012—2013年 北卡罗来纳大学教堂山分校 研究科学家",
+      "2005—2012年 梨花女子大学 博士后、讲师、研究教授"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 55,
+      "cells": {
+        "company_name": {
+          "coordinate": "A55",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-019\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B55",
+          "header": "姓名",
+          "raw_value": "张新宇"
+        },
+        "role": {
+          "coordinate": "C55",
+          "header": "角色",
+          "raw_value": "首席科学家"
+        },
+        "education": {
+          "coordinate": "D55",
+          "header": "教育背景",
+          "raw_value": "韩国梨花女子大学 博士后 研究方向未公开\n浙江大学 博士 专业未公开\n浙江大学 硕士 专业未公开\n浙江大学 本科 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E55",
+          "header": "工作背景",
+          "raw_value": "2023年至今 悟时创新 首席科学家\n2022年至今 华东师范大学 嵌入式软件与智能系统系主任\n2021年至今 华为 顾问科学家\n2014年至今 华东师范大学 智能机器人运动与视觉实验室负责人\n2012—2013年 北卡罗来纳大学教堂山分校 研究科学家\n2005—2012年 梨花女子大学 博士后、讲师、研究教授"
+        },
+        "source_company_id": {
+          "coordinate": "F55",
+          "header": "公司ID",
+          "raw_value": "EI-019"
+        }
+      }
+    }
+  },
+  {
+    "id": "84ff9efa-0815-54f4-8d69-0833b18ab9b8",
+    "company_id": "24456216-dc84-58de-b401-9527529623a3",
+    "name": "郑随兵",
+    "role": "创始人、CEO",
+    "education": [
+      "中国农业大学 本科 电子信息科学与技术"
+    ],
+    "work_history": [
+      "2018年至今 睿尔曼智能 创始人、CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 56,
+      "cells": {
+        "company_name": {
+          "coordinate": "A56",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-020\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B56",
+          "header": "姓名",
+          "raw_value": "郑随兵"
+        },
+        "role": {
+          "coordinate": "C56",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D56",
+          "header": "教育背景",
+          "raw_value": "中国农业大学 本科 电子信息科学与技术"
+        },
+        "work_history": {
+          "coordinate": "E56",
+          "header": "工作背景",
+          "raw_value": "2018年至今 睿尔曼智能 创始人、CEO"
+        },
+        "source_company_id": {
+          "coordinate": "F56",
+          "header": "公司ID",
+          "raw_value": "EI-020"
+        }
+      }
+    }
+  },
+  {
+    "id": "79d1c9d9-1640-5116-86f1-54cdf8b9f414",
+    "company_id": "24456216-dc84-58de-b401-9527529623a3",
+    "name": "张旭龙",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "时间段未公开 睿尔曼智能 联合创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 57,
+      "cells": {
+        "company_name": {
+          "coordinate": "A57",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-020\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B57",
+          "header": "姓名",
+          "raw_value": "张旭龙"
+        },
+        "role": {
+          "coordinate": "C57",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D57",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E57",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 睿尔曼智能 联合创始人"
+        },
+        "source_company_id": {
+          "coordinate": "F57",
+          "header": "公司ID",
+          "raw_value": "EI-020"
+        }
+      }
+    }
+  },
+  {
+    "id": "bcfbc288-b34f-546d-b74d-b09b12abaf79",
+    "company_id": "d6a78066-d5e0-578f-858f-a608dca9f213",
+    "name": "魏基栋",
+    "role": "创始人、董事长",
+    "education": [],
+    "work_history": [
+      "2017年至今 松灵机器人 创始人、董事长",
+      "此前 大疆创新 研发经理、RoboMaster团队成员（时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 58,
+      "cells": {
+        "company_name": {
+          "coordinate": "A58",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-021\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B58",
+          "header": "姓名",
+          "raw_value": "魏基栋"
+        },
+        "role": {
+          "coordinate": "C58",
+          "header": "角色",
+          "raw_value": "创始人、董事长"
+        },
+        "education": {
+          "coordinate": "D58",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E58",
+          "header": "工作背景",
+          "raw_value": "2017年至今 松灵机器人 创始人、董事长\n此前 大疆创新 研发经理、RoboMaster团队成员（时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F58",
+          "header": "公司ID",
+          "raw_value": "EI-021"
+        }
+      }
+    }
+  },
+  {
+    "id": "830f51d5-6804-5a6b-bd3e-81c73562f757",
+    "company_id": "d6a78066-d5e0-578f-858f-a608dca9f213",
+    "name": "谭柱",
+    "role": "联合创始人、副总经理",
+    "education": [
+      "深圳大学 硕士 机械工程"
+    ],
+    "work_history": [
+      "2017年至今 松灵机器人 联合创始人、副总经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 59,
+      "cells": {
+        "company_name": {
+          "coordinate": "A59",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-021\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B59",
+          "header": "姓名",
+          "raw_value": "谭柱"
+        },
+        "role": {
+          "coordinate": "C59",
+          "header": "角色",
+          "raw_value": "联合创始人、副总经理"
+        },
+        "education": {
+          "coordinate": "D59",
+          "header": "教育背景",
+          "raw_value": "深圳大学 硕士 机械工程"
+        },
+        "work_history": {
+          "coordinate": "E59",
+          "header": "工作背景",
+          "raw_value": "2017年至今 松灵机器人 联合创始人、副总经理"
+        },
+        "source_company_id": {
+          "coordinate": "F59",
+          "header": "公司ID",
+          "raw_value": "EI-021"
+        }
+      }
+    }
+  },
+  {
+    "id": "d52e51ba-8b12-5fc5-a469-fec58cd6888a",
+    "company_id": "d6a78066-d5e0-578f-858f-a608dca9f213",
+    "name": "蒋亦瑄",
+    "role": "联合创始人、CTO（2018年披露）",
+    "education": [
+      "电子科技大学 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "2017年起 松灵机器人 联合创始人、CTO（职务披露于2018年）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 60,
+      "cells": {
+        "company_name": {
+          "coordinate": "A60",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-021\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B60",
+          "header": "姓名",
+          "raw_value": "蒋亦瑄"
+        },
+        "role": {
+          "coordinate": "C60",
+          "header": "角色",
+          "raw_value": "联合创始人、CTO（2018年披露）"
+        },
+        "education": {
+          "coordinate": "D60",
+          "header": "教育背景",
+          "raw_value": "电子科技大学 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E60",
+          "header": "工作背景",
+          "raw_value": "2017年起 松灵机器人 联合创始人、CTO（职务披露于2018年）"
+        },
+        "source_company_id": {
+          "coordinate": "F60",
+          "header": "公司ID",
+          "raw_value": "EI-021"
+        }
+      }
+    }
+  },
+  {
+    "id": "bef48fea-48c5-5d4a-9338-b7c1e7cc7385",
+    "company_id": "766065a5-e0d3-558c-9b09-ac66e2e5b6b2",
+    "name": "王峥",
+    "role": "创始人、CEO",
+    "education": [
+      "哈佛大学 博士后 仿生工程研究",
+      "南洋理工大学 博士后 机器人研究",
+      "慕尼黑工业大学 博士 机器人",
+      "帝国理工学院 硕士 控制系统",
+      "清华大学 本科 控制理论与控制工程"
+    ],
+    "work_history": [
+      "2019年至今 万勋科技 创始人、CEO",
+      "2019年至今 南方科技大学 教授",
+      "2014—2019年 香港大学机械工程系 助理教授",
+      "2013—2014年 哈佛大学WYSS研究院 博士后",
+      "2010—2013年 南洋理工大学机器人研究中心 博士后"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 61,
+      "cells": {
+        "company_name": {
+          "coordinate": "A61",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-022\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B61",
+          "header": "姓名",
+          "raw_value": "王峥"
+        },
+        "role": {
+          "coordinate": "C61",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D61",
+          "header": "教育背景",
+          "raw_value": "哈佛大学 博士后 仿生工程研究\n南洋理工大学 博士后 机器人研究\n慕尼黑工业大学 博士 机器人\n帝国理工学院 硕士 控制系统\n清华大学 本科 控制理论与控制工程"
+        },
+        "work_history": {
+          "coordinate": "E61",
+          "header": "工作背景",
+          "raw_value": "2019年至今 万勋科技 创始人、CEO\n2019年至今 南方科技大学 教授\n2014—2019年 香港大学机械工程系 助理教授\n2013—2014年 哈佛大学WYSS研究院 博士后\n2010—2013年 南洋理工大学机器人研究中心 博士后"
+        },
+        "source_company_id": {
+          "coordinate": "F61",
+          "header": "公司ID",
+          "raw_value": "EI-022"
+        }
+      }
+    }
+  },
+  {
+    "id": "f60aeb9e-6a35-5982-a0df-52b26a769377",
+    "company_id": "766065a5-e0d3-558c-9b09-ac66e2e5b6b2",
+    "name": "魏瀛",
+    "role": "联合创始人、副总裁",
+    "education": [],
+    "work_history": [
+      "时间段未公开 万勋科技 联合创始人、副总裁"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 62,
+      "cells": {
+        "company_name": {
+          "coordinate": "A62",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-022\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B62",
+          "header": "姓名",
+          "raw_value": "魏瀛"
+        },
+        "role": {
+          "coordinate": "C62",
+          "header": "角色",
+          "raw_value": "联合创始人、副总裁"
+        },
+        "education": {
+          "coordinate": "D62",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E62",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 万勋科技 联合创始人、副总裁"
+        },
+        "source_company_id": {
+          "coordinate": "F62",
+          "header": "公司ID",
+          "raw_value": "EI-022"
+        }
+      }
+    }
+  },
+  {
+    "id": "42eb5a87-0ed9-50cc-b039-d679d0f2d4f7",
+    "company_id": "7337bf13-6e15-5c7f-ade8-8db3853561e7",
+    "name": "张洵",
+    "role": "创始人、董事长",
+    "education": [
+      "吉林大学 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "2016年至今 潜行创新 创始人、董事长",
+      "创业前 华为 核心算法部高级专家"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 63,
+      "cells": {
+        "company_name": {
+          "coordinate": "A63",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-023\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B63",
+          "header": "姓名",
+          "raw_value": "张洵"
+        },
+        "role": {
+          "coordinate": "C63",
+          "header": "角色",
+          "raw_value": "创始人、董事长"
+        },
+        "education": {
+          "coordinate": "D63",
+          "header": "教育背景",
+          "raw_value": "吉林大学 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E63",
+          "header": "工作背景",
+          "raw_value": "2016年至今 潜行创新 创始人、董事长\n创业前 华为 核心算法部高级专家"
+        },
+        "source_company_id": {
+          "coordinate": "F63",
+          "header": "公司ID",
+          "raw_value": "EI-023"
+        }
+      }
+    }
+  },
+  {
+    "id": "a8956258-38c4-5939-bfe8-ca94dfe9aabd",
+    "company_id": "7337bf13-6e15-5c7f-ade8-8db3853561e7",
+    "name": "周长根",
+    "role": "联合创始人、总经理",
+    "education": [
+      "吉林大学 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "2016年至今 潜行创新 联合创始人、总经理",
+      "创业前 华为日本地区部 质量运营部部长"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 64,
+      "cells": {
+        "company_name": {
+          "coordinate": "A64",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-023\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B64",
+          "header": "姓名",
+          "raw_value": "周长根"
+        },
+        "role": {
+          "coordinate": "C64",
+          "header": "角色",
+          "raw_value": "联合创始人、总经理"
+        },
+        "education": {
+          "coordinate": "D64",
+          "header": "教育背景",
+          "raw_value": "吉林大学 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E64",
+          "header": "工作背景",
+          "raw_value": "2016年至今 潜行创新 联合创始人、总经理\n创业前 华为日本地区部 质量运营部部长"
+        },
+        "source_company_id": {
+          "coordinate": "F64",
+          "header": "公司ID",
+          "raw_value": "EI-023"
+        }
+      }
+    }
+  },
+  {
+    "id": "024d29c7-94dd-5729-8803-17a9425beb5a",
+    "company_id": "7337bf13-6e15-5c7f-ade8-8db3853561e7",
+    "name": "杨洋",
+    "role": "联合创始人、市场销售负责人",
+    "education": [
+      "电子科技大学 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "2016年至今 潜行创新 联合创始人、市场销售负责人",
+      "创业前 华为海思 手机芯片项目经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 65,
+      "cells": {
+        "company_name": {
+          "coordinate": "A65",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-023\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B65",
+          "header": "姓名",
+          "raw_value": "杨洋"
+        },
+        "role": {
+          "coordinate": "C65",
+          "header": "角色",
+          "raw_value": "联合创始人、市场销售负责人"
+        },
+        "education": {
+          "coordinate": "D65",
+          "header": "教育背景",
+          "raw_value": "电子科技大学 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E65",
+          "header": "工作背景",
+          "raw_value": "2016年至今 潜行创新 联合创始人、市场销售负责人\n创业前 华为海思 手机芯片项目经理"
+        },
+        "source_company_id": {
+          "coordinate": "F65",
+          "header": "公司ID",
+          "raw_value": "EI-023"
+        }
+      }
+    }
+  },
+  {
+    "id": "0d815b0c-8386-56d0-84d2-8e7a3a3d55ac",
+    "company_id": "7337bf13-6e15-5c7f-ade8-8db3853561e7",
+    "name": "习志平",
+    "role": "联合创始人、通信与APP负责人",
+    "education": [
+      "吉林大学 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 潜行创新 联合创始人、通信与APP负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 66,
+      "cells": {
+        "company_name": {
+          "coordinate": "A66",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-023\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B66",
+          "header": "姓名",
+          "raw_value": "习志平"
+        },
+        "role": {
+          "coordinate": "C66",
+          "header": "角色",
+          "raw_value": "联合创始人、通信与APP负责人"
+        },
+        "education": {
+          "coordinate": "D66",
+          "header": "教育背景",
+          "raw_value": "吉林大学 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E66",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 潜行创新 联合创始人、通信与APP负责人"
+        },
+        "source_company_id": {
+          "coordinate": "F66",
+          "header": "公司ID",
+          "raw_value": "EI-023"
+        }
+      }
+    }
+  },
+  {
+    "id": "c553af0d-2f99-5e73-aeb9-b216f30b9d7c",
+    "company_id": "7337bf13-6e15-5c7f-ade8-8db3853561e7",
+    "name": "李英灿",
+    "role": "共同创业核心成员、生产与供应链负责人",
+    "education": [
+      "吉林大学 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 潜行创新 生产与供应链负责人",
+      "此前 LG 硬件开发（时间和具体职位未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 67,
+      "cells": {
+        "company_name": {
+          "coordinate": "A67",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-023\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B67",
+          "header": "姓名",
+          "raw_value": "李英灿"
+        },
+        "role": {
+          "coordinate": "C67",
+          "header": "角色",
+          "raw_value": "共同创业核心成员、生产与供应链负责人"
+        },
+        "education": {
+          "coordinate": "D67",
+          "header": "教育背景",
+          "raw_value": "吉林大学 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E67",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 潜行创新 生产与供应链负责人\n此前 LG 硬件开发（时间和具体职位未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F67",
+          "header": "公司ID",
+          "raw_value": "EI-023"
+        }
+      }
+    }
+  },
+  {
+    "id": "cd00ab90-6491-5402-b756-2d91d5d7e482",
+    "company_id": "b95b4fe1-96b0-5e72-a70c-1b10b87b5ed0",
+    "name": "梁衍学",
+    "role": "创始人、CEO",
+    "education": [
+      "东京工业大学 博士 机械物理",
+      "上海交通大学 硕士 机械相关方向",
+      "上海交通大学 本科 机械相关方向"
+    ],
+    "work_history": [
+      "2020年至今 蔚建科技 创始人、CEO",
+      "2018—2020年 博智林 智能技术研究总院常务副院长",
+      "2016—2018年 宁德时代 设备国产化负责人（具体职称未公开）",
+      "2006—2016年 日本发那科 研发人员、首席研究员"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 68,
+      "cells": {
+        "company_name": {
+          "coordinate": "A68",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-024\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B68",
+          "header": "姓名",
+          "raw_value": "梁衍学"
+        },
+        "role": {
+          "coordinate": "C68",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D68",
+          "header": "教育背景",
+          "raw_value": "东京工业大学 博士 机械物理\n上海交通大学 硕士 机械相关方向\n上海交通大学 本科 机械相关方向"
+        },
+        "work_history": {
+          "coordinate": "E68",
+          "header": "工作背景",
+          "raw_value": "2020年至今 蔚建科技 创始人、CEO\n2018—2020年 博智林 智能技术研究总院常务副院长\n2016—2018年 宁德时代 设备国产化负责人（具体职称未公开）\n2006—2016年 日本发那科 研发人员、首席研究员"
+        },
+        "source_company_id": {
+          "coordinate": "F68",
+          "header": "公司ID",
+          "raw_value": "EI-024"
+        }
+      }
+    }
+  },
+  {
+    "id": "eda55071-2713-5d57-8eba-70f666b1661f",
+    "company_id": "34d056fc-014a-584f-bdc1-8709da1dcd84",
+    "name": "韩威",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "清华大学（加州大学伯克利分校联合培养） 博士 计算机相关方向"
+    ],
+    "work_history": [
+      "2018年至今 中科原动力 创始人、董事长兼CEO"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 69,
+      "cells": {
+        "company_name": {
+          "coordinate": "A69",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-025\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B69",
+          "header": "姓名",
+          "raw_value": "韩威"
+        },
+        "role": {
+          "coordinate": "C69",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D69",
+          "header": "教育背景",
+          "raw_value": "清华大学（加州大学伯克利分校联合培养） 博士 计算机相关方向"
+        },
+        "work_history": {
+          "coordinate": "E69",
+          "header": "工作背景",
+          "raw_value": "2018年至今 中科原动力 创始人、董事长兼CEO"
+        },
+        "source_company_id": {
+          "coordinate": "F69",
+          "header": "公司ID",
+          "raw_value": "EI-025"
+        }
+      }
+    }
+  },
+  {
+    "id": "0065b891-84a8-59e5-92cb-37eb66f92287",
+    "company_id": "34d056fc-014a-584f-bdc1-8709da1dcd84",
+    "name": "刘继凯",
+    "role": "联合创始人",
+    "education": [],
+    "work_history": [
+      "2018年至今 中科原动力 联合创始人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 70,
+      "cells": {
+        "company_name": {
+          "coordinate": "A70",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-025\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B70",
+          "header": "姓名",
+          "raw_value": "刘继凯"
+        },
+        "role": {
+          "coordinate": "C70",
+          "header": "角色",
+          "raw_value": "联合创始人"
+        },
+        "education": {
+          "coordinate": "D70",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E70",
+          "header": "工作背景",
+          "raw_value": "2018年至今 中科原动力 联合创始人"
+        },
+        "source_company_id": {
+          "coordinate": "F70",
+          "header": "公司ID",
+          "raw_value": "EI-025"
+        }
+      }
+    }
+  },
+  {
+    "id": "8b8de33a-8e1d-57bc-8843-d98c40b04afb",
+    "company_id": "34d056fc-014a-584f-bdc1-8709da1dcd84",
+    "name": "李德毅",
+    "role": "首席科学家",
+    "education": [],
+    "work_history": [
+      "时间段未公开 中科原动力 首席科学家",
+      "时间段未公开 中国工程院 院士"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 71,
+      "cells": {
+        "company_name": {
+          "coordinate": "A71",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-025\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B71",
+          "header": "姓名",
+          "raw_value": "李德毅"
+        },
+        "role": {
+          "coordinate": "C71",
+          "header": "角色",
+          "raw_value": "首席科学家"
+        },
+        "education": {
+          "coordinate": "D71",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E71",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 中科原动力 首席科学家\n时间段未公开 中国工程院 院士"
+        },
+        "source_company_id": {
+          "coordinate": "F71",
+          "header": "公司ID",
+          "raw_value": "EI-025"
+        }
+      }
+    }
+  },
+  {
+    "id": "3811ab57-60d0-537a-82c5-7130a2db0c67",
+    "company_id": "71545007-47c3-5518-8478-7d9dabe345d6",
+    "name": "黄阳",
+    "role": "创始人、董事长兼CEO",
+    "education": [
+      "西安交通大学 本科 机械工程及自动化"
+    ],
+    "work_history": [
+      "2015年至今 汉阳科技 创始人、董事长兼CEO",
+      "创业前 ASM 半导体封装设备研发（具体时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 72,
+      "cells": {
+        "company_name": {
+          "coordinate": "A72",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-026\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B72",
+          "header": "姓名",
+          "raw_value": "黄阳"
+        },
+        "role": {
+          "coordinate": "C72",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D72",
+          "header": "教育背景",
+          "raw_value": "西安交通大学 本科 机械工程及自动化"
+        },
+        "work_history": {
+          "coordinate": "E72",
+          "header": "工作背景",
+          "raw_value": "2015年至今 汉阳科技 创始人、董事长兼CEO\n创业前 ASM 半导体封装设备研发（具体时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F72",
+          "header": "公司ID",
+          "raw_value": "EI-026"
+        }
+      }
+    }
+  },
+  {
+    "id": "b107b873-4f4e-5705-b401-169a17257db7",
+    "company_id": "71545007-47c3-5518-8478-7d9dabe345d6",
+    "name": "曹莉蒙",
+    "role": "联合创始人、董事会秘书兼首席战略官",
+    "education": [],
+    "work_history": [
+      "时间段未公开 汉阳科技 联合创始人、董事会秘书兼首席战略官"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 73,
+      "cells": {
+        "company_name": {
+          "coordinate": "A73",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-026\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B73",
+          "header": "姓名",
+          "raw_value": "曹莉蒙"
+        },
+        "role": {
+          "coordinate": "C73",
+          "header": "角色",
+          "raw_value": "联合创始人、董事会秘书兼首席战略官"
+        },
+        "education": {
+          "coordinate": "D73",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E73",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 汉阳科技 联合创始人、董事会秘书兼首席战略官"
+        },
+        "source_company_id": {
+          "coordinate": "F73",
+          "header": "公司ID",
+          "raw_value": "EI-026"
+        }
+      }
+    }
+  },
+  {
+    "id": "8bf5a769-e53b-5a05-a67f-f55e8bb639c8",
+    "company_id": "679c59c0-4393-5214-87ab-b9af52e1478d",
+    "name": "王生乐",
+    "role": "创始人、CEO",
+    "education": [
+      "沈阳理工大学 本科 机械设计"
+    ],
+    "work_history": [
+      "2022年至今 星迈创新 创始人、CEO",
+      "2016—2022年 追觅科技 联合创始人、常务副总裁",
+      "此前约4年 科沃斯 研发工程师"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 74,
+      "cells": {
+        "company_name": {
+          "coordinate": "A74",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-027\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B74",
+          "header": "姓名",
+          "raw_value": "王生乐"
+        },
+        "role": {
+          "coordinate": "C74",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D74",
+          "header": "教育背景",
+          "raw_value": "沈阳理工大学 本科 机械设计"
+        },
+        "work_history": {
+          "coordinate": "E74",
+          "header": "工作背景",
+          "raw_value": "2022年至今 星迈创新 创始人、CEO\n2016—2022年 追觅科技 联合创始人、常务副总裁\n此前约4年 科沃斯 研发工程师"
+        },
+        "source_company_id": {
+          "coordinate": "F74",
+          "header": "公司ID",
+          "raw_value": "EI-027"
+        }
+      }
+    }
+  },
+  {
+    "id": "c41def30-34ef-5b60-ad87-0f4c85df508c",
+    "company_id": "c6d84f0f-a141-584e-bfd6-4c8ce8e89355",
+    "name": "乔忠良",
+    "role": "创始人、CEO",
+    "education": [
+      "北京航空航天大学 硕士 计算机科学与技术"
+    ],
+    "work_history": [
+      "2023年至今 小雨智造 创始人、CEO",
+      "2010年至创业前 小米 MIUI研发总经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 75,
+      "cells": {
+        "company_name": {
+          "coordinate": "A75",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-028\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B75",
+          "header": "姓名",
+          "raw_value": "乔忠良"
+        },
+        "role": {
+          "coordinate": "C75",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D75",
+          "header": "教育背景",
+          "raw_value": "北京航空航天大学 硕士 计算机科学与技术"
+        },
+        "work_history": {
+          "coordinate": "E75",
+          "header": "工作背景",
+          "raw_value": "2023年至今 小雨智造 创始人、CEO\n2010年至创业前 小米 MIUI研发总经理"
+        },
+        "source_company_id": {
+          "coordinate": "F75",
+          "header": "公司ID",
+          "raw_value": "EI-028"
+        }
+      }
+    }
+  },
+  {
+    "id": "227e3e7d-3850-5765-a95d-b4c3f19567e1",
+    "company_id": "c6d84f0f-a141-584e-bfd6-4c8ce8e89355",
+    "name": "王文林",
+    "role": "联合创始人、总裁兼CTO",
+    "education": [
+      "北京邮电大学 博士 计算机通讯"
+    ],
+    "work_history": [
+      "2023年至今 小雨智造 联合创始人、总裁兼CTO",
+      "创业前 小米 系统平台部总经理",
+      "此前 微软亚洲工程院 研发工程师",
+      "此前 雅虎中国研究院 研发工程师（各段时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 76,
+      "cells": {
+        "company_name": {
+          "coordinate": "A76",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-028\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B76",
+          "header": "姓名",
+          "raw_value": "王文林"
+        },
+        "role": {
+          "coordinate": "C76",
+          "header": "角色",
+          "raw_value": "联合创始人、总裁兼CTO"
+        },
+        "education": {
+          "coordinate": "D76",
+          "header": "教育背景",
+          "raw_value": "北京邮电大学 博士 计算机通讯"
+        },
+        "work_history": {
+          "coordinate": "E76",
+          "header": "工作背景",
+          "raw_value": "2023年至今 小雨智造 联合创始人、总裁兼CTO\n创业前 小米 系统平台部总经理\n此前 微软亚洲工程院 研发工程师\n此前 雅虎中国研究院 研发工程师（各段时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F76",
+          "header": "公司ID",
+          "raw_value": "EI-028"
+        }
+      }
+    }
+  },
+  {
+    "id": "ecc07969-1855-562b-803c-7c4ddd7f7072",
+    "company_id": "c6d84f0f-a141-584e-bfd6-4c8ce8e89355",
+    "name": "李川",
+    "role": "联合创始人（2024年披露）、合伙人/销售与交付负责人（现官网）",
+    "education": [
+      "大连理工大学 学位未公开 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 小雨智造 销售与交付负责人",
+      "此前 联合利华 渠道运营副总经理",
+      "此前 和君咨询 快消渠道高级咨询师",
+      "此前 新希望乳业山东子公司 市场及大客户销售负责人（任职时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 77,
+      "cells": {
+        "company_name": {
+          "coordinate": "A77",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-028\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B77",
+          "header": "姓名",
+          "raw_value": "李川"
+        },
+        "role": {
+          "coordinate": "C77",
+          "header": "角色",
+          "raw_value": "联合创始人（2024年披露）、合伙人/销售与交付负责人（现官网）"
+        },
+        "education": {
+          "coordinate": "D77",
+          "header": "教育背景",
+          "raw_value": "大连理工大学 学位未公开 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E77",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 小雨智造 销售与交付负责人\n此前 联合利华 渠道运营副总经理\n此前 和君咨询 快消渠道高级咨询师\n此前 新希望乳业山东子公司 市场及大客户销售负责人（任职时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F77",
+          "header": "公司ID",
+          "raw_value": "EI-028"
+        }
+      }
+    }
+  },
+  {
+    "id": "e324ff7f-5d70-57b7-80e9-50f69b0b2ccb",
+    "company_id": "c6d84f0f-a141-584e-bfd6-4c8ce8e89355",
+    "name": "王建平",
+    "role": "合伙人、产品市场负责人",
+    "education": [],
+    "work_history": [
+      "时间段未公开 小雨智造 合伙人、产品市场负责人",
+      "此前 老虎证券 业务系统产品负责人",
+      "此前 小米 操作系统产品负责人",
+      "此前 百度 搜索引擎产品负责人（各段时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 78,
+      "cells": {
+        "company_name": {
+          "coordinate": "A78",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-028\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B78",
+          "header": "姓名",
+          "raw_value": "王建平"
+        },
+        "role": {
+          "coordinate": "C78",
+          "header": "角色",
+          "raw_value": "合伙人、产品市场负责人"
+        },
+        "education": {
+          "coordinate": "D78",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E78",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 小雨智造 合伙人、产品市场负责人\n此前 老虎证券 业务系统产品负责人\n此前 小米 操作系统产品负责人\n此前 百度 搜索引擎产品负责人（各段时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F78",
+          "header": "公司ID",
+          "raw_value": "EI-028"
+        }
+      }
+    }
+  },
+  {
+    "id": "54af60bf-6e7c-52fd-b061-cd2d5b96d828",
+    "company_id": "4e41967f-929e-5032-9c90-44ae7638fa09",
+    "name": "马君",
+    "role": "创始人、CEO",
+    "education": [
+      "清华大学 博士后 计算机研究",
+      "中国科学院计算技术研究所 博士 计算机科学与技术"
+    ],
+    "work_history": [
+      "2022年至今 中科时代 创始人、CEO",
+      "此前 中国科学院计算技术研究所 副研究员",
+      "此前 阿里巴巴达摩院 算法专家（各段时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 79,
+      "cells": {
+        "company_name": {
+          "coordinate": "A79",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-029\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B79",
+          "header": "姓名",
+          "raw_value": "马君"
+        },
+        "role": {
+          "coordinate": "C79",
+          "header": "角色",
+          "raw_value": "创始人、CEO"
+        },
+        "education": {
+          "coordinate": "D79",
+          "header": "教育背景",
+          "raw_value": "清华大学 博士后 计算机研究\n中国科学院计算技术研究所 博士 计算机科学与技术"
+        },
+        "work_history": {
+          "coordinate": "E79",
+          "header": "工作背景",
+          "raw_value": "2022年至今 中科时代 创始人、CEO\n此前 中国科学院计算技术研究所 副研究员\n此前 阿里巴巴达摩院 算法专家（各段时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F79",
+          "header": "公司ID",
+          "raw_value": "EI-029"
+        }
+      }
+    }
+  },
+  {
+    "id": "25d9ea06-cb21-59a0-8534-6eaaf19e4af2",
+    "company_id": "4e41967f-929e-5032-9c90-44ae7638fa09",
+    "name": "韩银和",
+    "role": "联合创始人、首席科学家",
+    "education": [
+      "中国科学院计算技术研究所 博士 专业未公开"
+    ],
+    "work_history": [
+      "2022年至今 中科时代 联合创始人、首席科学家",
+      "2014年至今 中国科学院计算技术研究所 研究员",
+      "2008—2014年 中国科学院计算技术研究所 副研究员",
+      "2006年起 中国科学院计算技术研究所 研究人员"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 80,
+      "cells": {
+        "company_name": {
+          "coordinate": "A80",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-029\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B80",
+          "header": "姓名",
+          "raw_value": "韩银和"
+        },
+        "role": {
+          "coordinate": "C80",
+          "header": "角色",
+          "raw_value": "联合创始人、首席科学家"
+        },
+        "education": {
+          "coordinate": "D80",
+          "header": "教育背景",
+          "raw_value": "中国科学院计算技术研究所 博士 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E80",
+          "header": "工作背景",
+          "raw_value": "2022年至今 中科时代 联合创始人、首席科学家\n2014年至今 中国科学院计算技术研究所 研究员\n2008—2014年 中国科学院计算技术研究所 副研究员\n2006年起 中国科学院计算技术研究所 研究人员"
+        },
+        "source_company_id": {
+          "coordinate": "F80",
+          "header": "公司ID",
+          "raw_value": "EI-029"
+        }
+      }
+    }
+  },
+  {
+    "id": "d6859ec6-3036-56e7-9380-7129a37c5d40",
+    "company_id": "f81164d3-7243-541e-aa89-0f76ff8fbef5",
+    "name": "管明尧",
+    "role": "创始人、董事长兼CEO",
+    "education": [],
+    "work_history": [
+      "2023年至今 智身科技 创始人、董事长兼CEO",
+      "此前 通信行业 从业20余年（公司与职位未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 81,
+      "cells": {
+        "company_name": {
+          "coordinate": "A81",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-030\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B81",
+          "header": "姓名",
+          "raw_value": "管明尧"
+        },
+        "role": {
+          "coordinate": "C81",
+          "header": "角色",
+          "raw_value": "创始人、董事长兼CEO"
+        },
+        "education": {
+          "coordinate": "D81",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E81",
+          "header": "工作背景",
+          "raw_value": "2023年至今 智身科技 创始人、董事长兼CEO\n此前 通信行业 从业20余年（公司与职位未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F81",
+          "header": "公司ID",
+          "raw_value": "EI-030"
+        }
+      }
+    }
+  },
+  {
+    "id": "5b97d25d-daa2-5b4d-9ab9-289ef4a836c1",
+    "company_id": "f81164d3-7243-541e-aa89-0f76ff8fbef5",
+    "name": "刘宇龙",
+    "role": "联合创始人、联席总裁",
+    "education": [],
+    "work_history": [
+      "时间段未公开 智身科技 联合创始人、联席总裁",
+      "此前 小米铁蛋机器狗项目 产品负责人"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 82,
+      "cells": {
+        "company_name": {
+          "coordinate": "A82",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-030\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B82",
+          "header": "姓名",
+          "raw_value": "刘宇龙"
+        },
+        "role": {
+          "coordinate": "C82",
+          "header": "角色",
+          "raw_value": "联合创始人、联席总裁"
+        },
+        "education": {
+          "coordinate": "D82",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E82",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 智身科技 联合创始人、联席总裁\n此前 小米铁蛋机器狗项目 产品负责人"
+        },
+        "source_company_id": {
+          "coordinate": "F82",
+          "header": "公司ID",
+          "raw_value": "EI-030"
+        }
+      }
+    }
+  },
+  {
+    "id": "7b085ef1-55ab-5dcd-b302-cbe5d49be268",
+    "company_id": "f81164d3-7243-541e-aa89-0f76ff8fbef5",
+    "name": "金亮",
+    "role": "联合创始人、联席总裁",
+    "education": [],
+    "work_history": [
+      "时间段未公开 智身科技 联合创始人、联席总裁"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 83,
+      "cells": {
+        "company_name": {
+          "coordinate": "A83",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-030\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B83",
+          "header": "姓名",
+          "raw_value": "金亮"
+        },
+        "role": {
+          "coordinate": "C83",
+          "header": "角色",
+          "raw_value": "联合创始人、联席总裁"
+        },
+        "education": {
+          "coordinate": "D83",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E83",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 智身科技 联合创始人、联席总裁"
+        },
+        "source_company_id": {
+          "coordinate": "F83",
+          "header": "公司ID",
+          "raw_value": "EI-030"
+        }
+      }
+    }
+  },
+  {
+    "id": "848b8615-f3f4-598f-90d4-9015c649a3c7",
+    "company_id": "f81164d3-7243-541e-aa89-0f76ff8fbef5",
+    "name": "潘为",
+    "role": "CTO",
+    "education": [
+      "帝国理工学院 博士 专业未公开"
+    ],
+    "work_history": [
+      "时间段未公开 智身科技 CTO",
+      "此前 华为慕尼黑研究中心 人工智能顾问",
+      "此前 大疆创新 机器学习项目负责人（各段时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 84,
+      "cells": {
+        "company_name": {
+          "coordinate": "A84",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-030\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B84",
+          "header": "姓名",
+          "raw_value": "潘为"
+        },
+        "role": {
+          "coordinate": "C84",
+          "header": "角色",
+          "raw_value": "CTO"
+        },
+        "education": {
+          "coordinate": "D84",
+          "header": "教育背景",
+          "raw_value": "帝国理工学院 博士 专业未公开"
+        },
+        "work_history": {
+          "coordinate": "E84",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 智身科技 CTO\n此前 华为慕尼黑研究中心 人工智能顾问\n此前 大疆创新 机器学习项目负责人（各段时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F84",
+          "header": "公司ID",
+          "raw_value": "EI-030"
+        }
+      }
+    }
+  },
+  {
+    "id": "104c480f-a503-50dd-9269-2b03a0a1406a",
+    "company_id": "f81164d3-7243-541e-aa89-0f76ff8fbef5",
+    "name": "金肖凌",
+    "role": "产品营销平台总经理",
+    "education": [],
+    "work_history": [
+      "2026年公开职务 智身科技 产品营销平台总经理"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 85,
+      "cells": {
+        "company_name": {
+          "coordinate": "A85",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-030\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B85",
+          "header": "姓名",
+          "raw_value": "金肖凌"
+        },
+        "role": {
+          "coordinate": "C85",
+          "header": "角色",
+          "raw_value": "产品营销平台总经理"
+        },
+        "education": {
+          "coordinate": "D85",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E85",
+          "header": "工作背景",
+          "raw_value": "2026年公开职务 智身科技 产品营销平台总经理"
+        },
+        "source_company_id": {
+          "coordinate": "F85",
+          "header": "公司ID",
+          "raw_value": "EI-030"
+        }
+      }
+    }
+  },
+  {
+    "id": "e3b845f6-1920-5491-9d78-7732dda13754",
+    "company_id": "f81164d3-7243-541e-aa89-0f76ff8fbef5",
+    "name": "刘学洁",
+    "role": "销售总监",
+    "education": [],
+    "work_history": [
+      "2026年公开职务 智身科技 销售总监"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 86,
+      "cells": {
+        "company_name": {
+          "coordinate": "A86",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-030\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B86",
+          "header": "姓名",
+          "raw_value": "刘学洁"
+        },
+        "role": {
+          "coordinate": "C86",
+          "header": "角色",
+          "raw_value": "销售总监"
+        },
+        "education": {
+          "coordinate": "D86",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E86",
+          "header": "工作背景",
+          "raw_value": "2026年公开职务 智身科技 销售总监"
+        },
+        "source_company_id": {
+          "coordinate": "F86",
+          "header": "公司ID",
+          "raw_value": "EI-030"
+        }
+      }
+    }
+  },
+  {
+    "id": "500ac15c-8825-55b6-9dab-643f260529c6",
+    "company_id": "f81164d3-7243-541e-aa89-0f76ff8fbef5",
+    "name": "梁政",
+    "role": "机器人算法专家、机器人项目负责人",
+    "education": [],
+    "work_history": [
+      "时间段未公开 智身科技 机器人算法专家、项目负责人",
+      "此前 纽劢科技、追觅科技 任职（各段顺序与时间未公开）"
+    ],
+    "provenance": {
+      "workbook": "mapping_additional.xlsx",
+      "sheet": "团队表",
+      "row": 87,
+      "cells": {
+        "company_name": {
+          "coordinate": "A87",
+          "header": "公司名称",
+          "raw_value": "=INDEX('公司主表'!$A$3:$A$32,MATCH(\"EI-030\",'公司主表'!$AA$3:$AA$32,0))"
+        },
+        "name": {
+          "coordinate": "B87",
+          "header": "姓名",
+          "raw_value": "梁政"
+        },
+        "role": {
+          "coordinate": "C87",
+          "header": "角色",
+          "raw_value": "机器人算法专家、机器人项目负责人"
+        },
+        "education": {
+          "coordinate": "D87",
+          "header": "教育背景",
+          "raw_value": "未公开"
+        },
+        "work_history": {
+          "coordinate": "E87",
+          "header": "工作背景",
+          "raw_value": "时间段未公开 智身科技 机器人算法专家、项目负责人\n此前 纽劢科技、追觅科技 任职（各段顺序与时间未公开）"
+        },
+        "source_company_id": {
+          "coordinate": "F87",
+          "header": "公司ID",
+          "raw_value": "EI-030"
+        }
+      }
+    }
+  }
+]
