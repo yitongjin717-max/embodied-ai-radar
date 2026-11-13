@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>具身项目雷达 · 管理员</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:white;color:black;font:14px "Microsoft YaHei",Arial,sans-serif}
+header,main,footer{padding:18px 24px}header,footer{border-bottom:1px solid black;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+header strong{font-size:18px;margin-right:auto}footer{border-top:1px solid black;border-bottom:0}
+main{max-width:1600px;margin:auto}.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:18px}
+section,article{border:1px solid black;padding:14px;min-width:0;margin-bottom:12px}h2{font-size:16px;margin:0 0 12px}
+button,input,textarea,select{border:1px solid black;border-radius:0;background:white;color:black;font:inherit;padding:7px}
+button{cursor:pointer}button:hover,button[aria-current=true]{background:black;color:white}button:disabled{opacity:.5;cursor:wait}
+label{display:block;margin:8px 0}input:not([type=checkbox]),textarea{width:100%}textarea{min-height:125px}
+table{width:100%;border-collapse:collapse}td,th{border:1px solid black;padding:7px;text-align:left;overflow-wrap:anywhere}
+th{background:black;color:white}.table{overflow:auto}.partial{background:#fff3cd;padding:10px}.review{background:#f2f2f2}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.filters select{min-width:115px;max-width:175px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:black}.notice{min-height:24px;white-space:pre-wrap}
+[hidden]{display:none!important}@media(max-width:760px){.grid{grid-template-columns:1fr}}
+</style>
+<header><strong data-i="具身项目雷达 · 管理员|Embodied AI Radar · Admin"></strong>
+<button id="extractTab" data-i="抽取|Extraction"></button><button id="companiesTab" data-i="公司库|Companies"></button>
+<button id="queueTab" data-i="待复核|Review queue"></button><button id="language">English</button></header>
+<main><div class="notice" id="status" role="status"></div>
+<div id="extraction" class="grid"><section>
+<h2 data-i="新闻输入|Article input"></h2>
+<label><span data-i="来源 URL|Source URL"></span><input id="url" type="url"></label>
+<label><span data-i="报道时间|Publication date"></span><input id="published" type="date"></label>
+<label><span data-i="正文粘贴（可选）|Paste article text (optional)"></span><textarea id="body"></textarea></label>
+<div class="controls"><button id="run" data-i="开始抽取|Extract"></button><button id="rules" data-i="规则预览|Rule preview"></button></div>
+<button id="rss" data-i="更新 36 氪新闻|Refresh 36Kr feed"></button><div id="candidates"></div>
+</section><section><h2 data-i="抽取结果|Extraction results"></h2><div id="result"></div></section></div>
+<section id="companyView" hidden><h2 data-i="公司库|Companies"></h2><input id="search" type="search">
+<div id="filters" class="controls filters"></div><div id="companyList" class="table"></div><div id="detail"></div></section>
+<section id="queueView" hidden><h2 data-i="待复核|Review queue"></h2>
+<input id="queueSearch" type="search"><div id="queue"></div></section>
+</main><footer><span id="metrics"></span><a href="/api/export" data-i="导出公司快照|Export company snapshot"></a></footer>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let en=localStorage.getItem("admin-language")==="en", view="extraction", companies=[], latest=null, candidates=[], queue=[];
+const L=(zh,english)=>en?english:zh;
+const labels={
+name:["公司名称","Company name"],founded_date:["成立时间","Founded"],headquarters:["总部地域","Headquarters"],
+website:["官网","Website"],founders:["创始人","Founders"],business_description:["主营业务","Main business"],
+funding_stage:["当前阶段","Funding stage"],funding_history:["融资历史","Funding history"],historical_investors:["老股东","Investors"],
+valuation:["最新估值","Valuation"],products:["主要产品","Products"],major_customers:["标杆客户","Major customers"],
+business_models:["商业模式","Business models"],shipments:["出货量","Shipments"],revenue:["营收规模","Revenue"],
+employee_scale:["员工规模","Headcount"],primary_tracks:["一级赛道","Primary tracks"],sub_tracks:["二级细分","Sub-tracks"],
+application_scenarios:["场景","Application scenarios"],technology_routes:["技术路线","Technology routes"],
+_source:["数据来源","Source"],_updated:["最近更新","Updated"]};
+const nameOf=k=>labels[k]?.[en?1:0]||k;
+function el(tag,text,parent){const n=document.createElement(tag);if(text!==null)n.textContent=text;if(parent)parent.append(n);return n}
+function btn(parent,text,fn){const b=el("button",text,parent);b.onclick=()=>work(b,fn);return b}
+function status(text){$("status").textContent=text||""}
+function display(value){return value==null?"":typeof value==="string"?value:JSON.stringify(value)}
+function inputValue(input,original){if(input.value===display(original))return original;
+  if(!input.value.trim())return null;
+  if(Array.isArray(original)||input.value.trim().startsWith("[")){const parsed=JSON.parse(input.value);if(!Array.isArray(parsed))throw Error(L("请输入 JSON 数组","Enter a JSON array"));return parsed}
+  return input.value.trim()}
+function safeLink(parent,url){if(typeof url!=="string"||!/^https?:\/\//i.test(url))return;const a=el("a",url,parent);a.href=url;a.target="_blank";a.rel="noopener noreferrer"}
+async function api(path,data){
+  const res=await fetch("/api/"+path,data===undefined?{}:{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)});
+  const answer=await res.json();if(!res.ok)throw Error(answer.error);return answer;
+}
+async function work(button,fn){button.disabled=true;status("");try{await fn()}catch(e){status(e.message)}finally{button.disabled=false}}
+function translate(){document.documentElement.lang=en?"en":"zh-CN";
+  document.querySelectorAll("[data-i]").forEach(n=>n.textContent=n.dataset.i.split("|")[en?1:0]);
+  $("language").textContent=en?"中文":"English";$("search").placeholder=L("按公司名称搜索","Search company names");
+  $("queueSearch").placeholder=L("按公司、字段或来源搜索","Search company, field, or source");
+}
+function fieldTable(parent){const wrap=el("div",null,parent);wrap.className="table";const table=el("table",null,wrap);return table}
+function header(table,labels){const row=el("tr",null,el("thead",null,table));for(const label of labels)el("th",label,row)}
+function card(parent,data,subject,index,after){
+  const box=el("article",null,parent);el("h2",subject.name,box);safeLink(box,data.url);
+  const current=companies.find(c=>c.name===subject.name || (c.aliases||[]).includes(subject.name));
+  const picker=el("select",null,el("label",L("合并到公司 ","Merge into "),box));
+  el("option",L("按公司名或别名自动匹配","Match company name or alias"),picker).value="";
+  el("option",L("新建公司","Create company"),picker).value="new";
+  for(const company of companies)el("option",company.name,picker).value=company.id;
+  const table=fieldTable(box), fields={};header(table,[L("保留","Accept"),L("字段","Field"),L("提取值","Extracted"),L("现值","Current"),L("原文依据","Evidence")]);
+  for(const [key,entry] of Object.entries(subject.fields)){
+    const row=el("tr",null,table);if(!entry.verified_quote||entry.custom)row.className="review";
+    const check=el("input",null,el("td",null,row));check.type="checkbox";check.checked=entry.verified_quote&&!entry.custom;
+    el("td",nameOf(key),row);const input=el("input",null,el("td",null,row));input.value=display(Object.hasOwn(entry,"draft_value")?entry.draft_value:entry.value);
+    const previous=el("td",display(current?.[key]),row);
+    const evidence=el("details",null,el("td",null,row));
+    el("summary",entry.custom?L("自定义","Custom"):entry.verified_quote?L("查看原文","View quote"):L("待核实","Needs verification"),evidence);
+    el("p",entry.evidence,evidence);
+    fields[key]={check,input,original:entry.value,previous};
+  }
+  picker.onchange=()=>{const selected=companies.find(c=>c.id===picker.value)||(!picker.value?current:null);
+    for(const [key,field] of Object.entries(fields))field.previous.textContent=display(selected?.[key]);};
+  const eventChecks=subject.events.map(event=>{
+    const label=el("label",null,box);const check=el("input",null,label);check.type="checkbox";check.checked=event.verified_quote;
+    el("span",[" "+event.type,event.summary,data.published_at,event.event_date,event.date_needs_review?L("日期待核实","Date needs review"):null].filter(Boolean).join(" · "),label);
+    el("p",event.evidence||L("待核实","Needs verification"),label);return check;
+  });
+  const actions=el("div",null,box);actions.className="controls";
+  async function decide(action){
+    const selected={};
+    if(action!=="discarded")for(const [key,f] of Object.entries(fields))if(f.check.checked||action==="pending")selected[key]=inputValue(f.input,f.original);
+    await api("review",{id:data.id,revision:data.revision,subject_index:index,action,company_id:picker.value,
+      fields:selected,events:action==="approved"?eventChecks.flatMap((check,i)=>check.checked?[i]:[]):[]});
+    box.remove();status(action==="approved"?L("已确认入库","Approved and saved"):action==="pending"?L("已存为待复核","Saved for review"):L("已放弃","Discarded"));
+    companies=await api("companies");if(after)await after();
+  }
+  btn(actions,L("确认入库","Approve and save"),()=>decide("approved"));
+  btn(actions,L("放弃","Discard"),()=>decide("discarded"));
+  btn(actions,L("存为待复核","Keep pending"),()=>decide("pending"));
+}
+function renderResult(){
+  const root=$("result");root.replaceChildren();if(!latest)return;
+  if(latest.category==="unrelated")el("p",L("该新闻不属于网站范畴","Outside the radar scope"),root);
+  if(latest.category==="partial")el("p",L("仅显示通用公司信息","Only general company fields are shown"),root).className="partial";
+  if(latest.duplicate)el("p",L("该链接已处理过，当前为新版本","Previously processed. Showing the new revision."),root);
+  for(const [i,s] of (latest.subjects||[]).entries())if(s)card(root,latest,s,i,()=>{latest.subjects[i]=null});
+  if(latest.rule_events?.length||!latest.category){const d=el("details",null,root);d.open=!latest.category;
+    el("summary",L("规则引擎结果","Rule engine results"),d);el("pre",JSON.stringify(latest.rule_events,null,2),d);}
+  const u=latest.usage;$("metrics").textContent=u?L("耗时","Elapsed")+" "+latest.elapsed_ms+" ms · "+
+    (u.prompt_tokens+u.completion_tokens)+" tokens · "+(u.cost==null?L("成本未返回","Cost unavailable"):"USD "+u.cost):"";
+}
+function payload(){return {url:$("url").value,text:$("body").value,published_at:$("published").value}}
+$("run").onclick=()=>work($("run"),async()=>{status(L("读取正文 → 模型识别与抽取 → 校验","Reading article → model extraction → validation"));
+  latest=await api("extract",payload());renderResult();status("");});
+$("rules").onclick=()=>work($("rules"),async()=>{latest=await api("rules",payload());renderResult();});
+function renderCandidates(){
+  const root=$("candidates");root.replaceChildren();const selected=[];
+  for(const row of candidates){
+    const label=el("label",null,root),check=el("input",null,label);check.type="checkbox";selected.push([check,row]);
+    el("span"," "+row.title+" · "+(row.published_at||"")+" · "+(row.topic_focus||""),label);
+    btn(root,L("选用","Use"),()=>{$("url").value=row.url;$("published").value=(row.published_at||"").slice(0,10);$("body").value="";});
+  }
+  if(candidates.length)btn(root,L("抽取已选","Extract selected"),async()=>{
+    const rows=selected.filter(([check])=>check.checked).map(([,row])=>row);
+    if(!rows.length)throw Error(L("请选择新闻","Select an article"));
+    const errors=[];
+    for(const [i,row] of rows.entries()){status((i+1)+"/"+rows.length+" "+row.title);
+      try{latest=await api("extract",{url:row.url,published_at:row.published_at});renderResult()}
+      catch(e){errors.push(row.title+": "+e.message)}}
+    status(L("结果已进入待复核队列","Results are in the review queue")+(errors.length?"\n"+errors.join("\n"):""));
+  });
+}
+$("rss").onclick=()=>work($("rss"),async()=>{candidates=await api("feed",{});renderCandidates()});
+function searchText(value){return display(value).toLowerCase()}
+function renderQueue(){
+  const root=$("queue");root.replaceChildren();const query=$("queueSearch").value.trim().toLowerCase();
+  for(const row of queue){const s=row.payload.subjects[row.subject_index];
+    if(query&&![s.name,row.payload.url,...Object.keys(s.fields),...Object.keys(s.fields).map(nameOf)].some(v=>searchText(v).includes(query)))continue;
+    card(root,{...row.payload,id:row.id,revision:row.revision},s,row.subject_index,async()=>{queue=await api("queue");renderQueue()});}
+  if(!root.children.length)el("p",L("没有待复核结果","No pending results"),root);
+}
+$("queueSearch").oninput=renderQueue;
+function values(v){return (Array.isArray(v)?v:[v]).filter(x=>typeof x==="string"&&x);}
+function renderFilters(){
+  const root=$("filters");root.replaceChildren();
+  for(const field of ["primary_tracks","sub_tracks","application_scenarios","technology_routes","funding_stage","_source"]){
+    const label=el("label",nameOf(field),root),select=el("select",null,label);select.multiple=true;select.size=3;select.dataset.field=field;
+    for(const value of [...new Set(companies.flatMap(c=>values(c[field])))].sort())el("option",value,select).value=value;
+    select.onchange=renderCompanies;
+  }
+}
+function renderCompanies(){
+  const root=$("companyList");root.replaceChildren();const query=$("search").value.trim().toLowerCase();
+  const filters=[...$("filters").querySelectorAll("select")];
+  const columns=["name","sub_tracks","funding_stage","_updated","_source"];
+  const table=fieldTable(root);header(table,[...columns.map(nameOf),L("复核状态","Review status")]);
+  for(const company of companies){
+    if(query&&!searchText(company.name).includes(query))continue;
+    if(filters.some(f=>f.selectedOptions.length&&![...f.selectedOptions].some(o=>values(company[f.dataset.field]).includes(o.value))))continue;
+    const row=el("tr",null,table);btn(el("td",null,row),company.name,()=>showCompany(company));
+    for(const key of columns.slice(1))el("td",values(company[key]).join("、"),row);
+    el("td",L("已确认","Confirmed"),row);
+  }
+}
+$("search").oninput=renderCompanies;
+async function showCompany(company){
+  const root=$("detail");root.replaceChildren();el("h2",company.name,root);const table=fieldTable(root);
+  header(table,[L("字段","Field"),L("值","Value"),L("来源","Source")]);
+  const edits={};
+  for(const key of Object.keys(labels).filter(k=>!k.startsWith("_")&&k!=="primary_tracks")){
+    const row=el("tr",null,table);el("td",nameOf(key),row);const input=el("input",null,el("td",null,row));
+    input.value=display(company[key]);edits[key]=input;const source=el("td",null,row);
+    safeLink(source,company.admin_sources?.[key]);const old=company.provenance?.cells?.[key];
+    if(!company.admin_sources?.[key]&&old)el("span",[company.provenance.workbook,company.provenance.sheet,old.coordinate].filter(Boolean).join(" · "),source);
+  }
+  btn(root,L("保存修改","Save changes"),async()=>{
+    const fields={};for(const [key,input] of Object.entries(edits))if(input.value!==display(company[key]))fields[key]=inputValue(input,company[key]);
+    if(!Object.keys(fields).length)return;
+    await api("company",{id:company.id,fields});companies=await api("companies");renderCompanies();await showCompany(companies.find(c=>c.id===company.id));status(L("已保存","Saved"));
+  });
+  el("h2",L("公司动态","Company events"),root);
+  for(const event of await api("company/"+encodeURIComponent(company.id))){
+    const row=el("p",[event.published_at,event.event_date,event.type,event.summary].filter(Boolean).join(" · "),root);safeLink(row,event.url);
+  }
+}
+async function openView(next){
+  view=next;for(const id of ["extraction","companyView","queueView"])$(id).hidden=id!==view;
+  for(const [id,target] of [["extractTab","extraction"],["companiesTab","companyView"],["queueTab","queueView"]])$(id).setAttribute("aria-current",String(view===target));
+  companies=await api("companies");
+  if(view==="companyView"){renderFilters();renderCompanies();}
+  if(view==="queueView"){queue=await api("queue");renderQueue();}
+}
+$("extractTab").onclick=()=>work($("extractTab"),()=>openView("extraction"));
+$("companiesTab").onclick=()=>work($("companiesTab"),()=>openView("companyView"));
+$("queueTab").onclick=()=>work($("queueTab"),()=>openView("queueView"));
+$("language").onclick=()=>{en=!en;localStorage.setItem("admin-language",en?"en":"zh");translate();
+  renderResult();renderCandidates();if(view==="companyView"){renderFilters();renderCompanies();$("detail").replaceChildren()}if(view==="queueView")renderQueue();};
+translate();openView("extraction").catch(e=>status(e.message));
+api("candidates").then(rows=>{candidates=rows;renderCandidates()}).catch(e=>status(e.message));
+</script>
+</html>
+
