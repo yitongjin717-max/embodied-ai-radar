@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.admin.example
+var/
+__pycache__/
+*.pyc
+.venv/
