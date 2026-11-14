@@ -105,16 +105,65 @@ def usable_article(text):
     ))
 
 
+def public_news_url(raw):
+    url = source_url(raw)
+    parts = urlsplit(url)
+    addresses = socket.getaddrinfo(parts.hostname, 443 if parts.scheme == "https" else 80,
+                                   type=socket.SOCK_STREAM)
+    if not addresses or any(not ipaddress.ip_address(item[4][0]).is_global for item in addresses):
+        raise ValueError("Only public news URLs are accepted.")
+    return url
+
+
+def reader_article(url):
+    # Only public news URLs are sent to Reader; never send OpenRouter credentials.
+    headers = {"Accept": "text/plain", "X-Timeout": "30", "X-Retain-Images": "none"}
+    key = os.getenv("JINA_API_KEY", "").strip()
+    if key:
+        headers["Authorization"] = "Bearer " + key
+    request = Request("https://r.jina.ai/" + url, headers=headers)
+    try:
+        with build_opener(NoRedirect).open(request, timeout=40) as response:
+            data = response.read(1_500_001)
+    except HTTPError as exc:
+        if exc.code in {401, 402, 403, 429}:
+            raise ValueError("Web reader unavailable or rate limited (HTTP %s). Retry later or configure JINA_API_KEY on Render." % exc.code) from exc
+        raise ValueError("Web reader could not retrieve this article (HTTP %s)." % exc.code) from exc
+    if len(data) > 1_500_000:
+        raise ValueError("Web reader response is too large.")
+    raw = data.decode("utf-8", errors="replace")
+    metadata, separator, text = raw.partition("Markdown Content:")
+    if not separator or not usable_article(text):
+        raise ValueError("Web reader returned no article body or a verification page. Try another public article or paste its text.")
+    if re.search(r"(?im)^Warning:.*(?:403|404|captcha|verification|access denied)", metadata):
+        raise ValueError("The source website refused article access. Try another public article or paste its text.")
+    published = re.search(r"(?m)^Published Time:\s*(\S+)", metadata)
+    return text.strip(), published.group(1) if published else None
+
+
 def fetch_article(url):
+    # Validate before either transport, and before every direct redirect.
+    url = public_news_url(url)
+    original = url
     for _ in range(4):
-        url = source_url(url)
-        redirect, text, date = fetch_page(url)
+        url = public_news_url(url)
+        try:
+            redirect, text, date = fetch_page(url)
+        except (ValueError, OSError, http.client.HTTPException):
+            break
         if not redirect:
             if usable_article(text):
                 return text, date
-            raise ValueError("No readable news text was returned. Try another URL or paste the article text.")
+            break
         url = urljoin(url, redirect)
-    raise ValueError("Too many redirects. Paste the article text.")
+    if os.getenv("ARTICLE_READER_ENABLED", "1").lower() in {"0", "false", "no"}:
+        raise ValueError("Direct article fetch failed. Enable ARTICLE_READER_ENABLED or paste the article text.")
+    try:
+        return reader_article(original)
+    except ValueError:
+        raise
+    except (OSError, http.client.HTTPException) as exc:
+        raise ValueError("Article fetch failed: both direct access and web reader timed out or lost connection. Retry or paste the article text.") from exc
 
 
 def fetch_page(url):
