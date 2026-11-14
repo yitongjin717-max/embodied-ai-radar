@@ -37,6 +37,8 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:black}.notice{min-height
 <script>
 "use strict";
 const $=id=>document.getElementById(id);
+const taskKey="admin-extraction-task";
+let extracting=false;
 let en=localStorage.getItem("admin-language")==="en", view="extraction", companies=[], latest=null, candidates=[], queue=[];
 const L=(zh,english)=>en?english:zh;
 const labels={
@@ -60,7 +62,13 @@ function inputValue(input,original){if(input.value===display(original))return or
 function safeLink(parent,url){if(typeof url!=="string"||!/^https?:\/\//i.test(url))return;const a=el("a",url,parent);a.href=url;a.target="_blank";a.rel="noopener noreferrer"}
 async function api(path,data){
   const res=await fetch("/api/"+path,data===undefined?{}:{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)});
-  const answer=await res.json();if(!res.ok)throw Error(answer.error);return answer;
+  const answer=await res.json().catch(()=>null);
+  if(!res.ok||answer===null){
+    const error=Error(answer?.error||("HTTP "+res.status));
+    error.httpStatus=res.status;
+    throw error;
+  }
+  return answer;
 }
 async function work(button,fn){button.disabled=true;status("");try{await fn()}catch(e){status(e.message)}finally{button.disabled=false}}
 function translate(){document.documentElement.lang=en?"en":"zh-CN";
@@ -120,8 +128,40 @@ function renderResult(){
     (u.prompt_tokens+u.completion_tokens)+" tokens · "+(u.cost==null?L("成本未返回","Cost unavailable"):"USD "+u.cost):"";
 }
 function payload(){return {url:$("url").value,text:$("body").value,published_at:$("published").value}}
-$("run").onclick=()=>work($("run"),async()=>{status(L("读取正文 → 模型识别与抽取 → 校验","Reading article → model extraction → validation"));
-  latest=await api("extract",payload());renderResult();status("");});
+async function followExtraction(data){
+  let id=sessionStorage.getItem(taskKey);
+  if(!id){
+    status(L("正在提交抽取任务","Submitting extraction task"));
+    id=(await api("extract",data)).id;
+    sessionStorage.setItem(taskKey,id);
+  }
+  let failures=0;
+  while(true){
+    status(L("后台正在抽取，稍后自动显示结果","Extraction in progress. Results will appear here."));
+    await new Promise(resolve=>setTimeout(resolve,2000));
+    let job;
+    try{job=await api("extract/jobs/"+encodeURIComponent(id));failures=0}
+    catch(error){
+      if(error.httpStatus===404){sessionStorage.removeItem(taskKey);throw error}
+      if(++failures>=3)throw Error(L("查询暂时失败。点击「开始抽取」继续查询当前任务。","Status check interrupted. Click Extract to resume checking this task."));
+      continue;
+    }
+    if(job.status==="running")continue;
+    sessionStorage.removeItem(taskKey);
+    if(job.status==="failed")throw Error(job.error);
+    return job.result;
+  }
+}
+async function extractionAction(fn){
+  if(extracting)return;
+  extracting=true;$("run").disabled=true;$("rules").disabled=true;status("");
+  try{await fn()}catch(e){status(e.message)}
+  finally{extracting=false;$("run").disabled=false;$("rules").disabled=false}
+}
+function extractCurrent(){
+  return extractionAction(async()=>{latest=await followExtraction(payload());renderResult();status("");});
+}
+$("run").onclick=extractCurrent;
 $("rules").onclick=()=>work($("rules"),async()=>{latest=await api("rules",payload());renderResult();});
 function renderCandidates(){
   const root=$("candidates");root.replaceChildren();const selected=[];
@@ -130,15 +170,28 @@ function renderCandidates(){
     el("span"," "+row.title+" · "+(row.published_at||"")+" · "+(row.topic_focus||""),label);
     btn(root,L("选用","Use"),()=>{$("url").value=row.url;$("published").value=(row.published_at||"").slice(0,10);$("body").value="";});
   }
-  if(candidates.length)btn(root,L("抽取已选","Extract selected"),async()=>{
-    const rows=selected.filter(([check])=>check.checked).map(([,row])=>row);
-    if(!rows.length)throw Error(L("请选择新闻","Select an article"));
-    const errors=[];
-    for(const [i,row] of rows.entries()){status((i+1)+"/"+rows.length+" "+row.title);
-      try{latest=await api("extract",{url:row.url,published_at:row.published_at});renderResult()}
-      catch(e){errors.push(row.title+": "+e.message)}}
-    status(L("结果已进入待复核队列","Results are in the review queue")+(errors.length?"\n"+errors.join("\n"):""));
-  });
+  if(candidates.length){
+    const batch=el("button",L("抽取已选","Extract selected"),root);
+    batch.onclick=()=>extractionAction(async()=>{
+      if(sessionStorage.getItem(taskKey)){
+        latest=await followExtraction();renderResult();status("");return;
+      }
+      const rows=selected.filter(([check])=>check.checked).map(([,row])=>row);
+      if(!rows.length)throw Error(L("请选择新闻","Select an article"));
+      const errors=[];
+      let completed=0;
+      for(const row of rows){
+        try{
+          latest=await followExtraction({url:row.url,published_at:row.published_at});
+          renderResult();completed++;
+        }catch(e){
+          errors.push(row.title+": "+e.message);
+          if(sessionStorage.getItem(taskKey)||e.httpStatus===409)break;
+        }
+      }
+      status(L("完成 ","Completed ")+completed+"/"+rows.length+(errors.length?"\n"+errors.join("\n"):""));
+    });
+  }
 }
 $("rss").onclick=()=>work($("rss"),async()=>{candidates=await api("feed",{});renderCandidates()});
 function searchText(value){return display(value).toLowerCase()}
@@ -205,8 +258,10 @@ $("companiesTab").onclick=()=>work($("companiesTab"),()=>openView("companyView")
 $("queueTab").onclick=()=>work($("queueTab"),()=>openView("queueView"));
 $("language").onclick=()=>{en=!en;localStorage.setItem("admin-language",en?"en":"zh");translate();
   renderResult();renderCandidates();if(view==="companyView"){renderFilters();renderCompanies();$("detail").replaceChildren()}if(view==="queueView")renderQueue();};
-translate();openView("extraction").catch(e=>status(e.message));
+translate();
+openView("extraction").then(()=>{
+  if(sessionStorage.getItem(taskKey))return extractCurrent();
+}).catch(e=>status(e.message));
 api("candidates").then(rows=>{candidates=rows;renderCandidates()}).catch(e=>status(e.message));
 </script>
 </html>
-
