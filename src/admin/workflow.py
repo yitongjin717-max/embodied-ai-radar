@@ -10,7 +10,7 @@ import socket
 import ssl
 import time
 from html.parser import HTMLParser
-from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.parse import quote, urljoin, urlsplit, urlunsplit
 from urllib.error import HTTPError
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
@@ -49,8 +49,15 @@ class ArticleText(HTMLParser):
         self.body = []
         self.article = []
         self.published_at = None
+        self.description = ""
+        self.jsonld = []
 
     def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "script" and attrs.get("type") == "application/ld+json" and not self.ignored:
+            self.jsonld.append([])
+            self.ignored.append("jsonld")
+            return
         if tag in {"script", "style", "nav", "footer", "aside", "header"}:
             self.ignored.append(tag)
         if self.ignored:
@@ -60,15 +67,19 @@ class ArticleText(HTMLParser):
         if tag == "p":
             self.paragraph = []
         if tag == "meta":
-            attrs = dict(attrs)
-            if (attrs.get("property") or attrs.get("name")) in {
+            key = attrs.get("property") or attrs.get("name") or attrs.get("itemprop")
+            if key in {"og:description", "description", "twitter:description"}:
+                description = attrs.get("content") or ""
+                if len(description) > len(self.description):
+                    self.description = description
+            if key in {
                 "article:published_time", "pubdate", "datePublished"
             }:
                 self.published_at = attrs.get("content")
 
     def handle_endtag(self, tag):
         if self.ignored:
-            if tag == self.ignored[-1]:
+            if tag == self.ignored[-1] or tag == "script" and self.ignored[-1] == "jsonld":
                 self.ignored.pop()
             return
         if tag in {"main", "article"}:
@@ -82,12 +93,32 @@ class ArticleText(HTMLParser):
             self.paragraph = None
 
     def handle_data(self, data):
-        if self.paragraph is not None and not self.ignored:
+        if self.ignored and self.ignored[-1] == "jsonld":
+            self.jsonld[-1].append(data)
+        elif self.paragraph is not None and not self.ignored:
             self.paragraph.append(data)
 
 
+def usable_article(text):
+    return len(re.sub(r"\s", "", text)) >= 30 and not any(marker in text.casefold() for marker in (
+        "正在进行安全检测", "正在检测当前网络环境", "verify you are human", "enable javascript and cookies"
+    ))
+
+
 def fetch_article(url):
-    parts = urlsplit(source_url(url))
+    for _ in range(4):
+        url = source_url(url)
+        redirect, text, date = fetch_page(url)
+        if not redirect:
+            if usable_article(text):
+                return text, date
+            raise ValueError("No readable news text was returned. Try another URL or paste the article text.")
+        url = urljoin(url, redirect)
+    raise ValueError("Too many redirects. Paste the article text.")
+
+
+def fetch_page(url):
+    parts = urlsplit(url)
     secure = parts.scheme == "https"
     port = 443 if secure else 80
     addresses = socket.getaddrinfo(parts.hostname, port, type=socket.SOCK_STREAM)
@@ -107,6 +138,8 @@ def fetch_article(url):
         connection.request("GET", path, headers={"Accept": "text/html,text/plain",
                                                  "User-Agent": "EmbodiedAI-Radar/1.0"})
         response = connection.getresponse()
+        if response.status in {301, 302, 303, 307, 308} and response.headers.get("Location"):
+            return response.headers["Location"], "", None
         content_type = response.headers.get_content_type()
         if response.status != 200 or content_type not in {"text/html", "text/plain"}:
             raise ValueError("Article fetch failed. Open the final URL or paste the article text.")
@@ -118,10 +151,31 @@ def fetch_article(url):
         connection.close()
         stream.close()
     if content_type == "text/plain":
-        return raw, None
+        return None, raw, None
     parsed = ArticleText()
     parsed.feed(raw)
-    return "\n\n".join(parsed.article or parsed.body), parsed.published_at
+    for chunks in parsed.jsonld:
+        try:
+            data = json.loads("".join(chunks))
+        except ValueError:
+            continue
+        nodes = data if isinstance(data, list) else [data]
+        for node in nodes[:40]:
+            if not isinstance(node, dict):
+                continue
+            graph = node.get("@graph")
+            for item in (graph if isinstance(graph, list) else [node])[:40]:
+                if not isinstance(item, dict):
+                    continue
+                body = item.get("articleBody")
+                if isinstance(body, str) and usable_article(body):
+                    date = item.get("datePublished")
+                    return None, body.strip(), date if isinstance(date, str) else parsed.published_at
+    article = "\n\n".join(parsed.article)
+    for candidate in sorted((article, parsed.description), key=len, reverse=True):
+        if usable_article(candidate):
+            return None, candidate, parsed.published_at
+    return None, "\n\n".join(parsed.body), parsed.published_at
 
 
 class NoRedirect(HTTPRedirectHandler):
@@ -199,8 +253,8 @@ def validate_record(data, allowed):
 
 def extract(text, url, published, taxonomy, *, call=openrouter):
     body = text.strip()
-    if len(body) < 200:
-        raise ValueError("Article text must contain at least 200 characters.")
+    if not usable_article(body):
+        raise ValueError("Enter at least 30 non-space characters of readable article text.")
     body = body[:20000]
     started = time.monotonic()
     model = os.getenv("OPENROUTER_MODEL", "")
