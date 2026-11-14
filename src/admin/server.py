@@ -39,8 +39,10 @@ def handler_for(path, password, *, extract=workflow.extract, fetch=workflow.fetc
         if not text.strip() and url:
             try:
                 text, found_date = fetch(url)
-            except (ValueError, OSError) as exc:
-                raise ValueError("Could not read the article. Paste its text and retry.") from exc
+            except ValueError:
+                raise
+            except OSError as exc:
+                raise ValueError("Article fetch failed: network or DNS error. Retry or paste its text.") from exc
             published = published or found_date
         return text, url, published
 
@@ -94,7 +96,8 @@ def handler_for(path, password, *, extract=workflow.extract, fetch=workflow.fetc
 
         def do_GET(self):
             if self.path == "/healthz":
-                self.send(200, {"status": "ok"})
+                self.send(200, {"status": "ok", "version": "reader-fallback-v1",
+                                "revision": os.getenv("RENDER_GIT_COMMIT", "local")})
                 return
             actor = self.actor()
             if not actor:
