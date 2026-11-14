@@ -141,7 +141,17 @@ def openrouter(messages, model):
                       headers={"Content-Type": "application/json", "Authorization": f"Bearer {key}"})
     with build_opener(NoRedirect).open(request, timeout=30) as response:
         result = json.loads(response.read(1_000_000))
-    return json.loads(result["choices"][0]["message"]["content"]), result.get("usage") or {}
+    choice = result["choices"][0]
+    content = choice["message"]["content"]
+    if choice.get("finish_reason") == "length":
+        raise ValueError("Model response was truncated at the output limit.")
+    if not isinstance(content, str) or not content.strip():
+        raise ValueError("Model returned no text content.")
+    content = content.strip()
+    fenced = re.fullmatch(r"```(?:json)?[ \t]*\r?\n(.*?)\r?\n```", content, re.IGNORECASE | re.DOTALL)
+    if fenced:
+        content = fenced.group(1)
+    return json.loads(content), result.get("usage") or {}
 
 
 def identify(data):
@@ -157,6 +167,7 @@ def identify(data):
 def validate_record(data, allowed):
     if not isinstance(data, dict) or not isinstance(data.get("fields"), dict) or not isinstance(data.get("events"), list):
         raise ValueError("Invalid extraction record.")
+    fields = {}
     for field, entry in data["fields"].items():
         if field not in allowed:
             label = field if field in FIELDS else "<unknown>"
@@ -165,23 +176,26 @@ def validate_record(data, allowed):
             raise ValueError(f"field={field} reason=entry_not_object type={type(entry).__name__}")
         if "value" not in entry:
             raise ValueError(f"field={field} reason=missing_value")
+        value = entry["value"]
+        if value is None:
+            continue
         if "evidence" not in entry:
             raise ValueError(f"field={field} reason=missing_evidence")
         if not isinstance(entry["evidence"], str):
             raise ValueError(f"field={field} reason=evidence_not_string type={type(entry['evidence']).__name__}")
-        value = entry["value"]
         if isinstance(value, list):
             for index, item in enumerate(value):
                 if not isinstance(item, str):
                     raise ValueError(f"field={field} reason=list_item_not_string index={index} type={type(item).__name__}")
         elif not isinstance(value, str):
             raise ValueError(f"field={field} reason=value_not_string_or_list type={type(value).__name__}")
+        fields[field] = entry
     for event in data["events"]:
         if (not isinstance(event, dict) or event.get("type") not in EVENTS
                 or not all(isinstance(event.get(key), str) for key in ("summary", "evidence"))
                 or not isinstance(event.get("event_date"), (str, type(None)))):
             raise ValueError("Invalid event.")
-    return data
+    return {**data, "fields": fields}
 
 def extract(text, url, published, taxonomy, *, call=openrouter):
     body = text.strip()
@@ -211,7 +225,16 @@ def extract(text, url, published, taxonomy, *, call=openrouter):
                 return validator(raw)
             except (ValueError, KeyError, IndexError, TypeError, OSError, http.client.HTTPException) as exc:
                 status = exc.code if isinstance(exc, HTTPError) else "-"
-                reason = str(exc) if phase == "validation" and type(exc) is ValueError else "-"
+                reason = "-"
+                if isinstance(exc, json.JSONDecodeError):
+                    reason = f"invalid_json line={exc.lineno} column={exc.colno}"
+                elif phase == "validation" and type(exc) is ValueError:
+                    reason = str(exc)
+                elif type(exc) is ValueError and str(exc) in {
+                    "Model response was truncated at the output limit.",
+                    "Model returned no text content.",
+                }:
+                    reason = str(exc)
                 LOGGER.warning(
                     "admin_extract stage=%s phase=%s attempt=%d error=%s upstream_status=%s detail=%s elapsed_ms=%d",
                     stage, phase, attempt, type(exc).__name__, status, reason,
@@ -232,7 +255,7 @@ def extract(text, url, published, taxonomy, *, call=openrouter):
                 'Return {"fields":{"field":{"value":"explicit fact or list of strings","evidence":"verbatim quote"}},'
                 '"events":[{"type":"funding|product_launch|prototype|research_plan","summary":"fact",'
                 '"event_date":null,"evidence":"verbatim quote"}]}. '
-                "Keep relative dates as written. Omit absent fields and unsupported events. "
+                "Keep relative dates as written. Omit fields with unknown values instead of returning null. Omit unsupported events. "
                 "Use taxonomy labels exactly when applicable: "
                 + json.dumps({k: sorted(v) for k, v in taxonomy.items()}, ensure_ascii=False),
                 lambda data: validate_record(data, allowed),
@@ -249,7 +272,7 @@ def extract(text, url, published, taxonomy, *, call=openrouter):
                 event["verified_quote"] = bool(evidence and evidence in body)
                 event["date_needs_review"] = bool(event["event_date"] and
                     not re.fullmatch(r"\d{4}-\d{2}-\d{2}", event["event_date"]))
-            subjects.append({"name": name, **record})
+            subjects.append({**record, "name": name})
     return {"category": identity["category"], "subjects": subjects, "published_at": published,
             "url": url, "body_hash": hashlib.sha256(text.strip().encode()).hexdigest(),
             "rule_events": extract_events(url or "", "", body, funding_fields(body)),
