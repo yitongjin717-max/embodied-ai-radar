@@ -158,18 +158,30 @@ def validate_record(data, allowed):
     if not isinstance(data, dict) or not isinstance(data.get("fields"), dict) or not isinstance(data.get("events"), list):
         raise ValueError("Invalid extraction record.")
     for field, entry in data["fields"].items():
-        if (field not in allowed or not isinstance(entry, dict) or "value" not in entry
-                or not isinstance(entry.get("evidence"), str)
-                or not (isinstance(entry["value"], str) or
-                        isinstance(entry["value"], list) and all(isinstance(v, str) for v in entry["value"]))):
-            raise ValueError("Invalid extraction field.")
+        if field not in allowed:
+            label = field if field in FIELDS else "<unknown>"
+            raise ValueError(f"field={label} reason=not_allowed")
+        if not isinstance(entry, dict):
+            raise ValueError(f"field={field} reason=entry_not_object type={type(entry).__name__}")
+        if "value" not in entry:
+            raise ValueError(f"field={field} reason=missing_value")
+        if "evidence" not in entry:
+            raise ValueError(f"field={field} reason=missing_evidence")
+        if not isinstance(entry["evidence"], str):
+            raise ValueError(f"field={field} reason=evidence_not_string type={type(entry['evidence']).__name__}")
+        value = entry["value"]
+        if isinstance(value, list):
+            for index, item in enumerate(value):
+                if not isinstance(item, str):
+                    raise ValueError(f"field={field} reason=list_item_not_string index={index} type={type(item).__name__}")
+        elif not isinstance(value, str):
+            raise ValueError(f"field={field} reason=value_not_string_or_list type={type(value).__name__}")
     for event in data["events"]:
         if (not isinstance(event, dict) or event.get("type") not in EVENTS
                 or not all(isinstance(event.get(key), str) for key in ("summary", "evidence"))
                 or not isinstance(event.get("event_date"), (str, type(None)))):
             raise ValueError("Invalid event.")
     return data
-
 
 def extract(text, url, published, taxonomy, *, call=openrouter):
     body = text.strip()
