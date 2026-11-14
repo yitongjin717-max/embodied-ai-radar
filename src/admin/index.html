@@ -23,7 +23,7 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:black}.notice{min-height
 <main><div class="notice" id="status" role="status"></div>
 <div id="extraction" class="grid"><section>
 <h2 data-i="新闻输入|Article input"></h2>
-<label><span data-i="来源 URL|Source URL"></span><input id="url" type="url"></label>
+<label><span data-i="来源 URL（多个链接每行一个）|Source URLs (one per line)"></span><textarea id="url" rows="2" style="min-height:48px" placeholder="https://…"></textarea></label>
 <label><span data-i="报道时间|Publication date"></span><input id="published" type="date"></label>
 <label><span data-i="正文粘贴（可选）|Paste article text (optional)"></span><textarea id="body"></textarea></label>
 <div class="controls"><button id="run" data-i="开始抽取|Extract"></button><button id="rules" data-i="规则预览|Rule preview"></button></div>
@@ -159,7 +159,27 @@ async function extractionAction(fn){
   finally{extracting=false;$("run").disabled=false;$("rules").disabled=false}
 }
 function extractCurrent(){
-  return extractionAction(async()=>{latest=await followExtraction(payload());renderResult();status("");});
+  return extractionAction(async()=>{
+    const input=payload();
+    const urls=[...new Set(input.url.split(/\s+/).filter(Boolean))];
+    if(sessionStorage.getItem(taskKey)||urls.length<=1){
+      latest=await followExtraction({...input,url:urls[0]||""});renderResult();status("");return;
+    }
+    if(urls.length>10)throw Error(L("每批最多 10 个链接","Use up to 10 URLs per batch"));
+    if(input.text.trim())throw Error(L("批量抽取时请清空正文","Clear pasted text for batch extraction"));
+    latest=null;renderResult();const root=$("result"),errors=[];let completed=0;
+    for(const url of urls){
+      try{
+        const data=await followExtraction({url,published_at:input.published_at});
+        const group=el("section",null,root);safeLink(group,url);
+        if(data.category==="unrelated")el("p",L("该新闻不属于网站范畴","Outside the radar scope"),group);
+        if(data.category==="partial")el("p",L("仅显示通用公司信息","Only general company fields are shown"),group).className="partial";
+        for(const [index,subject] of data.subjects.entries())card(group,data,subject,index);
+        completed++;
+      }catch(e){errors.push(url+": "+e.message);if(sessionStorage.getItem(taskKey)||e.httpStatus===409)break;}
+    }
+    status(L("完成 ","Completed ")+completed+"/"+urls.length+(errors.length?"\n"+errors.join("\n"):""));
+  });
 }
 $("run").onclick=extractCurrent;
 $("rules").onclick=()=>work($("rules"),async()=>{latest=await api("rules",payload());renderResult();});
